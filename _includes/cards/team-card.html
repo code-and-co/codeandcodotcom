@@ -23,23 +23,25 @@
 					<span class="subtitle">{{ card.position }}</span>
 				</figcaption>
 			</figure>
-			<div class="overlay">
-				<p>{{ card.about-text }}</p>
-				<span class="d-block mb-2">INTERESTS</span>
-				<ul class="interests-list circle-list list-unstyled mb-0">
-					{% for interests in card.interests %}
-						<li>{{ interests }}</li>
-					{% endfor %}
-				</ul>
-				<!-- Social Networks -->
-				<ul class="social-networks list-unstyled d-flex align-items-center justify-content-end mb-0">
-					{% for social in card.social_networks %}
-					<li>
-						<a href="{{ social.link }}" target="_blank"><i class="icon-{{ social.icon }}"></i></a>
-					</li>
-					{% endfor %}
-				</ul>
-			</div>
+			{% if page.url != '/labs/' %}}
+				<div class="overlay">
+					<p>{{ card.about-text }}</p>
+					<span class="d-block mb-2">INTERESTS</span>
+					<ul class="interests-list circle-list list-unstyled mb-0">
+						{% for interests in card.interests %}
+							<li>{{ interests }}</li>
+						{% endfor %}
+					</ul>
+					<!-- Social Networks -->
+					<ul class="social-networks list-unstyled d-flex align-items-center justify-content-end mb-0">
+						{% for social in card.social_networks %}
+						<li>
+							<a href="{{ social.link }}" target="_blank"><i class="icon-{{ social.icon }}"></i></a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
 		</div>
 	</li>
 	{% endfor %}

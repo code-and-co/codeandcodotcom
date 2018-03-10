@@ -33,7 +33,7 @@ get_in_touch_home:
       - 'If you’d like to learn more about what we do or just want to say hello, please don’t hesitate to reach out. We look forward to hearing from you.'
     link:
       - title: 'Contact'
-        url: 'contact.html'
+        url: 'contact'
         btn_type: 'btn-primary'
 # end get_in_touch_home #
 
@@ -48,7 +48,7 @@ get_in_touch_consulting:
       - 'If you would like to learn more about what we do or how we could help you reach your potential, please reach out. We look forward to hearing from you.'
     link:
       - title: 'Contact'
-        url: 'contact.html'
+        url: 'contact'
         btn_type: 'btn-primary'
 # end get_in_touch_consulting #
 
@@ -60,10 +60,10 @@ get_in_touch_consulting:
 get_in_touch_labs:
   - heading: 'Build something with us'
     text:
-      - 'Want to work with an experienced team and turn an idea for a digital venture into a reality?  Let’s discuss how we could work together!'
+      - 'Want to work with an experienced team and turn an idea for a digital venture into a reality? Let’s discuss how we could work together!'
     link:
       - title: 'Contact'
-        url: 'contact.html'
+        url: 'contact'
         btn_type: 'btn-secondary'
 # end get_in_touch_labs #        
 

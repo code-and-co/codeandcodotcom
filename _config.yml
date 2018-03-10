@@ -17,9 +17,8 @@ title:  Code&Co
 email: hello@codeandco.com
 description: ""
 keywords: ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.codeandco.com" # the base hostname & protocol for your site, e.g. http://example.com
-
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000"  # "https://www.codeandco.com" the base hostname & protocol for your site, e.g. http://example.com
 
 # Favicon links
 favicon: 
@@ -51,3 +50,4 @@ exclude:
   - gulpfile.js
   - package.json
   - scss
+  - .DS_Store

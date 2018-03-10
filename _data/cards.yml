@@ -23,14 +23,14 @@ related_card:
       - 'We solve Tech, UX and Product problems at times when it matters most, and provide services ranging from pragmatic advice to hands-on product conception.'
       - 'We are united in our belief that digitization creates massive opportunity – we help uncover and leverage this potential.'
     btn_text: 'Our services'
-    btn_link: 'consulting.html'
+    btn_link: 'consulting'
 
   - heading: 'Labs'
     text:
       - 'We build and scale ventures that leverage technology to solve real problems. We experiment with new technologies to create beautiful and scalable solutions.'
       - 'We write well crafted code and strive for great UX, usability and visual design.'
     btn_text: 'Our ventures'
-    btn_link: 'labs.html'
+    btn_link: 'labs'
 # end related_card #
 
 
@@ -39,13 +39,13 @@ related_card:
 #
 # start services_card #
 services_card:
-  - heading: 'Tech Due Diligence & Assessments'
+  - heading: 'Tech Due Diligence'
     text:
       - 'Pragmatic tech, product and UX risk assessments and technology due diligences with actionable advice on how to mitigate risks.'
       - 'Favored by PE funds, VCs and multinational corporations when an independent opinion can spot the right way forward.'
     link:
       - title: 'Learn more'
-        url: 'tech-dd.html'
+        url: 'consulting/technical-due-diligence'
     brands:
       - img: 'cards/adobe.png'
         img_2x: 'cards/adobe@2x.png'
@@ -59,13 +59,13 @@ services_card:
         img_2x: 'cards/volkswagen@2x.png'
         alt: 'Volkswagen'
 
-  - heading: 'Platform Sprints'
+  - heading: 'Platform Sprint'
     text:
       - 'Our Platform Sprints kickstart or accelerate projects. They help focus on the right problem and ensure key steps aren’t missed along the way.'
       - 'Our clients have described Platform Sprints as an "instruction manual" for goal-oriented, technical product development.'
     link:
       - title: 'Learn more'
-        url: 'platform-sprint.html'
+        url: 'consulting/platform-sprint'
     brands:
       - img: 'cards/delivery-hero.png'
         img_2x: 'cards/delivery-hero@2x.png'
@@ -85,7 +85,7 @@ services_card:
       - 'We help organizations spot and embrace opportunities by creating a concise digital roadmap, ensuring they stay ahead of the game.'
     link:
       - title: 'Learn more'
-        url: 'digital-value-drivers.html'
+        url: 'consulting/digital-value-drivers'
     brands:
       - img: 'cards/innogy.png'
         img_2x: 'cards/innogy@2x.png'
@@ -129,7 +129,7 @@ labs_card_centures:
     text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon. (Launched in 2016.)"
     btn:
       - title: 'Visit'
-        url: 'https://www.google.com'
+        url: 'https://www.pamstrong.com/'
         disable: false
         btn_type: 'btn-secondary'
 
@@ -140,7 +140,7 @@ labs_card_centures:
     text: "The fan club for the social media generation. It enables influential personalities to grow their fan base and build communities. It uses machine learning to segment audience members into interest groups so the influencer can provide relevant content to each and every single one of her fans."
     btn:
       - title: 'Visit'
-        url: 'https://www.google.com'
+        url: 'http://allaccessapp.com/'
         disable: false
         btn_type: 'btn-secondary'
 # end labs_card_ventures #
@@ -158,7 +158,7 @@ labs_card_production:
     text: "skeleton.io classifies and structures document-based data. It can be described as a document API. Its machine learning algorithms gain confidence every day to drastically increase our clients’ efficiency and processes when dealing with overwhelming amounts of document-based data."
     btn:
       - title: 'Coming soon'
-        url: 'https://www.google.com'
+        url: ''
         disable: true
         btn_type: 'btn-secondary'
 
@@ -169,7 +169,7 @@ labs_card_production:
     text: "Project Moneypenny grew out of the realization that everyone’s personal network is a key component to personal and professional success and endless opportunity. Moneypenny’s mission is to find, create and manage the serendipitous moments the build professional relationships."
     btn:
       - title: 'Coming soon'
-        url: 'https://www.google.com'
+        url: ''
         disable: true
         btn_type: 'btn-secondary'
 # end labs_card_ventures #
@@ -179,25 +179,16 @@ labs_card_production:
 #  6. Team Card | Labs Page
 #
 # start team-card_labs #
-team-card_labs: 
+team-card_labs:
   - image:
       - img: 'team/'
         img_2x: 'team/'
         image_stub: true
     name: 'Felipe Castrillón'
     position: 'Associate'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    about-text: ''
     interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
     social_networks:
-      - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
-      - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'github'
-        link: 'https://github.com/'
 # end team-card_labs #
 
 
@@ -205,25 +196,27 @@ team-card_labs:
 #  7. Team Card | Team Page
 #
 # start team-card_team #
-team-card_team: 
+team-card_team:
   - image:
       - img: 'team/Dan-Bender.jpg'
         img_2x: 'team/Dan-Bender@2x.jpg'
         image_stub: false
     name: 'Dan Bender'
-    position: 'Founder · Product Strategy & Code'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    position: 'Founder · Product Strategy & UX'
+    about-text: 'Developer, UX engineer and product strategist who builds and scales products that people love to use. Strives for great UX, exceptional usability and visual design.'
     interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
+      - 'Mobile Engineering'
+      - 'Augmented Reality & Ambient Computing'
+      - 'Machine Learning'
     social_networks:
       - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
+        link: 'www.linkedin.com/in/thedanbender'
       - icon: 'twitter'
-        link: 'https://twitter.com/'
+        link: 'https://twitter.com/thedanbender'
       - icon: 'instagram'
-        link: 'https://www.instagram.com'
+        link: 'https://twitter.com/thedanbender'
+      - icon: 'github'
+        link: 'https://github.com/danbender'
 
   - image:
       - img: 'team/Lukas-Ingelheim.jpg'
@@ -231,18 +224,20 @@ team-card_team:
         image_stub: false
     name: 'Lukas Ingelheim'
     position: 'Founder · Technology & Engineering'
-    about-text: 'Developer, UX engineer and product strategist who builds and scales products that people love to use. Strives for great UX, exceptional usability and visual design.'
+    about-text: 'Experienced language-agnostic software engineer creating tested and maintainable software in agile collaborative environments.'
     interests:
-      - 'Invisible'
-      - 'Interfaces'
+      - 'Serverless Infrastructure'
+      - 'Machine Learning'
       - 'Blockchain'
     social_networks:
       - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
+        link: 'https://www.linkedin.com/in/ingelheim'
       - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'google-plus3'
-        link: 'https://plus.google.com'
+        link: 'https://twitter.com/LukasIngelheim'
+      - icon: 'instagram'
+        link: 'https://twitter.com/LukasIngelheim'
+      - icon: 'github'
+        link: 'https://github.com/Ingelheim'
 
   - image:
       - img: 'team/'
@@ -250,18 +245,16 @@ team-card_team:
         image_stub: true
     name: 'Jayasagar Jagirapu'
     position: 'Engineering'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    about-text: 'Passionate tech enthusiast, poly-skilled developer, strong believer in open source and fascinated by programming, IoT, Machine Learning and Big Data.'
     interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
+      - 'Machine Learning'
+      - 'Big Data'
+      - 'Internet of Things'
     social_networks:
       - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
-      - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'instagram'
-        link: 'https://www.instagram.com'
+        link: 'https://www.linkedin.com/in/jayasagar/'
+      - icon: 'github'
+        link: 'https://github.com/jjayasagar'
 
   - image:
       - img: 'team/'
@@ -269,18 +262,15 @@ team-card_team:
         image_stub: true
     name: 'Nick Morgan-Jones'
     position: 'UX & UI Design'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    about-text: 'Experienced digital product designer with a focus on interaction design patterns and data-driven problem solving. Practices iterative design and strives for maximum product development efficiency.'
     interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
+      - 'User Experience'
+      - 'Feedback Loops & User Research'
+      - 'Data-driven Problem-Solving'
     social_networks:
       - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
-      - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'instagram'
-        link: 'https://www.instagram.com'
+        link: 'https://www.linkedin.com/in/nick-morgan-jones-22985960/'
+
 
   - image:
       - img: 'team/'
@@ -288,18 +278,31 @@ team-card_team:
         image_stub: true
     name: 'Ben Hesseldieck'
     position: 'Engineering'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    about-text: 'Entrepreneurial, technological, freethinking software engineer and dedicated problem-solver with a love for high-performance and scalable software. Sees technology as a tool to unlock opportunities.'
     interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
+      - 'Robotics & AI'
+      - 'Languages & Compilers'
       - 'Lorem ipsum dolor'
     social_networks:
       - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
-      - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'instagram'
-        link: 'https://www.instagram.com'
+        link: 'https://www.linkedin.com/in/bhesseldieck/'
+      - icon: 'github'
+        link: 'https://github.com/BHesseldieck'
+
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Omer Maqsood'
+    position: 'Machine Learning & Data Science'
+    about-text: ''
+    interests:
+      - 'Data Science'
+      - 'Digital Marketing & Analytics'
+      - 'UAV & Artificial Intelligence'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com/in/omaqsood123/'
 
   - image:
       - img: 'team/'
@@ -307,37 +310,14 @@ team-card_team:
         image_stub: true
     name: 'Felipe Castrillón'
     position: 'Associate'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    about-text: 'Committed to identify and create business opportunities. Experienced in venture building and investment management, focusing on technology startups.'
     interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
+      - 'Scalable Business Models'
+      - 'Digital Marketing & Analytics'
+      - 'UAV & Artificial Intelligence'
     social_networks:
       - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
-      - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'instagram'
-        link: 'https://www.instagram.com'
-
-  - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
-    name: 'Sey Cheon'
-    position: 'Engineering'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
-    interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-    social_networks:
-      - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
-      - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'instagram'
-        link: 'https://www.instagram.com'
+        link: 'https://www.linkedin.com/in/felipecastrillon/'
 
   - image:
       - img: 'team/'
@@ -345,18 +325,15 @@ team-card_team:
         image_stub: true
     name: 'Paul Faecks'
     position: 'Digital Marketing'
-    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    about-text: 'Enjoys dogs and digital marketing, in that order.'
     interests:
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
-      - 'Lorem ipsum dolor'
+      - 'Digital Marketing'
+      - 'Game Theory'
+      - 'Blockchain Token Economics'
+
     social_networks:
       - icon: 'linkedin'
-        link: 'https://www.linkedin.com'
-      - icon: 'twitter'
-        link: 'https://twitter.com/'
-      - icon: 'instagram'
-        link: 'https://www.instagram.com'
+        link: 'https://www.linkedin.com/in/paul-faecks-540895a4/'
 # end team-card_team #
 
 

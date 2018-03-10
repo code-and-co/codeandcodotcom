@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>http://localhost:4000/case-study-it-works.html</loc>
-    </url>
-    <url>
-      <loc>http://localhost:4000/case-study-shapeshift.html</loc>
-    </url>
-    <url>
-      <loc>http://localhost:4000/case-study-volkswagen-group.html</loc>
-    </url>
-    <url>
-      <loc>http://localhost:4000/consulting.html</loc>
-    </url>
-    <url>
-      <loc>http://localhost:4000/digital-value-drivers.html</loc>
-    </url>
-    <url>
       <loc>http://localhost:4000/</loc>
-    </url>
-    <url>
-      <loc>http://localhost:4000/impressum/</loc>
-    </url>
-    <url>
-      <loc>http://localhost:4000/404/</loc>
     </url>
     <url>
       <loc>http://localhost:4000/contact/</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/labs.html</loc>
+      <loc>http://localhost:4000/impressum/</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/platform-sprint.html</loc>
+      <loc>http://localhost:4000/team/</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/team.html</loc>
+      <loc>http://localhost:4000/consulting/digital-value-drivers/case-study/it-works/</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/tech-dd.html</loc>
+      <loc>http://localhost:4000/consulting/digital-value-drivers/</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/consulting/technical-due-diligence/case-study/shapeshift/</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/consulting/technical-due-diligence/</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/consulting/platform-sprint/case-study/volkswagen-group/</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/consulting/platform-sprint/</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/consulting/</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/404/</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/labs/</loc>
     </url>
   </urlset>
