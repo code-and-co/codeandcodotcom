@@ -1,0 +1,33 @@
+<ul class="services-card-list list-unstyled mb-0 row same-height-holder {{ include.add_class }}">
+	{% for card in include.block_content %}
+	<li class="col col-12 col-md-6 col-lg-4 d-flex flex-column">
+		<div class="services-card card d-flex">
+			<div class="card-body">
+				<div class="same-height-item">
+					<h2 class="mb-0">{{ card.heading }}</h2>
+				</div>
+				<div class="entry-content">
+					{% for paragraph in card.text %}
+						<p>{{ paragraph }}</p>
+					{% endfor %}
+					<div class="btn-wrap">
+						{% for link in card.link %}
+							<a class="link" href="{{ site.url }}/{{ link.url }}" role="button">{{ link.title }}</a>
+						{% endfor %}
+					</div>
+				</div>
+				<ul class="entry-list list-unstyled mb-0">
+					{% for brand in card.brands %}
+					<li>
+						<picture>
+							<source srcset="{{ site.url }}/images/{{ brand.img }}, {{ site.url }}/images/{{ brand.img_2x }} 2x">
+							<img src="{{ site.url }}/images/{{ brand.img }}" alt="{{ brand.alt }}">
+						</picture>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</li>
+	{% endfor %}
+</ul>

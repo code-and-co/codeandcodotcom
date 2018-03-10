@@ -1,0 +1,49 @@
+/* 6.7 CSVG Page styles */
+.building-section{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 5.6rem 0 3.5rem;
+	}
+	header{
+		margin: 0 0 3rem;
+		@include media ('>=desktop') {
+			margin: 0 0 10rem;
+		}
+	}
+	.stick-right{
+		position: relative;
+		right: -24px;
+		@include media ('>=tablet') {
+			right: -15px;
+		}
+		@include media ('>=1110px') {
+			right: calc((100vw - 1443px)/-2);
+		}
+		img{
+			@include media ('>=1110px') {
+				max-width: none;
+				width: 706px;
+				height: 665px;
+			}
+		}
+	}
+	.text-block{
+		padding: 3rem 0 0;
+		@include media ('>=tablet') {
+			padding: 5rem 0 0;
+		}
+		@include media ('>=desktop') {
+			padding: 9.5rem 0 3rem;
+		}
+		h2{
+			margin: 0 0 1.3rem;
+		}
+	}
+}
+
+.csvg-bottom{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 6rem 0 10rem;
+	}
+}

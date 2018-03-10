@@ -1,0 +1,216 @@
+/* 6.6 Tech DD Page styles */
+.tech-dd-page{
+	.page-hero{
+		.container{
+			@include media ('>=desktop') {
+				padding-top: 246px;
+				padding-bottom: 120px;
+			}
+		}
+	}
+}
+
+.belive-block{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		margin: 0 0 -86px;
+	}
+	.tech-dd-card-list{
+		@include media ('>=desktop') {
+			position: relative;
+			top: -161px;
+			margin: 0 0 -105px !important;
+		}
+	}
+	.text-block{
+		@include media ('<desktop') {
+			margin: 0 0 3rem;
+		}
+		@include media ('<tablet') {
+			margin: 3rem 0;
+		}
+		h2{
+			margin: 0 0 1.3rem;
+		}
+	}
+	.brand-section{
+		max-width: 773px;
+		@include media ('>=desktop') {
+			position: relative;
+			top: 59px;
+		}
+	}
+}
+
+.shapeshift-block{
+	padding: 5.8rem 0 3rem;
+	@include media ('>=desktop') {
+		padding: 10rem 0 3.4rem;
+	}
+}
+
+.framework-section{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 5.8rem 0 5.5rem;
+	}
+	.section-header{
+		@include media ('>=tablet') {
+			margin: 0 0 3rem;
+		}
+		@include media ('>=desktop') {
+			margin: 0 0 7.5rem;
+		}
+		p{
+			margin-bottom: 1.5rem;
+		}
+	}
+}
+
+.arrow-item-list{
+	overflow: hidden;
+	counter-reset: i;
+	@include media ('>=desktop') {
+		background: #fff;
+		box-shadow: 0 12px 17px rgba(0, 32, 46, 0.04);
+	}
+	>li{
+		width: 100%;
+		position: relative;
+		@include media ('>=tablet') {
+			width: 33.33333%;
+		}
+		@include media ('>=desktop') {
+			z-index: 3;
+		}
+		&:not(:first-child){
+			.arrow-item{
+				@include media ('>=desktop') {
+					padding: 2.3rem 1rem 2.5rem 5.6rem;
+				}
+			}
+		}
+		&:nth-of-type(2){
+			@include media ('>=desktop') {
+				z-index: 2;
+			}
+		}
+		&:nth-of-type(3){
+			.arrow-item{
+				@include media ('>=desktop') {
+					z-index: 1;
+				}
+				&:before,
+				&:after{
+					@include media ('>=desktop') {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	.count{
+		@include gradient-text('linear-gradient(to left, #71b6fa 0%, #a688f7 100%)', 'light');
+		color: theme-color("primary");
+		margin: 0 .7rem 0 0;
+		&:after{
+			counter-increment: i;
+			content: '0' counter(i);
+			display: inline-block;
+		}
+	}
+}
+
+.arrow-item{
+	width: 100%;
+	position: relative;
+	padding: 2.3rem 0 2.5rem 1rem;
+	@include media ('>=tablet') {
+		padding: 2rem 1rem;
+	}
+	@include media ('>=desktop') {
+		padding: 2.3rem 1rem 2.5rem 2.25rem;
+	}
+	&:before,
+	&:after{
+		@include media ('>=desktop') {
+			content: '';
+			position: absolute;
+			height: 50%;
+			left: -25%;
+			right: -6%;
+			background: #fff;
+			z-index: -1;
+		}
+	}
+	&:before{
+		@include media ('>=desktop') {
+			top: 0;
+			transform: skewX(30deg);
+			box-shadow: 0 8px 17px rgba(0, 32, 46, 0.04);
+		}
+	}
+	&:after{
+		@include media ('>=desktop') {
+			bottom: 0;
+			transform: skewX(-30deg);
+			box-shadow: 0 12px 17px rgba(0, 32, 46, 0.04);
+		}
+	}
+	.subtitle{
+		margin: 0 0 .8rem;
+	}
+	.circle-list{
+		margin: 0 0 0 .7rem;
+	}
+}
+
+.section-list{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 5.8rem 0 3rem;
+	}
+	header{
+		margin: 0 0 3rem;
+		@include media ('>=desktop') {
+			margin: 0 0 6rem;
+		}
+	}
+}
+
+.svc-list{
+	@include media ('>=phone') {
+		margin: 0 -15px;
+	}
+	@include media ('>=desktop') {
+		margin: 0 -40px;
+	}
+	>li{
+		width: 100%;
+		&:not(:last-child){
+			@include media ('<phone') {
+				margin: 0 0 30px;
+			}
+		}
+		@include media ('>=phone') {
+			width: 50%;
+			padding: 0 15px;
+			margin: 0 0 30px;
+		}
+		@include media ('>=desktop') {
+			width: 33.3333%;
+			padding: 0 40px;
+			margin: 0 0 3.4rem;
+		}
+	}
+	.subtitle{
+		margin: 0 0 1.2rem;
+	}
+}
+
+.tech-dd-bottom{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 8rem 0 10rem;
+	}
+}

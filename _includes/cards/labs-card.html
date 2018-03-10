@@ -1,0 +1,29 @@
+<ul class="labs-card-list list-unstyled mb-0 row {{ include.add_class }}">
+	{% for card in include.block_content %}
+	<li class="d-flex col col-12 col-sm-6">
+		<div class="labs-card w-100">
+			<div class="image">
+				<!-- retina cover structure -->
+				<div class="bg-stretch">
+				{% for img in card.image %}
+					<span data-srcset="{{ site.url }}/images/{{ img.img }}, {{ site.url }}/images/{{ img.img_2x }} 2x"></span>
+				{% endfor %}
+				</div>
+			</div>
+			<div class="entry-body">
+				<div class="content">
+					<h3>{{ card.heading }}</h3>
+					<p>{{ card.text | truncate: 300 }}</p>
+				</div>
+				<div class="btn-wrap">
+					{% for btn in card.btn %}
+					<a class="btn {{ btn.btn_type }} {% if btn.disable == true%}disable{% endif %}" href="{{ btn.url }}" role="button" target="_blank" rel="noopener noreferrer">
+						<span>{{ btn.title }}</span>
+					</a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</li>
+	{% endfor %}
+</ul>

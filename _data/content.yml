@@ -1,0 +1,198 @@
+# ---------------------------------------------------------
+#  Content For Site Blocks
+# ---------------------------------------------------------
+#
+#  1. Content for Get In Touch Block
+#     1.1 Get In Touch Home | Home Page
+#     1.2 Get In Touch Consulting | Consulting Page
+#     1.3 Get In Touch Labs | Labs Page
+#     1.4 Join Us Team | Team Page 
+#     1.5 Join Us Team Bottom| Team Page
+#     1.6 Get In Touch CSVG | Case Study Volkswagen Group Page
+#
+#  2. Content for List Blocks
+#     2.1 Key Challenges List| Case Study Volkswagen Group Page
+#     2.2 Feature Scope List| Case Study Volkswagen Group Page
+#     2.3 Framework Technology List| Tech DD Page
+#     2.4 Framework Product List| Tech DD Page
+#     2.5 Framework Engineering List| Tech DD Page
+#
+# ---------------------------------------------------------
+
+#  --------------------------------------------------------
+#  1. Content for Get In Touch Block
+#  --------------------------------------------------------
+
+
+#  1.1 Get In Touch Home | Home Page
+#
+# start get_in_touch_home #
+get_in_touch_home:
+  - heading: 'Get in Touch'
+    text:
+      - 'If you’d like to learn more about what we do or just want to say hello, please don’t hesitate to reach out. We look forward to hearing from you.'
+    link:
+      - title: 'Contact'
+        url: 'contact.html'
+        btn_type: 'btn-primary'
+# end get_in_touch_home #
+
+
+
+#  1.2 Get In Touch Consulting | Consulting Page
+#
+# start get_in_touch_consulting #
+get_in_touch_consulting:
+  - heading: 'How can we help you? Please get in touch.'
+    text:
+      - 'If you would like to learn more about what we do or how we could help you reach your potential, please reach out. We look forward to hearing from you.'
+    link:
+      - title: 'Contact'
+        url: 'contact.html'
+        btn_type: 'btn-primary'
+# end get_in_touch_consulting #
+
+
+
+#  1.3 Get In Touch Labs | Labs Page
+#
+# start get_in_touch_labs #
+get_in_touch_labs:
+  - heading: 'Build something with us'
+    text:
+      - 'Want to work with an experienced team and turn an idea for a digital venture into a reality?  Let’s discuss how we could work together!'
+    link:
+      - title: 'Contact'
+        url: 'contact.html'
+        btn_type: 'btn-secondary'
+# end get_in_touch_labs #        
+
+
+
+#  1.4 Join Us Team | Team Page
+#
+# start join_us_team #
+join_us_team:
+  - heading: 'Software & Product Apprenticeships'
+    text:
+      - 'We feel it is important to give back to an industry that has been inclusive, supportive and encouraging for us while starting out. For junior level hires, we predominately look for accelerated learners - people that show potential and the willingness to learn - rather than hard manifested skills. We support your development form entry level hire to craftsman of your field, by guided and individualized mentoring, educational resources, as well as a welcoming, fostering and understanding culture.'
+    link:
+      - title: 'Join us'
+        url: '#'
+        btn_type: 'btn-primary'
+# end join_us_team  #        
+
+
+
+#  1.5 Join Us Team Bottom | Team Page
+#
+# start join_us_team_bottom #
+join_us_team_bottom:
+  - heading: 'Join Us!'
+    text:
+      - 'While we don’t actively advertise open job positions, we are always on the look out for interesting personalities. If you would like to join us or just find out how we work, please reach out.'
+    link:
+      - title: 'APPLY'
+        url: '#'
+        btn_type: 'btn-primary'
+# end join_us_team_bottom  #
+
+
+
+#  1.6 Get In Touch CSVG | Case Study Volkswagen Group Page
+#
+# start get_in_touch_csvg #
+get_in_touch_csvg:
+  - heading: 'Have A Similar Project?'
+    text:
+      - 'If you have a mission critical situation that you need support with, or would like to learn more about our services, please reach out. We look forward to hearing from you.'
+    link:
+      - title: 'Contact'
+        url: 'contact.html'
+        btn_type: 'btn-primary'
+# end get_in_touch_csvg  #
+
+
+
+#  --------------------------------------------------------
+#  2. Content for List Blocks
+#  --------------------------------------------------------
+
+
+#  2.1 Key Challenges List| Case Study Volkswagen Group Page
+#
+# start key_challenges_list #
+key_challenges_list:
+  - 'Conceptualize and build a state-of-the-art app in 4 weeks.'
+  - 'Multi-platform project: iOS, Android &amp; Web.'
+  - 'Provide ongoing value to stakeholders way beyond the IAA event.'
+# end key_challenges_list #
+
+
+
+#  2.2 Feature Scope List| Case Study Volkswagen Group Page
+#
+# start feature_scope_list #
+feature_scope_list:
+  - 'Comprehensive event guide for multiple events '
+  - 'Invite-only access for specific events'
+  - 'Event e-ticket'
+  - 'Volkswagen Group mobile newsroom'
+  - 'Stories, news, social and media updates'
+  - 'Download and sharing functionalities'
+  - 'Volkswagen Group media address book'
+  - 'Admin web content management system'
+# end feature_scope_list #
+
+
+#  2.3 Framework Technology List| Tech DD Page
+#
+# start framework_technology_list #
+framework_technology_list:
+  - heading: 'ARCHITECTURE & INFRASTRUCTURE'
+    text: 'These are the real foundations of growth and they are expensive to adjust. Operation and maintenance should come at manageable cost.'
+  - heading: 'PLATFORM SCALABILITY'
+    text: 'Scaling a product comes with its own set of challenges and should be tackled with a thought through contingency plan.'
+  - heading: "SECURITY & EMERGENCY PLAN"
+    text: "Companies must minimize the risk of data loss and have an emergency plan at hand to maintain their customers' trust."
+  - heading: "CODE QUALITY & TEST AUTOMATION"
+    text: 'The goal is to write tested and extensible code that people can implement efficiently and enjoy working with.'
+  - heading: 'DOMAIN & DATABASE DESIGN'
+    text: 'The heart of software is its ability to efficiently solve and persist domain-related problems expressed in abstracted concepts.'
+  - heading: 'TECH DEBT ANALYSIS'
+    text: 'Taking smart shortcuts is reasonable but when done in excess they make things significantly more complex and hinder future growth.'
+  - heading: "ALGORITHM REVIEW"
+    text: "Is the company's highly advertised secret algorithm actually smart tech or just an army of interns equipped with Excel and a phone?"
+# end framework_technology_list #
+
+
+
+#  2.4 Framework Product List| Tech DD Page
+#
+# start framework_product_list #
+framework_product_list:
+  - heading: 'KPIS & PRODUCT METRICS'
+    text: 'These are the real foundations of growth and they are expensive to adjust. Operation and maintenance should come at manageable cost.'
+  - heading: 'PRODUCT ROADMAP & VISION'
+    text: 'Scaling a product comes with its own set of challenges and should be tackled with a thought through contingency plan.'
+  - heading: "UX & CONVERSION RATES"
+    text: "Companies must minimize the risk of data loss and have an emergency plan at hand to maintain their customers' trust."
+  - heading: "BRAND & VISUAL DESIGN"
+    text: "The goal is to write tested and extensible code that people can implement efficiently and enjoy working with."
+  - heading: 'PLATFORM AUDIT'
+    text: "The heart of software is its ability to efficiently solve and persist domain-related problems expressed in abstracted concepts."
+# end framework_product_list #
+
+
+
+#  2.5 Framework Engineering List| Tech DD Page
+#
+# start framework_engineering_list #
+framework_engineering_list:
+  - heading: 'ENGINEERING PROCESSES'
+    text: 'Software engineering is an agile and highly collaborative team effort. How can it be further optimized?'
+  - heading: 'KNOWLEDGE SILO IDENTIFICATION'
+    text: 'Is key knowledge well-distributed and documented or can it suddenly disappear with the departure of critical employees?'
+  - heading: 'HIRING ATTRACTIVENESS'
+    text: "A company's culture and tech stack are advantageous when seeking out and retaining the brightest brains."
+# end framework_engineering_list #

@@ -1,0 +1,18 @@
+<ul class="related-card-list list-unstyled mb-md-5 d-flex flex-wrap justify-content-between">
+{% for card in include.block_content %}
+	<li>
+		<div class="related-card">
+			<span class="decor" aria-hidden="true"></span>
+			<h2>{{ card.heading }}</h2>
+			{% for paragraph in card.text %}
+				<p>{{ paragraph }}</p>
+			{% endfor %}
+			<div class="btn-wrap pt-2 pt-md-0">
+				<a href="{{ site.url }}/{{ card.btn_link }}" class="btn {% cycle 'btn-primary', 'btn-secondary' %}" role="button">
+					<span>{{ card.btn_text }}</span>
+				</a>
+			</div>
+		</div>
+	</li>
+{% endfor %}
+</ul>

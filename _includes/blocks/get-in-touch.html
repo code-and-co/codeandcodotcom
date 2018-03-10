@@ -1,0 +1,15 @@
+<section class="get-in-touch-section ml-auto mr-auto {{ include.add_class }}">
+{% for contact in include.block_content %}
+	<h2 class="mb-2 mb-md-4">{{ contact.heading }}</h2>
+	{% for paragraph in contact.text %}
+		<p>{{ paragraph }}</p>
+	{% endfor %}
+	<div class="btn-wrap pt-2">
+	{% for link in contact.link %}
+		<a href="{{ site.url }}/{{ link.url }}" class="btn {{ link.btn_type }}" role="button">
+			<span>{{ link.title }}</span>
+		</a>
+	{% endfor %}
+	</div>
+{% endfor %}
+</section>

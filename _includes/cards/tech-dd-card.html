@@ -1,0 +1,14 @@
+<ul class="tech-dd-card-list list-unstyled mb-0 row {{ include.add_class }}">
+	{% for list in include.block_content %}
+	<li class="col col-12 col-sm-6 col-lg-4 d-flex">
+		<div class="card tech-dd-card w-100">
+			<h3 class="subtitle">{{ list.heading }}</h3>
+			<ul class="check-list list-unstyled mb-0">
+				{% for li in list.list_items %}
+				<li>{{ li }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</li>
+	{% endfor %}
+</ul>

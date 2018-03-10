@@ -1,0 +1,470 @@
+# ---------------------------------------------------------
+#  Content For Site Cards
+# ---------------------------------------------------------
+#
+#  1. Related Card | Home Page
+#  2. Services Card | Consulting Page
+#  3. Order Card | Labs Page
+#  4. Labs Card(Ventures)| Labs Page
+#  5. Labs Card(Production)| Labs Page
+#  6. Team Card | Labs Page
+#  7. Team Card | Team Page
+#  8. Benefits Card | Team Page
+#  9. Tech DD Card | Tech DD Page
+# ---------------------------------------------------------
+
+
+#  1. Related Card | Home Page
+#
+# start related_card #
+related_card:
+  - heading: 'Consulting'
+    text:
+      - 'We solve Tech, UX and Product problems at times when it matters most, and provide services ranging from pragmatic advice to hands-on product conception.'
+      - 'We are united in our belief that digitization creates massive opportunity – we help uncover and leverage this potential.'
+    btn_text: 'Our services'
+    btn_link: 'consulting.html'
+
+  - heading: 'Labs'
+    text:
+      - 'We build and scale ventures that leverage technology to solve real problems. We experiment with new technologies to create beautiful and scalable solutions.'
+      - 'We write well crafted code and strive for great UX, usability and visual design.'
+    btn_text: 'Our ventures'
+    btn_link: 'labs.html'
+# end related_card #
+
+
+
+#  2. Services Card | Consulting Page
+#
+# start services_card #
+services_card:
+  - heading: 'Tech Due Diligence & Assessments'
+    text:
+      - 'Pragmatic tech, product and UX risk assessments and technology due diligences with actionable advice on how to mitigate risks.'
+      - 'Favored by PE funds, VCs and multinational corporations when an independent opinion can spot the right way forward.'
+    link:
+      - title: 'Learn more'
+        url: 'tech-dd.html'
+    brands:
+      - img: 'cards/adobe.png'
+        img_2x: 'cards/adobe@2x.png'
+        alt: 'Adobe'
+
+      - img: 'cards/kkr.png'
+        img_2x: 'cards/kkr@2x.png'
+        alt: 'KKR'
+
+      - img: 'cards/volkswagen.png'
+        img_2x: 'cards/volkswagen@2x.png'
+        alt: 'Volkswagen'
+
+  - heading: 'Platform Sprints'
+    text:
+      - 'Our Platform Sprints kickstart or accelerate projects. They help focus on the right problem and ensure key steps aren’t missed along the way.'
+      - 'Our clients have described Platform Sprints as an "instruction manual" for goal-oriented, technical product development.'
+    link:
+      - title: 'Learn more'
+        url: 'platform-sprint.html'
+    brands:
+      - img: 'cards/delivery-hero.png'
+        img_2x: 'cards/delivery-hero@2x.png'
+        alt: 'Delivery Hero'
+
+      - img: 'cards/volkswagen-2.png'
+        img_2x: 'cards/volkswagen-2@2x.png'
+        alt: 'Volkswagen'
+
+      - img: 'cards/everjobs.png'
+        img_2x: 'cards/everjobs@2x.png'
+        alt: 'Everjobs'
+
+  - heading: 'Digital Value Drivers'
+    text:
+      - 'We help uncover and shape digital value drivers. These enable services to fully leverage technology and thrive in a digitized world. '
+      - 'We help organizations spot and embrace opportunities by creating a concise digital roadmap, ensuring they stay ahead of the game.'
+    link:
+      - title: 'Learn more'
+        url: 'digital-value-drivers.html'
+    brands:
+      - img: 'cards/innogy.png'
+        img_2x: 'cards/innogy@2x.png'
+        alt: 'Innogy'
+
+      - img: 'cards/home24.png'
+        img_2x: 'cards/home24@2x.png'
+        alt: 'Home 24'
+
+      - img: 'cards/metro.png'
+        img_2x: 'cards/metro@2x.png'
+        alt: 'Metro'
+# end services_card #
+
+
+
+#  3. Order Card | Labs Page
+#
+# start order_card #
+order_card:
+  - heading: 'Machine Learning & AI'
+    text: 'Whether it is invisible interfaces, powered by voice commands, or self-driving cars, Machine Learning and AI will revolutionize how we use computers to solve problems. There will be Machine Learning in everything.'
+
+  - heading: 'Augmented and Mixed Reality'
+    text: 'What started with textual commands in a terminal and progressed to cursors and touch screens, will be irrevocably changed when the physical and virtual worlds meet for a new paradigm of human-machine interaction.'
+
+  - heading: 'Blockchain & Crypto'
+    text: 'Like HTTP established sensible rules that created the World Wide Web, Blockchain-based technologies describe a protocol for transactions and will likely fetch far beyond digital currencies like Bitcoin.'
+# end order_card #
+
+
+
+#  4. Labs Card(Ventures)| Labs Page
+#
+# start labs_card_ventures #
+labs_card_centures:
+  - image:
+      - img: 'cards/pamstrong.png'
+        img_2x: 'cards/pamstrong@2x.png'
+    heading: 'PAMSTRONG'
+    text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon. (Launched in 2016.)"
+    btn:
+      - title: 'Visit'
+        url: 'https://www.google.com'
+        disable: false
+        btn_type: 'btn-secondary'
+
+  - image:
+      - img: 'cards/all-access.png'
+        img_2x: 'cards/all-access@2x.png'
+    heading: 'ALL ACCESS'
+    text: "The fan club for the social media generation. It enables influential personalities to grow their fan base and build communities. It uses machine learning to segment audience members into interest groups so the influencer can provide relevant content to each and every single one of her fans."
+    btn:
+      - title: 'Visit'
+        url: 'https://www.google.com'
+        disable: false
+        btn_type: 'btn-secondary'
+# end labs_card_ventures #
+
+
+
+#  5. Labs Card(Production)| Labs Page
+#
+# start labs_card_ventures #
+labs_card_production:
+  - image:
+      - img: 'cards/skeleton.jpg'
+        img_2x: 'cards/skeleton@2x.jpg'
+    heading: 'Skeleton.io'
+    text: "skeleton.io classifies and structures document-based data. It can be described as a document API. Its machine learning algorithms gain confidence every day to drastically increase our clients’ efficiency and processes when dealing with overwhelming amounts of document-based data."
+    btn:
+      - title: 'Coming soon'
+        url: 'https://www.google.com'
+        disable: true
+        btn_type: 'btn-secondary'
+
+  - image:
+      - img: 'cards/moneypenny.jpg'
+        img_2x: 'cards/moneypenny@2x.jpg'
+    heading: 'Moneypenny'
+    text: "Project Moneypenny grew out of the realization that everyone’s personal network is a key component to personal and professional success and endless opportunity. Moneypenny’s mission is to find, create and manage the serendipitous moments the build professional relationships."
+    btn:
+      - title: 'Coming soon'
+        url: 'https://www.google.com'
+        disable: true
+        btn_type: 'btn-secondary'
+# end labs_card_ventures #
+
+
+
+#  6. Team Card | Labs Page
+#
+# start team-card_labs #
+team-card_labs: 
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Felipe Castrillón'
+    position: 'Associate'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'github'
+        link: 'https://github.com/'
+# end team-card_labs #
+
+
+
+#  7. Team Card | Team Page
+#
+# start team-card_team #
+team-card_team: 
+  - image:
+      - img: 'team/Dan-Bender.jpg'
+        img_2x: 'team/Dan-Bender@2x.jpg'
+        image_stub: false
+    name: 'Dan Bender'
+    position: 'Founder · Product Strategy & Code'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'instagram'
+        link: 'https://www.instagram.com'
+
+  - image:
+      - img: 'team/Lukas-Ingelheim.jpg'
+        img_2x: 'team/Lukas-Ingelheim@2x.jpg'
+        image_stub: false
+    name: 'Lukas Ingelheim'
+    position: 'Founder · Technology & Engineering'
+    about-text: 'Developer, UX engineer and product strategist who builds and scales products that people love to use. Strives for great UX, exceptional usability and visual design.'
+    interests:
+      - 'Invisible'
+      - 'Interfaces'
+      - 'Blockchain'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'google-plus3'
+        link: 'https://plus.google.com'
+
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Jayasagar Jagirapu'
+    position: 'Engineering'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'instagram'
+        link: 'https://www.instagram.com'
+
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Nick Morgan-Jones'
+    position: 'UX & UI Design'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'instagram'
+        link: 'https://www.instagram.com'
+
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Ben Hesseldieck'
+    position: 'Engineering'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'instagram'
+        link: 'https://www.instagram.com'
+
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Felipe Castrillón'
+    position: 'Associate'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'instagram'
+        link: 'https://www.instagram.com'
+
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Sey Cheon'
+    position: 'Engineering'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'instagram'
+        link: 'https://www.instagram.com'
+
+  - image:
+      - img: 'team/'
+        img_2x: 'team/'
+        image_stub: true
+    name: 'Paul Faecks'
+    position: 'Digital Marketing'
+    about-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deleniti facere tempora pariatur dolore ipsa commodi assumenda eaque placeat animi.'
+    interests:
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+      - 'Lorem ipsum dolor'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com'
+      - icon: 'twitter'
+        link: 'https://twitter.com/'
+      - icon: 'instagram'
+        link: 'https://www.instagram.com'
+# end team-card_team #
+
+
+
+#  8. Benefits Card | Team Page
+#
+# start benefits_card #
+benefits_card:
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Steep Learning Curve'
+     text: "Throw yourself in the deep end, surrounded by support, learning everything from client-facing consulting to growing a digital venture."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Grow Your Network'
+     text: "Together, we’re better than one. We believe that the success of code & co. as a company is only possible when you succeed as an individual."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Funded Development'
+     text: "As a fully bootstrapped company, we have the luxury to experiment and explore. If you identify a solution to an actual problem, together, we can bring it live."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Choose Your Hardwear'
+     text: "We use technology to produce impactful work and we’ll make sure your utility belt is up to the challenges of every day."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Flexible Working Hours'
+     text: 'At code & co., output matters and just that. You will be measured by your work and not by b/s politics that involve "face time" or similar measures.'
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Flexible Vacation Policy'
+     text: "We value you as an individual and we require your best work. We want to make sure you’re physically and mentally in a state to provide your greatest input."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Central Berlin Office'
+     text: "It’s no secret that Berlin has become the epicentre of entrepreneurial dreams and potential as well as being a fun and beautiful city to live in."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Food and Drinks'
+     text: "We know we all perform best when we are comfortable at work. Snacks, coffee and regular team lunches keep us on point throughout the day."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'BE YOURSELF'
+     text: "We’re an international team from different backgrounds and with a diverse skill set. Every day we come together to make everyone’s input heard, seen – and built."
+# end benefits_card #
+
+
+#  9. Tech DD Card | Tech DD Page
+#
+# start tech_dd_card #
+tech_dd_card:
+  - heading: 'Technology'
+    list_items:
+      - 'Architecture &amp; Infrastructure'
+      - 'Scalability &amp; Security'
+      - 'Code Quality &amp; Test Automation'
+      - 'Domain &amp; Database Design'
+      - 'Tech Debt Analysis'
+      - 'Algorithm Review'
+      - 'And more'
+
+  - heading: 'Product'
+    list_items:
+      - 'KPIs &amp; Product Metrics'
+      - 'Product Roadmap &amp; Vision'
+      - 'UX &amp; Conversion Rate'
+      - 'Platform Audit'
+      - 'Brand &amp; Visual Design'
+      - 'Performance Marketing'
+      - 'And more'
+
+  - heading: 'Engineering'
+    list_items:
+      - 'Engineering Processes'
+      - 'Knowledge Silo Identification'
+      - 'Hiring Attractiveness'
+      - 'Agile Workflows'
+      - 'Team Structure'
+      - 'Hiring &amp; Scaling Roadmap'
+      - 'And more'
+# end tech_dd_card #
+
+
+
+#  10. Shape Card | Platform Sprint Page
+#
+# start shape_card #
+shape_card:
+  - 'Problem &amp; Opportunit'
+  - 'Inception'
+  - 'Immersion'
+  - 'Implementation'
+  - 'Delivery'
+# end shape_card #

@@ -1,0 +1,202 @@
+/* ---------------------------------------------------------
+   4. Components styles
+   ---------------------------------------------------------*/
+
+/* 4.1. Buttons */
+.btn{
+	min-width: 10.875rem;
+	line-height: 3rem;
+	font-size: 0.875rem;
+	font-weight: 600;
+	letter-spacing: 0.094em;
+	text-transform: uppercase;
+	padding: 0 30px;
+	position: relative;
+	background: transparent;
+	&.disable{
+		pointer-events: none !important;
+		opacity: .5;
+		&:hover{
+			cursor: not-allowed !important;
+		}
+	}
+	>span{
+		display: inline-block;
+		position: relative;
+	}
+	&.btn-primary,
+	&.btn-secondary{
+		transition: {
+			property: color, box-shadow, border-color;
+			duration: .27s;
+			timing-function: ease-in-out;
+		};
+		&:before{
+			content: '';
+			border-radius: 3.5em;
+			position: absolute;
+			top: -1px;
+			left: -1px;
+			right: -1px;
+			bottom: -1px;
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			opacity: 0;
+			visibility: hidden;
+			transition: {
+				property: opacity, visibility;
+				duration: .0s;
+				timing-function: ease-in-out;
+			};
+		}
+	}
+	&.btn-primary{
+		color: #c3adff;
+		border: 1px solid #a8d3ff;
+		box-shadow: 0 1px 10px rgba(#b6beff, 0);
+		background-color: transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			color: #fff !important;
+			box-shadow: 0 1px 10px rgba(#b6beff, 1) !important;
+			border: 1px solid transparent !important;
+			background-color: transparent !important;
+			background-position: 0 0;
+			&:before{
+				opacity: 1;
+				visibility: visible;
+				transition: none;
+				transition: {
+					property: opacity, visibility;
+					duration: .27s;
+					timing-function: ease-in-out;
+				};
+			}
+			>span{
+				background: transparent;
+				mix-blend-mode: normal;
+				color: $white;
+				z-index: 1;
+				&:before{
+					display: none;
+				}
+			}
+		}
+		&:before{
+			background: linear-gradient(225deg, rgba(168,211,255,1) 0%,rgba(195,173,255,1) 100%);
+		}
+		> span{
+			@include gradient-text('linear-gradient(225deg, #71b6fa 0%, #a688f7 100%)', 'light');
+		}
+	}
+	&.btn-secondary{
+		color: #fe9fa1;
+		border: 1px solid #f9cac0;
+		&:hover,
+		&:focus,
+		&:active{
+			color: #fff !important;
+			box-shadow: 0 1px 10px rgba(252, 180, 176, 0.6) !important;
+			background-color: transparent !important;
+			border: 1px solid transparent !important;
+			background-position: 0 0;
+			&:before{
+				opacity: 1;
+				visibility: visible;
+				transition: {
+					property: opacity, visibility;
+					duration: .27s;
+					timing-function: ease-in-out;
+				};
+			}
+			>span{
+				background: transparent;
+				mix-blend-mode: normal;
+				color: $white;
+				&:before{
+					display: none;
+				}
+			}
+		}
+		&:before{
+			background: linear-gradient(225deg, rgba(249,202,192,1) 0%,rgba(254,159,161,1) 100%);
+		}
+		> span{
+			@include gradient-text('linear-gradient(225deg, #ea9b8a 0%, #ea7678 100%)', 'light');
+		}
+	}
+	&.btn-link{
+		min-width: 8rem;
+		line-height: 2rem;
+		color: #c3adff;
+		position: relative;
+		overflow: hidden;
+		&:hover,
+		&:focus,
+		&:active{
+			box-shadow: none;
+			&:after{
+				opacity: 1;
+				visibility: visible;
+			}
+			> span{
+				@include gradient-text('linear-gradient(225deg, #71b6fa 0%, #a688f7 100%)', 'light');
+			}
+		}
+		&:after{
+			display: inline-block;
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			width: 80%;
+			height: 1px;
+			transform: translate(-50%, 0);
+			background: linear-gradient(225deg, #71b6fa 0%, #a688f7 100%);
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .27s ease-in-out, visibility .27s ease-in-out;
+		}
+		> span{
+			@include gradient-text('linear-gradient(225deg, #71b6fa 0%, #a688f7 100%)', 'light');
+		}
+	}
+	&.btn-link-secondary{
+		min-width: 8rem;
+		line-height: 2rem;
+		color: #fe9fa1;
+		position: relative;
+		overflow: hidden;
+		&:hover,
+		&:focus,
+		&:active{
+			box-shadow: none;
+			&:after{
+				opacity: 1;
+				visibility: visible;
+			}
+			> span{
+				@include gradient-text('linear-gradient(225deg, #ea9b8a 0%, #ea7678 100%)', 'light');
+			}
+		}
+		&:after{
+			display: inline-block;
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			width: 80%;
+			height: 1px;
+			background: linear-gradient(225deg, #ea9b8a 0%, #ea7678 100%);
+			transform: translate(-50%, 0);
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .27s ease-in-out, visibility .27s ease-in-out;
+		}
+		> span{
+			@include gradient-text('linear-gradient(225deg, #ea9b8a 0%, #ea7678 100%)', 'light');
+		}
+	}
+}

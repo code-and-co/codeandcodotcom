@@ -1,0 +1,21 @@
+{% for brand in include.block_content %}
+<section class="brand-section {{ include.add_class }} text-center ml-auto mr-auto">
+	<header>
+		<h2>{{ brand.heading }}</h2>
+		{% for paragraph in brand.text %}
+		<p>{{ paragraph }}</p>
+		{% endfor %}
+	</header>
+	<ul class="brand-list list-unstyled mb-0 row {{ include.list_class }}">
+		{% for item in brand.brands %}
+		<li class="col col-6 col-sm-4 col-md-3">
+			<!-- picturefill: full manual control -->
+			<picture>
+				<source srcset="{{ site.url }}/images/{{ item.img }}, {{ site.url }}/images/{{ item.img_2x }} 2x">
+				<img src="{{ site.url }}/images/{{ item.img }}" alt="{{ item.alt }}">
+			</picture>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+{% endfor %}

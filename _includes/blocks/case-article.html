@@ -1,0 +1,33 @@
+{% for case in include.block_content %}
+	<article class="case-article {{ include.add_class }}">
+		<div class="row">
+			<div class="col col-12 col-sm-4 col-md-6 d-flex justify-content-center">
+				<div class="thumbnail">
+					<!-- picturefill: full manual control -->
+					{% for thumbnail in case.thumbnail %}
+					<picture>
+						<source srcset="{{ site.url }}/images/{{ thumbnail.img }}, {{ site.url }}/images/{{ thumbnail.img_2x }} 2x">
+						<img src="{{ site.url }}/images/{{ thumbnail.img }}" alt="{{ thumbnail.alt }}">
+					</picture>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="col col-12 col-sm-8 col-md-6 col-xl-5 offset-xl-1 d-flex align-items-center pl-xl-1">
+				<div class="entry-body">
+					<h2>{{ case.heading }}</h2>
+					<span class="subtitle">{{ case.subtitle }}</span>
+					{% for paragraph in case.text %}
+						<p>{{ paragraph }}</p>
+					{% endfor %}
+					<div class="btn-wrap">
+						{% for link in case.link %}
+						<a class="btn {{ link.btn_type }}" href="{{ site.url }}/{{ link.url }}" role="button">
+							<span>{{ link.title }}</span>
+						</a>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+{% endfor %}

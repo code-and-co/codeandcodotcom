@@ -1,0 +1,61 @@
+/* 6.8 Platform Sprint Page styles */
+.platform-sprints-page{
+	.page-hero .container {
+		@include media ('>=desktop') {
+			min-height: 649px;
+			padding-top: 175px;
+		}
+	}
+}
+
+.platform-section{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 6.5rem 0 0;
+	}
+	.container{
+		max-width: 1140px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.section-header{
+		@include media ('<tablet') {
+			margin: 0;
+		}
+	}
+	.shape-card-list{
+		margin: 0 0 1rem !important;
+		@include media ('>=tablet') {
+			margin: 0 0 3rem !important;
+		}
+		@include media ('>=desktop') {
+			margin: 0 0 5rem !important;
+		}
+	}
+	.text-block{
+		margin: 0 0 3rem;
+		@include media ('>=desktop') {
+			margin: 0 0 6.2rem;
+		}
+	}
+	.brand-section{
+		max-width: 773px;
+		@include media ('>=desktop') {
+			margin: 0 0 -15.3%;
+		}
+	}
+}
+
+.platform-case-block{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 10rem 0 0rem;
+	}
+}
+
+.platform-bottom{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 7.8rem 0 10.5rem;
+	}
+}

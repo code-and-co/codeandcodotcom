@@ -1,0 +1,82 @@
+---
+layout: default
+title: 'Consulting'
+description: ''
+keywords: ''
+body_class: ''
+---
+
+<section class="page-hero d-flex bg-light">
+	<div class="container d-flex flex-column w-100 justify-content-center align-items-center">
+		<div class="inner text-center">
+			<h1>Task Force for Mission-Critical Situations</h1>
+			<p>We are a strategic tech, UX and product advisory firm for situations where there is little room for error. We work with clients and companies from a wide array of industries to help them make key decisions confidently, at times when it matters most.</p>
+			<div class="btn-wrap">
+				<a class="btn btn-link smooth-anchor" href="#smooth-anchor" role="button">
+					<span>Learn more</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="smooth-anchor" class="section bg-light">
+	<div class="container">
+		<header class="section-header text-center ml-auto mr-auto">
+			<h2>Our Approach</h2>
+			<p>We offer pragmatic and hands-on support with cross-functional expertise and real experience in different markets, verticals and industries. We consider ourselves translators with our sweet spot as our ability to share our knowledge.</p>
+		</header>
+		<div class="approach-block d-md-flex justify-content-md-between">
+			<div class="img-wrap">
+				{% include svg/triangle-svg.html width="550" height="478" %}
+			</div>
+			<ol class="approach-list list-unstyled mb-0">
+				<li>
+					<span class="count"></span>
+					<h3 class="subtitle">DEEP Tech &amp; Product Expertise</h3>
+					<div class="text-wrap">
+						<span class="decor" aria-hidden="true"></span>
+						<p>We are tech, product and UX experts. We know the right way to build, scale, and continually improve digital products and services.</p>
+					</div>
+				</li>
+				<li>
+					<span class="count"></span>
+					<h3 class="subtitle">Business Realities</h3>
+					<div class="text-wrap">
+						<span class="decor" aria-hidden="true"></span>
+						<p>Even the most advanced technology must bear up against business realities. We assess and understand both sides, technological excellence vs. pragmatic and scalable business rationale.</p>
+					</div>
+				</li>
+				<li>
+					<span class="count"></span>
+					<h3 class="subtitle">Startup Pragmatism</h3>
+					<div class="text-wrap">
+						<span class="decor" aria-hidden="true"></span>
+						<p>We value efficiency, productivity and speed. We believe in our proven practices in product development to help you understand and solve the right user problem.</p>
+					</div>
+				</li>
+			</ol>
+		</div>
+	</div>
+</section>
+<div class="section bg-light">
+	<div class="container">
+		<!-- Case Article Volkswagen Group -->
+		{% include blocks/case-article.html block_content = site.data.case-article.case_volkswagen_group add_class="" %}
+	</div>
+</div>
+<section class="services-section bg-light">
+	<div class="container">
+		<header class="section-header text-center mr-auto ml-auto">
+			<h2>Our Services</h2>
+			<p>We cherish honest communication. Our aim is to anticipate and solve future needs with our three core services.</p>
+		</header>
+		<!-- Services Card List -->
+		{% include cards/services-card.html block_content = site.data.cards.services_card add_class="consulting" %}
+	</div>
+</section>
+<div class="consulting-bottom bg-light">
+	<div class="container">
+		<!-- Get In Touch Block -->
+		{% include blocks/get-in-touch.html block_content = site.data.content.get_in_touch_consulting add_class="text-center" %}
+	</div>
+</div>

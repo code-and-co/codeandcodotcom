@@ -1,0 +1,17 @@
+/* 6.10 Case Study Article Page styles */
+.case-study-article{
+	.entry-body{
+		@include media ('>=tablet') {
+			max-width: 402px;
+		}
+	}
+	header{
+		margin: 0 0 1.2rem;
+	}
+	h1{
+		font-size: 26px;
+	}
+	p{
+		margin: 0 0 1.5rem;
+	}
+}

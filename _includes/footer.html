@@ -1,0 +1,30 @@
+<!-- footer of the page -->
+<footer id="footer">
+    <div class="container">
+        <div class="row justify-content-center justify-content-sm-between">
+            <div class="col col-12 col-sm-4 offset-md-4 mb-2 mb-sm-0">
+                <!-- copyright block -->
+                <div class="copyright text-center">
+                    <span>&copy; code &amp; co. {{ 'now' | date: "%Y" }}</span>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-4">
+                <div class="d-flex justify-content-center justify-content-sm-end">
+                    <!-- switch language links -->
+                    <!-- <ul class="languages list-unstyled mb-0 d-flex">
+                        <li class="active">
+                            <a href="#">EN</a>
+                        </li>
+                        <li>
+                            <a href="#">DE</a>
+                        </li>
+                    </ul> -->
+                    <!-- Link to Imprint page -->
+                    <div class="imprint-block">
+                        <a class="text-uppercase" href="{{ site.url }}/impressum">Imprint</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

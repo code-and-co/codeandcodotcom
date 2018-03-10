@@ -1,0 +1,63 @@
+/* 6.11 Impressum Page styles */
+.impressum-page{
+	.page-hero .container {
+		@include media ('>=desktop') {
+			padding-top: 97px;
+		}
+	}
+}
+
+.impressum-block{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 0 0 8rem;
+	}
+	h2{
+		margin: 0 0 1.3rem;
+	}
+}
+
+.impressum-list{
+	line-height: 2;
+	position: relative;
+	margin: 0 0 3rem !important;
+	>li{
+		&:not(:last-of-type){
+			@include media ('<tablet') {
+				margin: 0 0 30px;
+			}
+		}
+	}
+	@include media ('>=desktop') {
+		top: -136px;
+		margin: 0 0 -21px !important;
+	}
+	.subtitle{
+		margin: 0 0 3px;
+	}
+}
+
+.impressum-bottom{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 5.7rem 0 6.8rem;
+	}
+	h2{
+		margin: 0 0 4.1rem;
+		@include media ('<phone') {
+			font-size: 22px;
+		}
+	}
+	section{
+		max-width: 947px;
+		&:not(:last-of-type){
+			margin: 0 0 2rem;
+			@include media ('>=desktop') {
+				margin: 0 0 3.8rem;
+			}
+		}
+		.subtitle{
+			margin: 0 0 21px;
+		}
+	}
+}

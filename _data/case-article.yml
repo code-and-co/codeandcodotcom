@@ -1,0 +1,68 @@
+# ---------------------------------------------------------
+#  Content For Case Article Blocks
+# ---------------------------------------------------------
+#
+#  1. Case Volkswagen Group | Consulting, Platform Sprint Pages
+#  2. Case Shapeshift | Tech DD Page
+#  3. Case It Works | Digital Value Drivers Page
+#
+# ---------------------------------------------------------
+
+
+#  1. Case Volkswagen Group | Consulting, Platform Sprint Pages
+#
+# start case_volkswagen_group #
+case_volkswagen_group:
+  - heading: 'Case Study: Volkswagen Group'
+    subtitle: 'Platform Sprint'
+    text: 
+      - 'We were hired as a task force for an extended mission-critical situation: To conceptualize and build an app for an invite-only event, the IAA Preview Night – From an idea to the app store in 4 weeks.'
+    link:
+      - title: 'View case study' 
+        url: 'case-study-volkswagen-group.html'
+        btn_type: 'btn-primary'
+    thumbnail:
+      - img: 'case-article/iphone_x.png'
+        img_2x: 'case-article/iphone_x@2x.png'
+        alt: 'iPhone X'
+# end case_volkswagen_group #
+
+
+
+#  2. Case Shapeshift | Tech DD Page
+#
+# start case_shapeshift #
+case_shapeshift:
+  - heading: 'Case Study: Shapeshift.io'
+    subtitle: 'TECH & PRODUCT DD'
+    text: 
+      - 'We were hired to perform a Technical & Product Due Diligence to assess the products, code, team, and potential leading up to a Series A funding round of $10m.'
+    link:
+      - title: 'View case study' 
+        url: 'case-study-shapeshift.html ' 
+        btn_type: 'btn-primary'
+    thumbnail:
+      - img: 'case-article/001-MacBook-Silver.png'
+        img_2x: 'case-article/001-MacBook-Silver@2x.png'
+        alt: 'MacBook Silver'
+# end case_shapeshift #
+
+
+
+#  3. Case It Works | Digital Value Drivers Page
+#
+# start case_itworks #
+case_itworks:
+  - heading: 'Case Study: It Works'
+    subtitle: 'DIGITAL VALUE DRIVERS'
+    text: 
+      - 'We helped It Works Group identify new solutions, prototype them, and develop a digital roadmap to diversify its offerings and services – embracing the tide shift of digitization.'
+    link:
+      - title: 'View case study' 
+        url: 'case-study-it-works.html' 
+        btn_type: 'btn-primary'
+    thumbnail:
+      - img: 'case-article/It-works-billboards-case.png'
+        img_2x: 'case-article/It-works-billboards-case@2x.png'
+        alt: 'It works billboards'
+# end case_itworks #

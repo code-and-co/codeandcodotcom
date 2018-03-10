@@ -1,0 +1,142 @@
+// custom variables and override bootstrap variables
+
+$body-bg: #fff;
+
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+//
+// Color system
+//
+
+// stylelint-disable
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       #a688f7;
+$secondary:     #ea7678;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+), $theme-colors);
+
+$link-color:                theme-color("primary");
+$link-decoration:           none;
+$link-hover-color:          theme-color("secondary");
+$link-hover-decoration:     none;
+
+$container-max-widths: (
+  xl: 1040px
+);
+
+$font-family-sans-serif:      'SF UI Display', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-base:            $font-family-sans-serif;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            500;
+
+$font-weight-base:            $font-weight-normal;
+$line-height-base:            1.5;
+
+$h1-font-size:                2rem;
+$h2-font-size:                1.625rem;
+$h3-font-size:                1.5rem;
+$h4-font-size:                1.25;
+$h5-font-size:                1rem;
+$h6-font-size:                .75rem;
+
+$headings-font-family:        $font-family-base;
+$headings-font-weight:        500;
+$headings-line-height:        1.384 !default;
+$btn-border-radius:           3.5em;
+$btn-border-radius-lg:        3.5em;
+$btn-border-radius-sm:        3.5em;
+
+$zindex-dropdown:                   1000;
+$zindex-sticky:                     1020;
+$zindex-fixed:                      1030;
+$zindex-modal-backdrop:             1040;
+$zindex-modal:                      1050;
+$zindex-popover:                    1060;
+$zindex-tooltip:                    1070;
+
+$jumbotron-padding:                     1.3rem;
+
+$card-spacer-y:                     3.7rem;
+$card-spacer-x:                     3.5rem 2.3rem 2.3rem 2.3rem;
+$card-border-width:                 0;
+$card-border-radius:                0;
+$card-border-color:                 transparent;
+$card-inner-border-radius:          0;
+$card-cap-bg:                       #fcfcfc;
+$card-bg:                           #fcfcfc;

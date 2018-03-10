@@ -1,0 +1,12 @@
+<ol class="shape-card-list d-flex list-unstyled mb-0 {{ include.add_class }}">
+	{% for card in include.block_content %}
+	<li>
+		<div class="shape-card {% if forloop.first or forloop.last %}no-shadow{% endif %} d-flex justify-content-center justify-content-md-start align-items-center text-uppercase">
+			{% if forloop.index != 1 and forloop.index != forloop.length %}
+			<span class="count"></span>
+			{% endif %}
+			<span>{{ card }}</span>
+		</div>
+	</li>
+	{% endfor %}
+</ol>

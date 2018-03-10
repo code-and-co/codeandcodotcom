@@ -1,0 +1,207 @@
+# ---------------------------------------------------------
+#  Content For Site Brands Blocks
+# ---------------------------------------------------------
+#
+#  1. Worked With | Home Page
+#  2. Alumni | Team Page
+#  3. Our Clients | Tech DD Page
+#  4. Our Clients Platform Sprint | Platform Sprint Page
+#
+# ---------------------------------------------------------
+
+
+#  1. Worked With | Home Page
+#
+# start worked_with #
+worked_with:
+  - heading: 'Who We’ve Worked With'
+    text: 
+      - 'We’re proud to work with the brightest minds from a wide range of industries.'
+    brands:
+    - img: brands/thoughtWorks.png
+      img_2x: brands/thoughtWorks@2x.png
+      alt: Thought Works
+
+    - img: brands/rocketInternet.png
+      img_2x: brands/rocketInternet@2x.png
+      alt: Rocket Internet
+
+    - img: brands/merrylLynch.png
+      img_2x: brands/merrylLynch@2x.png
+      alt: Merryl Lynch
+
+    - img: brands/kkr.png
+      img_2x: brands/kkr@2x.png
+      alt: KKR
+
+    - img: brands/Delivery-Hero.png
+      img_2x: brands/Delivery-Hero@2x.png
+      alt: Delivery Hero
+
+    - img: brands/adobe.png
+      img_2x: brands/adobe@2x.png
+      alt: Adobe
+
+    - img: brands/herringschuppener.png
+      img_2x: brands/herringschuppener@2x.png
+      alt: Herring Schuppener
+
+    - img: brands/finsbury.png
+      img_2x: brands/finsbury@2x.png
+      alt: Finsbury
+
+    - img: brands/VWAG.png
+      img_2x: brands/VWAG@2x.png
+      alt: VWAG
+
+    - img: brands/vwBrand.png
+      img_2x: brands/vwBrand@2x.png
+      alt: VW Brand
+
+    - img: brands/innogy.png
+      img_2x: brands/innogy@2x.png
+      alt: Innogy
+
+    - img: brands/metro.png
+      img_2x: brands/metro@2x.png
+      alt: Metro
+
+    - img: brands/home24.png
+      img_2x: brands/home24@2x.png
+      alt: Home 24
+
+    - img: brands/helloFresh.png
+      img_2x: brands/helloFresh@2x.png
+      alt: Hello Fresh
+
+    - img: brands/spotcap.png
+      img_2x: brands/spotcap@2x.png
+      alt: Spotcap
+
+    - img: brands/everjobs.png
+      img_2x: brands/everjobs@2x.png
+      alt: Everjobs
+# end worked_with #
+
+
+#  2. Alumni | Team Page
+#
+# start alumni #
+alumni:
+  - heading: 'Alumni'
+    text: 
+      - 'We’ve previously been employed by some amazing companies.'
+    brands:
+    - img: brands/thoughtWorks.png
+      img_2x: brands/thoughtWorks@2x.png
+      alt: Thought Works
+
+    - img: brands/rocketInternet.png
+      img_2x: brands/rocketInternet@2x.png
+      alt: Rocket Internet
+
+    - img: brands/merrill-lynch.png
+      img_2x: brands/merrill-lynch@2x.png
+      alt: Merrill Lynch
+
+    - img: brands/herringschuppener.png
+      img_2x: brands/herringschuppener@2x.png
+      alt: Herring Schuppener
+
+    - img: brands/deutsche-bank.png
+      img_2x: brands/deutscheBank@2x.png
+      alt: Deutsche Bank
+
+    - img: brands/vodafone.png
+      img_2x: brands/vodafone@2x.png
+      alt: Vodafone
+
+    - img: brands/d2d-logo-black.png
+      img_2x: brands/d2d-logo-black@2x.png
+      alt: Door 2 Door
+
+    - img: brands/projectA.png
+      img_2x: brands/projectA@2x.png
+      alt: Project A
+
+    - img: brands/detecon.png
+      img_2x: brands/detecon@2x.png
+      alt: Detecon
+
+    - img: brands/T-capitalPartners.png
+      img_2x: brands/T-capitalPartners@2x.png
+      alt: T-Capital Partners
+
+    - img: brands/Zalando.png
+      img_2x: brands/Zalando@2x.png
+      alt: Zalando
+# end alumni #
+
+
+
+#  3. Our Clients | Tech DD Page
+#
+# start our_clients #
+our_clients:
+  - heading: 'Our Clients'
+    text: 
+      - "We have performed Tech Due Diligence & Assessments for some industry-leading companies."
+    brands:
+    - img: brands/adobe.png
+      img_2x: brands/adobe@2x.png
+      alt: Adobe
+
+    - img: brands/kkr.png
+      img_2x: brands/kkr@2x.png
+      alt: KKR
+
+    - img: brands/vwBrand.png
+      img_2x: brands/vwBrand@2x.png
+      alt: Volkswagen
+# end our_clients #
+
+
+
+#  4. Our Clients Platform Sprint | Platform Sprint Page
+#
+# start our_clients_platform_sprint #
+our_clients_platform_sprint:
+  - heading: 'Our Clients'
+    text: 
+      - "We have done Platform Sprints with some industry-leading companies."
+    brands:
+    - img: brands/VWAG.png
+      img_2x: brands/VWAG@2x.png
+      alt: Volkswagen
+
+    - img: brands/innogy.png
+      img_2x: brands/innogy@2x.png
+      alt: KKR
+
+    - img: brands/finstar.png
+      img_2x: brands/finstar@2x.png
+      alt: Finstar
+# end our_clients_platform_sprint #
+
+
+
+#  4. Our Clients Digital Value | Digital Value Drivers Page
+#
+# start our_clients_digital_value #
+our_clients_digital_value:
+  - heading: 'Our Clients'
+    text: 
+      - "We have uncovered Digital Value Drivers for some industry-leading companies."
+    brands:
+    - img: brands/VWAG.png
+      img_2x: brands/VWAG@2x.png
+      alt: Volkswagen
+
+    - img: brands/herringschuppener.png
+      img_2x: brands/herringschuppener@2x.png
+      alt: Herring Schuppener
+
+    - img: brands/finstar.png
+      img_2x: brands/finstar@2x.png
+      alt: Finstar
+# end our_clients_digital_value #

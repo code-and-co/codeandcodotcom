@@ -1,0 +1,35 @@
+/* ---------------------------------------------------------
+   1. Embedded fonts styles
+   ---------------------------------------------------------*/
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/sfuidisplayultralight.woff') format('woff'),
+         url('../fonts/sfuidisplayultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplayRegular.woff') format('woff'),
+         url('../fonts/SFUIDisplayRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplayMedium.woff') format('woff'),
+         url('../fonts/SFUIDisplayMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplaySemibold.woff') format('woff'),
+         url('../fonts/SFUIDisplaySemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

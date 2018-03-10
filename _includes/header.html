@@ -1,0 +1,47 @@
+<!-- header of the page -->
+<header id="header">
+	<div class="container d-flex justify-content-between align-items-center">
+		<!-- page logo -->
+		<div class="logo">
+			<a href="{{ site.url }}">
+				<picture>
+					<source srcset="{{ site.url }}/images/logo.png, {{ site.url }}/images/logo@2x.png 2x">
+					<img src="{{ site.url }}/images/logo.png" alt="{{ site.title }}">
+				</picture>
+			</a>
+		</div>
+		<!--burger button -->
+		<div class="ml-auto burger-wrap">
+			<a href="#" class="nav-opener" role="button">
+				<span ></span>
+			</a>
+		</div>
+		<!-- main navigation of the page -->
+		<div class="nav-holder d-flex">
+			<div class="drop d-flex w-100 flex-column flex-md-row">
+				<ul id="nav" class="list-unstyled mb-0 d-flex flex-column flex-md-row align-items-end align-items-md-center text-uppercase">
+					{% for link in site.data.navigation.main_nav %}
+					<li class="{% if page.url == link.url %}active{% endif %} {% if link.color %}{{ link.color }}{% endif %}">
+						<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+				<div class="drop-footer d-md-none d-flex flex-column align-items-end">
+					<!-- switch language links -->
+					<ul class="languages list-unstyled mb-0 d-flex">
+						<li class="active">
+							<a href="#">EN</a>
+						</li>
+						<li>
+							<a href="#">DE</a>
+						</li>
+					</ul>
+					<!-- Link to Imprint page -->
+					<div class="imprint-block">
+						<a class="text-uppercase" href="{{ site.url }}/impressum.html">Imprint</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

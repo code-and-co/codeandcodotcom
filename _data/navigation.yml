@@ -1,0 +1,17 @@
+# ---------------------------------------------------------
+#  Main Navigation Site Links
+# ---------------------------------------------------------
+
+main_nav:
+  - title: 'Consulting'
+    url: '/consulting.html'
+
+  - title: 'Labs'
+    url: '/labs.html'
+    color: 'secondary'
+
+  - title: 'Team'
+    url: '/team.html'
+
+  - title: 'Contact'
+    url: '/contact.html'

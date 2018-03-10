@@ -1,0 +1,49 @@
+---
+layout: default
+title: 'Platform Sprints'
+description: ''
+keywords: ''
+body_class: 'platform-sprints-page'
+---
+
+<section class="page-hero d-flex bg-light">
+	<div class="container d-flex flex-column w-100 justify-content-center align-items-center">
+		<div class="inner text-center">
+			<h1>Platform Sprints</h1>
+			<p>Many tech projects start out with a lot of questions and uncertainty. Our Platform Sprints are designed to focus, kickstart and / or accelerate digital projects, guiding teams through the product development process.</p>
+			<div class="btn-wrap">
+				<a class="btn btn-link smooth-anchor" href="#smooth-anchor" role="button">
+					<span>Learn more</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="smooth-anchor" class="platform-section bg-light">
+	<div class="container">
+		<header class="section-header text-center ml-auto mr-auto">
+			<h2>Our Framework</h2>
+			<p>From conceptualizing engineering architecture and UX flows to creating team structure, we help teams focus on the right problem and avoid missing crucial steps in the early stages of product development.</p>
+		</header>
+		<!-- Shape Card -->
+		{% include cards/shape-card.html block_content=site.data.cards.shape_card %}
+		<div class="text-block text-center ml-auto mr-auto">
+			<p>In our inception phase we start out by understanding the scope of the problem, conducting research and identifying domain specifics.  We then create a product and technology roadmap to solve the problem using the best possible technology stack. The ultimate implementation varies and ranges from developing a clear “product instruction manual” to hands-on digital product development – whatever the solution demands.
+			</p>
+		</div>
+		<!-- Brands Block -->
+		{% include blocks/brands.html block_content=site.data.brands.our_clients_platform_sprint add_class="ml-auto mr-auto" list_class="justify-content-center" %}
+	</div>
+</section>
+<div class="platform-case-block bg-light">
+	<div class="container">
+		<!-- Case Article Volkswagen Group -->
+		{% include blocks/case-article.html block_content = site.data.case-article.case_volkswagen_group add_class="" %}
+	</div>
+</div>
+<div class="platform-bottom bg-light">
+	<div class="container">
+		<!-- Get In Touch Block -->
+		{% include blocks/get-in-touch.html block_content = site.data.content.get_in_touch_home add_class="text-center" %}
+	</div>
+</div>

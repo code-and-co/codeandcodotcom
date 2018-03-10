@@ -1,0 +1,183 @@
+/* 6.4 Team Page */
+.team-page{
+	.page-hero .container{
+		@include media ('>=desktop') {
+			padding-bottom: 80px;
+		}
+	}
+	.page-hero .inner {
+		padding: 0 0 40px;
+	}
+}
+
+.team-block{
+	padding: 0 0 3rem;
+	@include media ('>=widescreen') {
+		padding: 0 0 12.8rem;
+	}
+	.team-cards{
+		position: relative;
+		top: -89px;
+		margin-bottom: -89px !important;
+		@include media ('>=widescreen') {
+			margin-bottom: 50px !important;
+		}
+	}
+}
+
+.works-block{
+	padding: 3rem 0 1rem;
+	@include media ('>=tablet') {
+		padding: 6rem 0 3rem;
+	}
+	@include media ('>=widescreen') {
+		padding: 0 0 7.2rem;
+	}
+	.brand-section{
+		margin: 0 0 4rem;
+		@include media ('>=widescreen') {
+			position: relative;
+			top: -227px;
+			margin: 0 0 -79px;
+		}
+	}
+	.text-block{
+		margin-bottom: 3rem !important;
+		@include media ('>=tablet') {
+			margin-bottom: 4rem !important;
+		}
+		@include media ('>=desktop') {
+			margin-bottom: 6.8rem !important;
+		}
+	}
+	.img-block{
+		margin: 0 0 3rem;
+		@include media ('>=tablet') {
+			margin: 0 0 4rem;
+		}
+		@include media ('>=desktop') {
+			margin: 0 0 6.8rem;
+		}
+		img{
+			@include media ('<desktop') {
+				width: 100%;
+			}
+		}
+	}
+	.order-list{
+		@include media ('>=tablet') {
+			padding: 2.4rem 0 0;
+		}
+		@include media ('>=widescreen') {
+			margin: 0 -20px .2rem !important;
+		}
+		>li{
+			margin: 0 0 2rem;
+			@include media ('>=desktop') {
+				margin: 0 0 6rem;
+			}
+		}
+	}
+}
+
+.order-list{
+	counter-reset: i;
+	>li{
+		margin: 0 0 2rem;
+		>div{
+			padding-left: 2.3em;
+			position: relative;
+		}
+	}
+	.count{
+		@include gradient-text('linear-gradient(225deg, #5b93ca 0%, #7961b9 100%)', 'light');
+		position: absolute !important;
+		top: .2em;
+		left: -2.5em;
+		line-height: 1;
+		&:after{
+			counter-increment: i;
+			content: '0' counter(i);
+			font-size: 14px;
+			color: theme-color("primary");
+		}
+	}
+	.subtitle{
+		position: relative;
+		font-size: 14px;
+		margin: 0 0 1.3em;
+	}
+	p{
+		margin: 0;
+	}
+}
+
+.team-img-list{
+	@extend %clearfix;
+	padding: 3px 15px 0;
+	>li{
+		width: 100%;
+		float: left;
+		@include media ('>=tablet') {
+			width: 34.8%;
+		}
+		&:nth-of-type(1){
+			picture{
+				&:first-child{
+					@include media ('>=tablet') {
+						margin: 0 0 13.5%;
+					}
+				}
+			}
+		}
+		&:nth-of-type(2){
+			@include media ('>=tablet') {
+				float: right;
+				width: 60.9%;
+			}
+		}
+	}
+	picture{
+		display: block;
+		@include media ('<tablet') {
+			margin: 0 0 1rem;
+		}
+	}
+	img{
+		width: 100%;
+	}
+}
+
+.join-team{
+	.get-in-touch-section {
+		@include media ('>=tablet') {
+			padding-top: 4.9rem;
+			padding-bottom: 1rem;
+		}
+	}
+}
+
+.benefits-section{
+	padding: 3rem 0;
+	@include media ('>=tablet') {
+		padding: 7.6rem 0 6rem;
+	}
+	.section-header{
+		margin: 0 0 3rem;
+		@include media ('>=tablet') {
+			margin: 0 0 4rem;
+		}
+		@include media ('>=widescreen') {
+			margin: 0 0 7.1rem;
+		}
+	}
+}
+
+.team-bottom{
+	.get-in-touch-section{
+		@include media ('>=tablet') {
+			padding-top: 4.1rem;
+			padding-bottom: 6.8rem;
+		}
+	}
+}

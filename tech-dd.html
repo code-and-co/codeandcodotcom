@@ -1,0 +1,133 @@
+---
+layout: default
+title: 'Tech Due Diligence Assessments'
+description: ''
+keywords: ''
+body_class: 'tech-dd-page'
+---
+
+<section class="page-hero d-flex justify-content-center bg-light">
+	<div class="container d-flex flex-column w-100 justify-content-center align-items-center">
+		<div class="inner text-center">
+			<h1>Tech Due Diligence &amp; Assessments</h1>
+			<p>We deliver an in-depth analysis on technology, product and engineering. We are quick to spot potential risks, but also uncover hidden magic in teams and highlight real potential that often goes unseen. Our thorough framework of discovery, immersion and evaluation ensures we see the company from the inside and provide real, actionable recommendations on how to solve problems.</p>
+		</div>
+	</div>
+</section>
+<div class="belive-block bg-light">
+	<div class="container wide-md">
+		<!-- Tech DD Card -->
+		{% include cards/tech-dd-card.html block_content=site.data.cards.tech_dd_card add_class="" %}
+		<div class="text-block text-center ml-auto mr-auto">
+			<h2>What We Believe In</h2>
+			<p>In our experience, the success of a tech company is heavily dependent on practical yet scalable tech decisions, a strong focus on its users and a well-executed engineering culture. We consider the reality of the dynamic, fast and stressful life-cycle of a startup and the simultaneous need for engineering excellence and user experience best practices. We offer both vendor and seller due diligence to venture capitalist firms, private equity funds, and strategic investors.</p>
+		</div>
+		<!-- Brands Block -->
+		{% include blocks/brands.html block_content=site.data.brands.our_clients add_class="ml-auto mr-auto" list_class="justify-content-center" %}
+	</div>
+</div>
+<div class="shapeshift-block bg-light">
+	<div class="container">
+		<!-- Case Article Shapeshift.io -->
+		{% include blocks/case-article.html block_content = site.data.case-article.case_shapeshift add_class="" %}
+	</div>
+</div>
+<section class="framework-section bg-light">
+	<div class="container wide-xs">
+		<header class="section-header text-center ml-auto mr-auto">
+			<h2>Our Framework</h2>
+			<p>Every tech company addresses challenges in its own way; we consider and address the following universal factors that are crucial for continued success: past decisions, current processes and the road ahead, vetted against industry standards.</p>
+			<p>We deliver a comprehensive visual analysis that details our key insights so you can make informed and confident decisions.</p>
+			<p>Our proven framework gives a clear assessment of status and potential. We adapt our framework for each project, yet the foundation remains the same, allowing us to benchmark against previous projects.</p>
+		</header>
+		<ul class="d-flex flex-wrap flex-md-nowrap arrow-item-list list-unstyled mb-0">
+			<li class="d-flex">
+				<div class="arrow-item">
+					<h3 class="subtitle"><span class="count"></span> DISCOVERY</h3>
+					<ul class="circle-list list-unstyled mb-0">
+						<li>Idea &amp; USP</li>
+						<li>Team &amp; Past Decisions</li>
+						<li>Domain Specifics</li>
+						<li>Architecture &amp; Infrastructure</li>
+						<li>Platform Strategy</li>
+						<li>And more</li>
+					</ul>
+				</div>
+			</li>
+			<li class="d-flex">
+				<div class="arrow-item">
+					<h3 class="subtitle"><span class="count"></span> IMMERSION</h3>
+					<ul class="circle-list list-unstyled mb-0">
+						<li>Expert Interviews</li>
+						<li>Mock Onboarding</li>
+						<li>Code Review</li>
+						<li>Roadmap Analysis</li>
+						<li>User Experience</li>
+						<li>And more</li>
+					</ul>
+				</div>
+			</li>
+			<li class="d-flex">
+				<div class="arrow-item">
+					<h3 class="subtitle"><span class="count"></span> EVALUATION</h3>
+					<ul class="circle-list list-unstyled mb-0">
+						<li>Analysis of Findings</li>
+						<li>Actionable Advice</li>
+						<li>Due Diligence Report</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<section class="section-list bg-light">
+	<div class="container wide-sm">
+		<header class="text-center">
+			<h2>Our Framework | Technology</h2>
+		</header>
+		<ul class="svc-list d-flex flex-wrap list-unstyled mb-0">
+			{% for list in site.data.content.framework_technology_list %}
+			<li>
+				<h3 class="subtitle">{{ list.heading }}</h3>
+				<p>{{ list.text }}</p>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+<section class="section-list bg-light">
+	<div class="container wide-sm">
+		<header class="text-center">
+			<h2>Our Framework | Product</h2>
+		</header>
+		<ul class="svc-list d-flex flex-wrap list-unstyled mb-0">
+			{% for list in site.data.content.framework_product_list %}
+			<li>
+				<h3 class="subtitle">{{ list.heading }}</h3>
+				<p>{{ list.text }}</p>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+<section class="section-list bg-light">
+	<div class="container wide-sm">
+		<header class="text-center">
+			<h2>Our Framework | Engineering</h2>
+		</header>
+		<ul class="svc-list d-flex flex-wrap list-unstyled mb-0">
+			{% for list in site.data.content.framework_engineering_list %}
+			<li>
+				<h3 class="subtitle">{{ list.heading }}</h3>
+				<p>{{ list.text }}</p>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+<div class="tech-dd-bottom bg-light">
+	<div class="container">
+		<!-- Get In Touch Block -->
+		{% include blocks/get-in-touch.html block_content = site.data.content.get_in_touch_home add_class="text-center" %}
+	</div>
+</div>

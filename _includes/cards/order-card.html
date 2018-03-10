@@ -1,0 +1,10 @@
+<ol class="order-card-list list-unstyled mb-0 row {{ include.add_class }}">
+	{% for card in include.block_content %}
+	<li class="col col-12 col-md-6 col-lg-4 d-flex">
+		<div class="order-card">
+			<h3 class="subtitle"><span class="count"></span>{{ card.heading }}</h3>
+			<p>{{ card.text }}</p>
+		</div>
+	</li>
+	{% endfor %}
+</ol>

@@ -1,0 +1,78 @@
+---
+layout: default
+title: 'Case Study: Volkswagen Group'
+description: ''
+keywords: ''
+body_class: ''
+---
+
+<section class="page-hero full-height d-flex justify-content-center bg-light">
+	<div class="container wide-lg d-flex flex-column w-100 justify-content-center align-items-center">
+		<div class="row align-items-center w-100">
+			<div class="col col-12 col-sm-6 order-1">
+				<div class="page-hero-body">
+					<h1>Case Study: Volkswagen Group</h1>
+					<span class="subtitle">Platform Sprint</span>
+					<p>We were hired as a task force for an extended mission-critical situation to conceptualize and build an application for the IAA Preview Night, invite-only event in 4 weeks.</p>
+					<div class="btn-wrap">
+						<a class="link smooth-anchor" href="#smooth-anchor" role="button">
+							<span>Learn more</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col col-12 col-sm-5 offset-sm-1 order-sm-2 mb-4 mb-sm-0">
+				<!-- picturefill: full manual control -->
+				<picture>
+					<source srcset="{{ site.url }}/images/case-article/iphone-img.png, {{ site.url }}/images/case-article/iphone-img@2x.png 2x">
+					<img src="{{ site.url }}/images/case-article/iphone-img.png" alt="iPhone">
+				</picture>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="smooth-anchor" class="building-section bg-light">
+	<div class="container wide-lg">
+		<header>
+			<h2 class="text-center mb-0">Building a Global Mobile Newsroom in 4 Weeks</h2>
+		</header>
+		<div class="row align-items-center mb-5">
+			<div class="col col-12 col-sm-6">
+				<!-- picturefill: full manual control -->
+				<picture>
+					<source srcset="{{ site.url }}/images/case-article/iPhone6s-Free_Silver2.png, {{ site.url }}/images/case-article/iPhone6s-Free_Silver2@2x.png 2x">
+					<img src="{{ site.url }}/images/case-article/iPhone6s-Free_Silver2.png" alt="iPhone Silver">
+				</picture>
+			</div>
+			<div class="col col-12 col-sm-6 col-md-5 offset-md-1">
+				<h2 class="mb-4">Key Challenges</h2>
+				{% include blocks/list.html block_content=site.data.content.key_challenges_list add_class="circle-list list-unstyled mb-0"%}
+			</div>
+		</div>
+		<div class="clearfix d-block d-md-flex row align-items-center pt-1">
+			<div class="col d-md-block col-6 float-right float-md-none order-md-2">
+				<!-- picturefill: full manual control -->
+				<picture class="stick-right">
+					<source srcset="{{ site.url }}/images/case-article/Msc.png, {{ site.url }}/images/case-article/Msc@2x.png 2x">
+					<img src="{{ site.url }}/images/case-article/Msc.png" alt="Laptop">
+				</picture>
+			</div>
+			<div class="col col-12 col-md-6">
+				<h2 class="mb-4">Feature Scope</h2>
+				<p class="mb-4">Working closely with key Volkswagen Group stakeholders, we conceptualized the application prioritising key user and strategic features for the tight deadline.</p>
+				{% include blocks/list.html block_content=site.data.content.feature_scope_list add_class="circle-list list-unstyled mb-0"%}
+			</div>
+		</div>
+		<div class="text-block text-center mr-auto ml-auto">
+			<h2>Startup Pragmatism</h2>
+			<p>We iteratively conceptialized, designed, built and tested the application successfully, bringing it to a level much greater than the average MVP in time for the event. The app now serves as the Volkswagen Group Newsroom, media address book and events guide for all future Group events.</p>
+		</div>
+	</div>
+</section>
+<div class="csvg-bottom bg-light">
+	<div class="container">
+		{% include blocks/get-in-touch.html block_content=site.data.content.get_in_touch_csvg add_class="text-center" %}
+	</div>
+</div>
+
+

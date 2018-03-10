@@ -1,0 +1,16 @@
+/* 4.3 Case Article */
+.case-article{
+	padding: 0;
+	@include media ('>=tablet') {
+		padding: 30px 0;
+	}
+	@include media ('>=desktop') {
+		padding: 65px 0 64px;
+	}
+	h2{
+		margin: 0 0 12px;
+	}
+	.subtitle{
+		margin: 0 0 20px;
+	}
+}

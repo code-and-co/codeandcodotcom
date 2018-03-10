@@ -1,0 +1,37 @@
+/* 6.3 Labs Page styles */
+.key-ares-section{
+	padding: 3.9rem 0 0;
+	.section-header{
+		margin: 0 0 63px;
+	}
+	.order-card-list{
+		@include media ('>=desktop') {
+			margin: 0 0 -17% !important;
+		}
+	}
+}
+
+.ventures-block{
+	padding: 3rem 0 0;
+	@include media ('>=desktop') {
+		padding: 16rem 0 5.6rem;
+	}
+	.entry-section{
+		&:not(:nth-last-of-type(1)){
+			margin: 0 0 2.8rem;
+			@include media ('>=widescreen') {
+				margin: 0 0 5.8rem;
+			}
+		}
+	}
+	h2{
+		margin: 0 0 64px;
+	}
+}
+
+.labs-bottom {
+	padding: 3rem 0;
+	@include media ('>=widescreen') {
+		padding: 5.7rem 0 12.5rem;
+	}
+}

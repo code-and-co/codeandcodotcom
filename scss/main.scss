@@ -1,0 +1,82 @@
+/* ---------------------------------------------------------
+   1. Embedded fonts styles
+   2. Embedded Icomoon fonts styles
+   3. Common site styles
+   4. Components styles
+      4.1 Buttons
+      4.2 Card 
+      4.3 Case Article 
+   5. Header site styles
+   6. Pages site styles
+      6.1 Home Page
+      6.2 Consulting Page
+      6.3 Labs Page
+      6.4 Team Page
+      6.5 Contact Page
+      6.6 Tech DD
+      6.7 CSVG Page
+      6.8 Platform Sprint
+      6.9 Digital Value Page
+      6.10 Case Study Article
+      6.11 Impressum
+   7. Footer site styles
+   8. Styles for responsive breakpoints
+   ---------------------------------------------------------*/
+
+$breakpoints: (
+	'xs-phone': 480px,
+	'phone': 576px,
+	'tablet': 768px,
+	'desktop': 992px,
+	'widescreen': 1200px,
+	'widedesktop': 1440px
+);
+
+// keywords
+$media-expressions: (
+	'screen': 'screen',
+	'print': 'print',
+	'handheld': 'handheld',
+	'landscape': '(orientation: landscape)',
+	'portrait': '(orientation: portrait)',
+	'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
+	'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
+);
+
+// ligatured operators ≥ ≤
+
+@import 'vendors/include-media';
+@import 'vendors/fonts';
+@import 'vendors/icomoon';
+
+@import "vendors/bootstrap/functions";
+@import "bootstrap-custom";
+@import "vendors/bootstrap/variables";
+@import "vendors/bootstrap/mixins";
+
+// @import "bootstrap";
+
+@import 'helpers/mixins';
+@import 'helpers/helpers';
+
+@import 'layout/common';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/case-article';
+@import 'layout/header';
+@import 'layout/pages/home-page';
+@import 'layout/pages/consulting-page';
+@import 'layout/pages/labs-page';
+@import 'layout/pages/team-page';
+@import 'layout/pages/contact-page';
+@import 'layout/pages/tech-dd';
+@import 'layout/pages/csvg-page';
+@import 'layout/pages/platform-sprint';
+@import 'layout/pages/digital-value-page';
+@import 'layout/pages/case-study-article';
+@import 'layout/pages/impressum';
+@import 'layout/footer';
+
+/* ---------------------------------------------------------
+   8. Styles for responsive breakpoints
+---------------------------------------------------------*/

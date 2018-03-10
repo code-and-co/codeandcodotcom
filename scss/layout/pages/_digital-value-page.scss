@@ -1,0 +1,50 @@
+/* 6.9 Digital Value Page styles */
+.digital-value-page{
+	.page-hero .container {
+		@include media ('>=desktop') {
+			padding-top: 139px;
+		}
+	}
+}
+
+.digital-framework-section{
+	padding: 3rem 0;
+	@include media ('>=desktop') {
+		padding: 5.8rem 0 0;
+	}
+	.section-header{
+		margin: 0 0 3rem;
+		p{
+			margin: 0 0 1.5rem;
+		}
+	}
+	.digital-card-list{
+		margin-bottom: 3rem !important;
+		@include media ('>=desktop') {
+			margin-bottom: 3.5rem !important;
+		}
+	}
+	.text-block{
+		margin: 0 0 5.7rem;
+	}
+	.brand-section{
+		max-width: 773px;
+		@include media ('>=desktop') {
+			margin: 0 0 -15.3%;
+		}
+	}
+}
+
+.digital-case-block{
+	padding: 3rem;
+	@include media ('>=desktop') {
+		padding: 14rem 0 6.3rem;
+	}
+}
+
+.digital-bottom{
+	padding: 3rem;
+	@include media ('>=desktop') {
+		padding: 7.5rem 0 10rem;
+	}
+}
