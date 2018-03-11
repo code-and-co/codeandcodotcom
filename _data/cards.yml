@@ -321,7 +321,7 @@ team-card_team:
         image_stub: true
     name: 'Paul Faecks'
     position: 'Digital Marketing'
-    about-text: 'Enjoys dogs and digital marketing, in that order.'
+    about-text: 'Enjoys dogs and digital marketing, in that order. Passionate about Blockchain and crypto technologies and economics.'
     interests:
       - 'Digital Marketing'
       - 'Game Theory'
@@ -342,7 +342,7 @@ benefits_card:
       - img: 'cards/bg-stub.jpg'
         img_2x: 'cards/bg-stub.jpg'
      heading: 'Steep Learning Curve'
-     text: "Throw yourself in the deep end, surrounded by support, learning everything from client-facing consulting to growing a digital venture."
+     text: "Throw yourself in the deep end, surrounded by support. Learn everything from client-facing consulting to growing a digital venture."
 
    - image:
       - img: 'cards/bg-stub.jpg'
@@ -354,7 +354,7 @@ benefits_card:
       - img: 'cards/bg-stub.jpg'
         img_2x: 'cards/bg-stub.jpg'
      heading: 'Funded Development'
-     text: "As a fully bootstrapped company, we have the luxury to experiment and explore. If you identify a solution to an actual problem, together, we can bring it live."
+     text: "As a fully bootstrapped company, we have the luxury to experiment and explore. If you identify a solution to a problem, together, we can bring it live."
 
    - image:
       - img: 'cards/bg-stub.jpg'
@@ -366,7 +366,7 @@ benefits_card:
       - img: 'cards/bg-stub.jpg'
         img_2x: 'cards/bg-stub.jpg'
      heading: 'Flexible Working Hours'
-     text: 'At code & co., output matters and just that. You will be measured by your work and not by b/s politics that involve "face time" or similar measures.'
+     text: 'Output matters and just that. You will be measured by your work and not by b/s politics that involve "face time" or similar measures.'
 
    - image:
       - img: 'cards/bg-stub.jpg'
@@ -378,13 +378,19 @@ benefits_card:
       - img: 'cards/bg-stub.jpg'
         img_2x: 'cards/bg-stub.jpg'
      heading: 'Central Berlin Office'
-     text: "It’s no secret that Berlin has become the epicentre of entrepreneurial dreams and potential as well as being a fun and beautiful city to live in."
+     text: "Our central office at Rosenthaler Platz is right at the epicenter of entrepreneurial dreams and Berlin itself is a fun and beautiful city to live in."
 
    - image:
       - img: 'cards/bg-stub.jpg'
         img_2x: 'cards/bg-stub.jpg'
      heading: 'Food and Drinks'
-     text: "We know we all perform best when we are comfortable at work. Snacks, coffee and regular team lunches keep us on point throughout the day."
+     text: "We all perform best when we are comfortable at work. Snacks, coffee and regular team lunches keep us on point throughout the day."
+
+   - image:
+      - img: 'cards/bg-stub.jpg'
+        img_2x: 'cards/bg-stub.jpg'
+     heading: 'Education Budget'
+     text: "We believe in lifelong learning. Each employee has a generous education budget they can use for leveling up."
 
    - image:
       - img: 'cards/bg-stub.jpg'

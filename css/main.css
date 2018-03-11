@@ -647,6 +647,7 @@ img {
 
 .btn {
   min-width: 10.875rem;
+  min-height: 3.125rem;
   line-height: 3rem;
   font-size: 0.875rem;
   font-weight: 600;
@@ -660,6 +661,7 @@ img {
 .btn.disable {
   pointer-events: none !important;
   opacity: .5;
+  position: initial;
 }
 
 .btn.disable:hover {
@@ -1333,6 +1335,7 @@ img {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
+  padding: 3px;
 }
 
 /* 4.1.5 Team Card Styles */
