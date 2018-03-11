@@ -4,22 +4,6 @@
     <list default="true" id="737f7e95-8afa-43bc-98c9-b4b7800c6328" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change beforePath="$PROJECT_DIR$/_site/404/index.html" afterPath="$PROJECT_DIR$/_site/404/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/case-study/it-works/index.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/case-study/it-works/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/index.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting/index.html" afterPath="$PROJECT_DIR$/_site/consulting/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting/platform-sprint/case-study/volkswagen-group/index.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/case-study/volkswagen-group/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting/platform-sprint/index.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/case-study/shapeshift/index.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/index.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" afterPath="$PROJECT_DIR$/_site/contact/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/disclaimer/index.html" afterPath="$PROJECT_DIR$/_site/disclaimer/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/impressum/index.html" afterPath="$PROJECT_DIR$/_site/impressum/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/labs/index.html" afterPath="$PROJECT_DIR$/_site/labs/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/team/index.html" afterPath="$PROJECT_DIR$/_site/team/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,21 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="37" selection-end-column="29" />
+              <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -118,8 +92,8 @@
         <option value="$PROJECT_DIR$/consulting/platform-sprint/case-study/volkswagen-group/index.html" />
         <option value="$PROJECT_DIR$/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
         <option value="$PROJECT_DIR$/consulting/technical-due-diligence/index.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -237,12 +211,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520690117443</updated>
       <workItem from="1520690119641" duration="767000" />
-      <workItem from="1520693237910" duration="16879000" />
+      <workItem from="1520693237910" duration="16989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17646000" />
+    <option name="totallyTimeSpent" value="17756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -536,18 +510,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding />
         </state>
       </provider>
