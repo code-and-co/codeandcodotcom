@@ -2,40 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737f7e95-8afa-43bc-98c9-b4b7800c6328" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change beforePath="$PROJECT_DIR$/_data/brands.yml" afterPath="$PROJECT_DIR$/_data/brands.yml" />
       <change beforePath="$PROJECT_DIR$/_data/cards.yml" afterPath="$PROJECT_DIR$/_data/cards.yml" />
-      <change beforePath="$PROJECT_DIR$/_data/case-article.yml" afterPath="$PROJECT_DIR$/_data/case-article.yml" />
-      <change beforePath="$PROJECT_DIR$/_data/content.yml" afterPath="$PROJECT_DIR$/_data/content.yml" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
-      <change beforePath="$PROJECT_DIR$/_includes/cards/team-card.html" afterPath="$PROJECT_DIR$/_includes/cards/team-card.html" />
       <change beforePath="$PROJECT_DIR$/_site/404/index.html" afterPath="$PROJECT_DIR$/_site/404/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/case-study-it-works.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/case-study/it-works/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/case-study-shapeshift.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/case-study-volkswagen-group.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/case-study/volkswagen-group/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/consulting.html" afterPath="$PROJECT_DIR$/_site/consulting/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/case-study/it-works/index.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/case-study/it-works/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/index.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/index.html" afterPath="$PROJECT_DIR$/_site/consulting/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/platform-sprint/case-study/volkswagen-group/index.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/case-study/volkswagen-group/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/platform-sprint/index.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/case-study/shapeshift/index.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/index.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/contact/index.html" afterPath="$PROJECT_DIR$/_site/contact/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/digital-value-drivers.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
       <change beforePath="$PROJECT_DIR$/_site/impressum/index.html" afterPath="$PROJECT_DIR$/_site/impressum/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/labs.html" afterPath="$PROJECT_DIR$/_site/labs/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/platform-sprint.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" afterPath="$PROJECT_DIR$/_site/robots.txt" />
+      <change beforePath="$PROJECT_DIR$/_site/labs/index.html" afterPath="$PROJECT_DIR$/_site/labs/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/team.html" afterPath="$PROJECT_DIR$/_site/team/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/tech-dd.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/index.html" />
-      <change beforePath="$PROJECT_DIR$/case-study-it-works.html" afterPath="$PROJECT_DIR$/consulting/digital-value-drivers/case-study/it-works/index.html" />
-      <change beforePath="$PROJECT_DIR$/case-study-shapeshift.html" afterPath="$PROJECT_DIR$/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
-      <change beforePath="$PROJECT_DIR$/case-study-volkswagen-group.html" afterPath="$PROJECT_DIR$/consulting/platform-sprint/case-study/volkswagen-group/index.html" />
-      <change beforePath="$PROJECT_DIR$/consulting.html" afterPath="$PROJECT_DIR$/consulting/index.html" />
-      <change beforePath="$PROJECT_DIR$/digital-value-drivers.html" afterPath="$PROJECT_DIR$/consulting/digital-value-drivers/index.html" />
-      <change beforePath="$PROJECT_DIR$/impressum/index.html" afterPath="$PROJECT_DIR$/impressum/index.html" />
-      <change beforePath="$PROJECT_DIR$/labs.html" afterPath="$PROJECT_DIR$/labs/index.html" />
-      <change beforePath="$PROJECT_DIR$/platform-sprint.html" afterPath="$PROJECT_DIR$/consulting/platform-sprint/index.html" />
-      <change beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team/index.html" />
-      <change beforePath="$PROJECT_DIR$/tech-dd.html" afterPath="$PROJECT_DIR$/consulting/technical-due-diligence/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/team/index.html" afterPath="$PROJECT_DIR$/_site/team/index.html" />
+      <change beforePath="$PROJECT_DIR$/consulting/digital-value-drivers/case-study/it-works/index.html" afterPath="$PROJECT_DIR$/consulting/digital-value-drivers/case-study/it-works/index.html" />
+      <change beforePath="$PROJECT_DIR$/consulting/technical-due-diligence/case-study/shapeshift/index.html" afterPath="$PROJECT_DIR$/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" afterPath="$PROJECT_DIR$/contact/index.html" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/team/index.html" afterPath="$PROJECT_DIR$/team/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="201">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -99,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/content.yml">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/disclaimer/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1334">
-              <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="56" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impressum/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,8 +112,28 @@
       <file leaf-file-name="cards.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/cards.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="209" column="25" lean-forward="false" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
+            <state relative-caret-position="236">
+              <caret line="29" column="65" lean-forward="false" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brands.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/brands.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="170" column="42" lean-forward="false" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -141,8 +161,13 @@
       <find>get_in_touch_labs</find>
       <find>get-in-touch.html</find>
       <find>team-card_labs</find>
-      <find>dan be</find>
       <find>site.url</find>
+      <find>we build and</find>
+      <find>We’re proud to work with the brightest minds from a wide rang</find>
+      <find>dan be</find>
+      <find>crucial for us</find>
+      <find>It's</find>
+      <find>’</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/labs/index.html" />
@@ -161,11 +185,14 @@
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/consulting/index.html" />
         <option value="$PROJECT_DIR$/_data/case-article.yml" />
-        <option value="$PROJECT_DIR$/_data/content.yml" />
-        <option value="$PROJECT_DIR$/_data/cards.yml" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/cards/team-card.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_data/cards.yml" />
+        <option value="$PROJECT_DIR$/_data/brands.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_data/content.yml" />
+        <option value="$PROJECT_DIR$/disclaimer/index.html" />
       </list>
     </option>
   </component>
@@ -202,17 +229,6 @@
             <path>
               <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeandcodotcom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeandcodotcom" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeandcodotcom" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-              <item name="cards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
@@ -290,6 +306,11 @@
             <path>
               <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeandcodotcom" type="462c0819:PsiDirectoryNode" />
+              <item name="disclaimer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeandcodotcom" type="462c0819:PsiDirectoryNode" />
               <item name="impressum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -352,12 +373,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520690117443</updated>
       <workItem from="1520690119641" duration="767000" />
-      <workItem from="1520693237910" duration="8657000" />
+      <workItem from="1520693237910" duration="10019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9424000" />
+    <option name="totallyTimeSpent" value="10786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -441,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impressum/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -469,14 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="95" lean-forward="false" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="95" />
           <folding />
         </state>
       </provider>
@@ -521,34 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/content.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1334">
-          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/cards.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="209" column="25" lean-forward="false" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/blocks/get-in-touch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -571,8 +552,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="201">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/cards.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="29" column="65" lean-forward="false" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="251" column="24" lean-forward="false" selection-start-line="251" selection-start-column="24" selection-end-line="251" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/brands.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="170" column="42" lean-forward="false" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/content.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/blocks/get-in-touch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impressum/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disclaimer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="56" selection-end-column="6" />
           <folding />
         </state>
       </provider>

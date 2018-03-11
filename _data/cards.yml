@@ -27,7 +27,7 @@ related_card:
 
   - heading: 'Labs'
     text:
-      - 'We build and scale ventures that leverage technology to solve real problems. We experiment with new technologies to create beautiful and scalable solutions.'
+      - 'We build and scale ventures that use technology to solve problems. We experiment with new technologies to create beautiful and scalable solutions.'
       - 'We write well crafted code and strive for great UX, usability and visual design.'
     btn_text: 'Our ventures'
     btn_link: 'labs'
