@@ -175,10 +175,10 @@ framework_product_list:
     text: 'These are the real foundations of growth and they are expensive to adjust. Operation and maintenance should come at manageable cost.'
   - heading: 'PRODUCT ROADMAP & VISION'
     text: 'Scaling a product comes with its own set of challenges and should be tackled with a thought through contingency plan.'
-  - heading: "UX & CONVERSION RATES"
-    text: "Companies must minimize the risk of data loss and have an emergency plan at hand to maintain their customers' trust."
+  - heading: "UX & CONVERSION RATE"
+    text: "Putting the user first is everything. Companies need to help customers understand the true value their product delivers – fast."
   - heading: "BRAND & VISUAL DESIGN"
-    text: "The goal is to write tested and extensible code that people can implement efficiently and enjoy working with."
+    text: "A brand is the sum of all experiences a user has with a company. It makes or breaks the loyalty of a user base."
   - heading: 'PLATFORM AUDIT'
     text: "The heart of software is its ability to efficiently solve and persist domain-related problems expressed in abstracted concepts."
 # end framework_product_list #

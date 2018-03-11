@@ -41,23 +41,23 @@ related_card:
 services_card:
   - heading: 'Tech Due Diligence'
     text:
-      - 'Pragmatic tech, product and UX risk assessments and technology due diligences with actionable advice on how to mitigate risks.'
+      - 'Pragmatic tech, product and UX risk assessments and technology due diligence with actionable advice on how to mitigate risks.'
       - 'Favored by PE funds, VCs and multinational corporations when an independent opinion can spot the right way forward.'
     link:
       - title: 'Learn more'
         url: 'consulting/technical-due-diligence'
     brands:
-      - img: 'cards/adobe.png'
-        img_2x: 'cards/adobe@2x.png'
-        alt: 'Adobe'
+      - img: 'cards/shapeshift.png'
+        img_2x: 'cards/shapeshift@2x.png'
+        alt: 'ShapeShift - Technical & Product Due Diligence by www.codeandco.com'
 
       - img: 'cards/kkr.png'
         img_2x: 'cards/kkr@2x.png'
-        alt: 'KKR'
+        alt: 'KKR - Technical & Product Due Diligence by www.codeandco.com'
 
       - img: 'cards/volkswagen.png'
         img_2x: 'cards/volkswagen@2x.png'
-        alt: 'Volkswagen'
+        alt: 'Volkswagen - Technical & Product Due Diligence by www.codeandco.com'
 
   - heading: 'Platform Sprint'
     text:
@@ -67,17 +67,17 @@ services_card:
       - title: 'Learn more'
         url: 'consulting/platform-sprint'
     brands:
-      - img: 'cards/delivery-hero.png'
-        img_2x: 'cards/delivery-hero@2x.png'
-        alt: 'Delivery Hero'
-
       - img: 'cards/volkswagen-2.png'
         img_2x: 'cards/volkswagen-2@2x.png'
-        alt: 'Volkswagen'
+        alt: 'Volkswagen Group - Platform Sprint by www.codeandco.com'
 
-      - img: 'cards/everjobs.png'
-        img_2x: 'cards/everjobs@2x.png'
-        alt: 'Everjobs'
+      - img: 'cards/volkswagen.png'
+        img_2x: 'cards/volkswagen@2x.png'
+        alt: 'Volkswagen - Platform Sprint by www.codeandco.com'
+
+      - img: 'cards/finleap.png'
+        img_2x: 'cards/finleap@2x.png'
+        alt: 'FinLeap: FinTech Company Builder - Platform Sprint by www.codeandco.com'
 
   - heading: 'Digital Value Drivers'
     text:
@@ -87,17 +87,17 @@ services_card:
       - title: 'Learn more'
         url: 'consulting/digital-value-drivers'
     brands:
-      - img: 'cards/innogy.png'
-        img_2x: 'cards/innogy@2x.png'
-        alt: 'Innogy'
+      - img: 'brands/heringschuppener.png'
+        img_2x: 'brands/heringschuppener@2x.png'
+        alt: 'HeringSchuppener – Digital Value Drivers by www.codeandco.com'
 
-      - img: 'cards/home24.png'
-        img_2x: 'cards/home24@2x.png'
-        alt: 'Home 24'
+      - img: 'brands/finstar.png'
+        img_2x: 'brands/finstar@2x.png'
+        alt: 'FinStar Financial Group – Digital Value Drivers by www.codeandco.com'
 
-      - img: 'cards/metro.png'
-        img_2x: 'cards/metro@2x.png'
-        alt: 'Metro'
+      - img: 'brands/finsbury.png'
+        img_2x: 'brands/finsbury@2x.png'
+        alt: 'Finsbury – Digital Value Drivers by www.codeandco.com'
 # end services_card #
 
 
@@ -109,7 +109,7 @@ order_card:
   - heading: 'Machine Learning & AI'
     text: 'Whether it is invisible interfaces, powered by voice commands, or self-driving cars, Machine Learning and AI will revolutionize how we use computers to solve problems. There will be Machine Learning in everything.'
 
-  - heading: 'Augmented and Mixed Reality'
+  - heading: 'AR & Mixed Reality'
     text: 'What started with textual commands in a terminal and progressed to cursors and touch screens, will be irrevocably changed when the physical and virtual worlds meet for a new paradigm of human-machine interaction.'
 
   - heading: 'Blockchain & Crypto'
@@ -210,9 +210,7 @@ team-card_team:
       - 'Machine Learning'
     social_networks:
       - icon: 'linkedin'
-        link: 'www.linkedin.com/in/thedanbender'
-      - icon: 'twitter'
-        link: 'https://twitter.com/thedanbender'
+        link: 'https://www.linkedin.com/in/thedanbender'
       - icon: 'instagram'
         link: 'https://twitter.com/thedanbender'
       - icon: 'github'
@@ -232,8 +230,6 @@ team-card_team:
     social_networks:
       - icon: 'linkedin'
         link: 'https://www.linkedin.com/in/ingelheim'
-      - icon: 'twitter'
-        link: 'https://twitter.com/LukasIngelheim'
       - icon: 'instagram'
         link: 'https://twitter.com/LukasIngelheim'
       - icon: 'github'
@@ -363,7 +359,7 @@ benefits_card:
    - image:
       - img: 'cards/bg-stub.jpg'
         img_2x: 'cards/bg-stub.jpg'
-     heading: 'Choose Your Hardwear'
+     heading: 'Choose Your Hardware'
      text: "We use technology to produce impactful work and we’ll make sure your utility belt is up to the challenges of every day."
 
    - image:
@@ -439,7 +435,7 @@ tech_dd_card:
 #
 # start shape_card #
 shape_card:
-  - 'Problem &amp; Opportunit'
+  - 'Problem &amp; Opportunity'
   - 'Inception'
   - 'Immersion'
   - 'Implementation'
