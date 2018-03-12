@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="737f7e95-8afa-43bc-98c9-b4b7800c6328" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change beforePath="$PROJECT_DIR$/_data/cards.yml" afterPath="$PROJECT_DIR$/_data/cards.yml" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change beforePath="$PROJECT_DIR$/_site/404/index.html" afterPath="$PROJECT_DIR$/_site/404/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/case-study/it-works/index.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/case-study/it-works/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/index.html" afterPath="$PROJECT_DIR$/_site/consulting/digital-value-drivers/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/index.html" afterPath="$PROJECT_DIR$/_site/consulting/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/platform-sprint/case-study/volkswagen-group/index.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/case-study/volkswagen-group/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/platform-sprint/index.html" afterPath="$PROJECT_DIR$/_site/consulting/platform-sprint/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/case-study/shapeshift/index.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/index.html" afterPath="$PROJECT_DIR$/_site/consulting/technical-due-diligence/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" afterPath="$PROJECT_DIR$/_site/contact/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/disclaimer/index.html" afterPath="$PROJECT_DIR$/_site/disclaimer/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change beforePath="$PROJECT_DIR$/_site/impressum/index.html" afterPath="$PROJECT_DIR$/_site/impressum/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/labs/index.html" afterPath="$PROJECT_DIR$/_site/labs/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/team/index.html" afterPath="$PROJECT_DIR$/_site/team/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +34,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consulting/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="598">
+              <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services-card.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/cards/services-card.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cards.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/cards.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="99" column="69" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="99" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="7841" column="3" lean-forward="false" selection-start-line="7841" selection-start-column="3" selection-end-line="7841" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -31,13 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>we build and</find>
-      <find>We’re proud to work with the brightest minds from a wide rang</find>
-      <find>dan be</find>
-      <find>crucial for us</find>
-      <find>It's</find>
-      <find>’</find>
-      <find>}</find>
       <find>services_card</find>
       <find>due diligences</find>
       <find>OPPORTUNIT</find>
@@ -61,6 +131,13 @@
       <find>While we don’t actively advertise</find>
       <find>join_us_team_bottom</find>
       <find>.disable</find>
+      <find>shapeshift</find>
+      <find>;AMP</find>
+      <find>adobe</find>
+      <find>header.h</find>
+      <find>d-md-none</find>
+      <find>sorted_pages</find>
+      <find>main_nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,7 +148,6 @@
       <list>
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/_data/case-article.yml" />
         <option value="$PROJECT_DIR$/_data/brands.yml" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -85,15 +161,16 @@
         <option value="$PROJECT_DIR$/impressum/index.html" />
         <option value="$PROJECT_DIR$/team/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/_data/cards.yml" />
         <option value="$PROJECT_DIR$/_includes/blocks/get-in-touch.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/consulting/digital-value-drivers/case-study/it-works/index.html" />
         <option value="$PROJECT_DIR$/consulting/platform-sprint/case-study/volkswagen-group/index.html" />
         <option value="$PROJECT_DIR$/consulting/technical-due-diligence/case-study/shapeshift/index.html" />
         <option value="$PROJECT_DIR$/consulting/technical-due-diligence/index.html" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_data/cards.yml" />
+        <option value="$PROJECT_DIR$/_data/navigation.yml" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
       </list>
     </option>
   </component>
@@ -139,12 +216,7 @@
             <path>
               <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeandcodotcom" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeandcodotcom" type="462c0819:PsiDirectoryNode" />
-              <item name="disclaimer" type="462c0819:PsiDirectoryNode" />
+              <item name="consulting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeandcodotcom" type="b2602c69:ProjectViewProjectNode" />
@@ -174,7 +246,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="conf&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_config.yml&#10;con&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_config.yml&#10;robot&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_site/robots.txt&#10;head&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/head.html&#10;contact&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_site/contact&#10;get&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/blocks/get-in-touch.html&#10;main.&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/css/main.css&#10;labs-card.html&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/cards/labs-card.html&#10;config&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_config.yml&#10;header&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/header.html&#10;consulting&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/consulting&#10;team&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/cards/team-card.html&#10;labs/&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/labs&#10;get-&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/blocks/get-in-touch.html&#10;labsc&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/cards/labs-card.html&#10;footer&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/dist/_includes/footer.html" />
+    <property name="SearchEverywhereHistoryKey" value="service&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/cards/services-card.html&#10;conf&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_config.yml&#10;con&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_config.yml&#10;robot&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_site/robots.txt&#10;head&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/head.html&#10;contact&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_site/contact&#10;get&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/blocks/get-in-touch.html&#10;main.&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/css/main.css&#10;labs-card.html&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/cards/labs-card.html&#10;config&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_config.yml&#10;header&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/header.html&#10;consulting&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/consulting&#10;team&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/cards/team-card.html&#10;labs/&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/labs&#10;get-&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/blocks/get-in-touch.html&#10;labsc&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/codeandcodotcom/_includes/cards/labs-card.html&#10;footer&#9;FILE&#9;file:///Users/dan/Code/codeandco/codeandco.com/dist/_includes/footer.html" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -211,12 +283,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520690117443</updated>
       <workItem from="1520690119641" duration="767000" />
-      <workItem from="1520693237910" duration="16989000" />
+      <workItem from="1520693237910" duration="19348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17756000" />
+    <option name="totallyTimeSpent" value="20115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -260,14 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consulting/platform-sprint/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -280,14 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -372,22 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disclaimer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consulting/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -418,14 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/cards.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="392" column="120" lean-forward="false" selection-start-line="392" selection-start-column="120" selection-end-line="392" selection-end-column="120" />
           <folding />
         </state>
       </provider>
@@ -502,6 +534,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disclaimer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -510,18 +558,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/_includes/cards/services-card.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_data/cards.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="568">
+          <caret line="99" column="69" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="99" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/404/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="100" column="40" lean-forward="false" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consulting/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7841" column="3" lean-forward="false" selection-start-line="7841" selection-start-column="3" selection-end-line="7841" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding />
         </state>
       </provider>

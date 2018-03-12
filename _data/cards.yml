@@ -46,18 +46,18 @@ services_card:
     link:
       - title: 'Learn more'
         url: 'consulting/technical-due-diligence'
-    brands:
-      - img: 'cards/shapeshift.png'
-        img_2x: 'cards/shapeshift@2x.png'
-        alt: 'ShapeShift - Technical & Product Due Diligence by www.codeandco.com'
-
-      - img: 'cards/kkr.png'
-        img_2x: 'cards/kkr@2x.png'
-        alt: 'KKR - Technical & Product Due Diligence by www.codeandco.com'
-
-      - img: 'cards/volkswagen.png'
-        img_2x: 'cards/volkswagen@2x.png'
-        alt: 'Volkswagen - Technical & Product Due Diligence by www.codeandco.com'
+#    brands:
+#      - img: 'cards/adobe.png'
+#        img_2x: 'cards/adobe@2x.png'
+#        alt: 'Adobe - Technical & Product Due Diligence by www.codeandco.com'
+#
+#      - img: 'cards/kkr.png'
+#        img_2x: 'cards/kkr@2x.png'
+#        alt: 'KKR - Technical & Product Due Diligence by www.codeandco.com'
+#
+#      - img: 'cards/volkswagen.png'
+#        img_2x: 'cards/volkswagen@2x.png'
+#        alt: 'Volkswagen - Technical & Product Due Diligence by www.codeandco.com'
 
   - heading: 'Platform Sprint'
     text:
@@ -66,18 +66,18 @@ services_card:
     link:
       - title: 'Learn more'
         url: 'consulting/platform-sprint'
-    brands:
-      - img: 'cards/volkswagen-2.png'
-        img_2x: 'cards/volkswagen-2@2x.png'
-        alt: 'Volkswagen Group - Platform Sprint by www.codeandco.com'
-
-      - img: 'cards/volkswagen.png'
-        img_2x: 'cards/volkswagen@2x.png'
-        alt: 'Volkswagen - Platform Sprint by www.codeandco.com'
-
-      - img: 'cards/finleap.png'
-        img_2x: 'cards/finleap@2x.png'
-        alt: 'FinLeap: FinTech Company Builder - Platform Sprint by www.codeandco.com'
+#    brands:
+#      - img: 'cards/volkswagen-2.png'
+#        img_2x: 'cards/volkswagen-2@2x.png'
+#        alt: 'Volkswagen Group - Platform Sprint by www.codeandco.com'
+#
+#      - img: 'cards/volkswagen.png'
+#        img_2x: 'cards/volkswagen@2x.png'
+#        alt: 'Volkswagen - Platform Sprint by www.codeandco.com'
+#
+#      - img: 'cards/finleap.png'
+#        img_2x: 'cards/finleap@2x.png'
+#        alt: 'FinLeap: FinTech Company Builder - Platform Sprint by www.codeandco.com'
 
   - heading: 'Digital Value Drivers'
     text:
@@ -86,18 +86,18 @@ services_card:
     link:
       - title: 'Learn more'
         url: 'consulting/digital-value-drivers'
-    brands:
-      - img: 'brands/heringschuppener.png'
-        img_2x: 'brands/heringschuppener@2x.png'
-        alt: 'HeringSchuppener – Digital Value Drivers by www.codeandco.com'
-
-      - img: 'brands/finstar.png'
-        img_2x: 'brands/finstar@2x.png'
-        alt: 'FinStar Financial Group – Digital Value Drivers by www.codeandco.com'
-
-      - img: 'brands/finsbury.png'
-        img_2x: 'brands/finsbury@2x.png'
-        alt: 'Finsbury – Digital Value Drivers by www.codeandco.com'
+#    brands:
+#      - img: 'brands/heringschuppener.png'
+#        img_2x: 'brands/heringschuppener@2x.png'
+#        alt: 'HeringSchuppener – Digital Value Drivers by www.codeandco.com'
+#
+#      - img: 'brands/finstar.png'
+#        img_2x: 'brands/finstar@2x.png'
+#        alt: 'FinStar Financial Group – Digital Value Drivers by www.codeandco.com'
+#
+#      - img: 'brands/finsbury.png'
+#        img_2x: 'brands/finsbury@2x.png'
+#        alt: 'Finsbury – Digital Value Drivers by www.codeandco.com'
 # end services_card #
 
 
