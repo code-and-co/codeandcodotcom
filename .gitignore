@@ -1,2 +1,13 @@
+Gemfile
+Gemfile.lock
+node_modules
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+gulpfile.js
+package.json
+scss
+.DS_Store
 .idea
 .DS_Store
