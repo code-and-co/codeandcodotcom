@@ -5,13 +5,14 @@ function initFixedHeader(){
 	var header = jQuery('#header');
 	var win = jQuery(window);
 	if(header.length){
-		win.on('scroll', function(){
+		win.on('scroll load ready', function(){
 			if(win.scrollTop() > 0){
 				header.addClass('fixed');
 			}else{
 				header.removeClass('fixed');
 			}
 		});
+
 	}
 }
 
