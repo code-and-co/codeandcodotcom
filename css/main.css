@@ -3058,6 +3058,7 @@ img {
   .team-card:hover .overlay {
     opacity: 1;
     visibility: visible;
+    overflow: hidden;
   }
 
   .team-card .image-wrap {
@@ -3072,6 +3073,7 @@ img {
     overflow: hidden;
     overflow-y: auto;
     height: 320px;
+    width: 100%;
     opacity: 0;
     visibility: hidden;
     -webkit-transition-property: visibility, opacity;

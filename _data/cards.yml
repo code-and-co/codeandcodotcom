@@ -205,8 +205,8 @@ team-card_team:
     position: 'Founder · Product Strategy & UX'
     about-text: 'Developer, UX engineer and product strategist who builds and scales products that people love to use. Strives for great UX, exceptional usability and visual design.'
     interests:
+      - 'AR & Ambient Computing'
       - 'Mobile Engineering'
-      - 'Augmented Reality & Ambient Computing'
       - 'Machine Learning'
     social_networks:
       - icon: 'linkedin'
@@ -245,7 +245,7 @@ team-card_team:
     interests:
       - 'Machine Learning'
       - 'Big Data'
-      - 'Internet of Things'
+      - 'IoT'
     social_networks:
       - icon: 'linkedin'
         link: 'https://www.linkedin.com/in/jayasagar/'
@@ -390,7 +390,7 @@ benefits_card:
       - img: 'cards/bg-stub.jpg'
         img_2x: 'cards/bg-stub.jpg'
      heading: 'Education Budget'
-     text: "We believe in lifelong learning. Each employee has a generous education budget they can use for leveling up."
+     text: "We believe in life-long learning. Each employee has a generous education budget they can use for leveling up."
 
    - image:
       - img: 'cards/bg-stub.jpg'
@@ -447,3 +447,19 @@ shape_card:
   - 'Implementation'
   - 'Delivery'
 # end shape_card #
+
+
+
+#  11. Job Positions Card | Team Page
+#
+# start job_positions_card #
+job_positions_card:
+  - heading: 'UX / UI Designer'
+    link: 'https://www.google.com'
+
+  - heading: 'Frontend Developer'
+    link: 'https://www.google.com'
+
+  - heading: 'Associate'
+    link: 'https://www.google.com'
+# end job_positions_card #
