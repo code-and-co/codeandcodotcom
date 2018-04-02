@@ -14,9 +14,9 @@
 #
 # start worked_with #
 worked_with:
-  - heading: 'We\'ve Worked With'
+  - heading: 'We’ve Worked With'
     text: 
-      - 'We\'re proud to work with the brightest minds from a wide array of industries.'
+      - 'We’re proud to work with the brightest minds from a wide array of industries.'
     brands:
     - img: brands/thoughtWorks.png
       img_2x: brands/thoughtWorks@2x.png
@@ -111,46 +111,43 @@ alumni:
     - img: brands/thoughtWorks.png
       img_2x: brands/thoughtWorks@2x.png
       alt: Thought Works - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/rocketInternet.png
       img_2x: brands/rocketInternet@2x.png
       alt: Rocket Internet - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/merrill-lynch.png
       img_2x: brands/merrill-lynch@2x.png
       alt: Merrill Lynch - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
+
+    - img: brands/fraunhofer.png
+      img_2x: brands/fraunhofer@2x.png
+      alt: Fraunhofer Institut - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/heringschuppener.png
       img_2x: brands/heringschuppener@2x.png
       alt: Herring Schuppener - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
-    - img: brands/deutsche-bank.png
-      img_2x: brands/deutscheBank@2x.png
-      alt: Deutsche Bank - at www.codeandco.com
+    - img: brands/mckinsey.png
+      img_2x: brands/mckinsey@2x.png
+      alt: McKinsey - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/vodafone.png
       img_2x: brands/vodafone@2x.png
       alt: Vodafone - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
     - img: brands/d2d-logo-black.png
       img_2x: brands/d2d-logo-black@2x.png
       alt: Door 2 Door - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
-    - img: brands/projectA.png
-      img_2x: brands/projectA@2x.png
-      alt: Project A - at www.codeandco.com
-
-    - img: brands/detecon.png
-      img_2x: brands/detecon@2x.png
-      alt: Detecon - at www.codeandco.com
-
-    - img: brands/T-capitalPartners.png
-      img_2x: brands/T-capitalPartners@2x.png
-      alt: T-Capital Partners - at www.codeandco.com
-
-    - img: brands/Zalando.png
-      img_2x: brands/Zalando@2x.png
-      alt: Zalando - at www.codeandco.com
 # end alumni #
 
 

@@ -26,24 +26,24 @@ body_class: 'team-page'
             <!-- Team Card -->
             {% include cards/team-card.html block_content = site.data.cards.team-card_team add_class=""
             add_id="smooth-anchor" %}
-            <div class="row">
-                <div class="d-flex col col-12 col-sm-6">
-                    <div class="team-card w-100">
-                        <figure>
-                            <div class="image-wrap">
-                                <!-- retina cover structure -->
-                                <div class="bg-stretch">
-                                    <span data-srcset="{{ site.url }}/images/team/you.png, {{ site.url }}/images/team/you@2x.png 2x"></span>
-                                </div>
-                            </div>
-                            <figcaption>
-                                <h3>You?</h3>
-                                <a class="grdt-link smooth-anchor subtitle" href="#join-us">JOIN US</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
+            <!--<div class="row">-->
+                <!--<div class="d-flex col col-12 col-sm-6">-->
+                    <!--<div class="team-card w-100">-->
+                        <!--<figure>-->
+                            <!--<div class="image-wrap">-->
+                                <!--&lt;!&ndash; retina cover structure &ndash;&gt;-->
+                                <!--<div class="bg-stretch">-->
+                                    <!--<span data-srcset="{{ site.url }}/images/team/you.png, {{ site.url }}/images/team/you@2x.png 2x"></span>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<figcaption>-->
+                                <!--<h3>You?</h3>-->
+                                <!--<a class="grdt-link smooth-anchor subtitle" href="#join-us">JOIN US</a>-->
+                            <!--</figcaption>-->
+                        <!--</figure>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
     </div>
 </div>
@@ -60,15 +60,15 @@ body_class: 'team-page'
             <div class="col col-12 col-md-7 mb-3 mb-md-0">
                 <!-- picturefill: full manual control -->
                 <picture>
-                    <source srcset="{{ site.url }}/images/team1.jpg, {{ site.url }}/images/team1@2x.jpg 2x">
-                    <img src="{{ site.url }}/images/team1.jpg" alt="Team">
+                    <source srcset="{{ site.url }}/images/honda-talk.jpg, {{ site.url }}/images/honda-talk@2x.jpg 2x">
+                    <img class="img-shadow" src="{{ site.url }}/images/team1.jpg" alt="Dan Bender of code & co. (www.codeandco.com) presentating at Honda Innovation Summit">
                 </picture>
             </div>
             <div class="col col-12 col-md-5">
                 <!-- picturefill: full manual control -->
                 <picture>
-                    <source srcset="{{ site.url }}/images/nickTalk.jpg, {{ site.url }}/images/nickTalk@2x.jpg 2x">
-                    <img src="{{ site.url }}/images/nickTalk.jpg" alt="Nick Talk">
+                    <source srcset="{{ site.url }}/images/nick-talk.jpg, {{ site.url }}/images/nick-talk@2x.jpg 2x">
+                    <img class="img-shadow" src="{{ site.url }}/images/nickTalk.jpg" alt="Nick Morgan Jones of code & co. (www.codeandco.com) presentating at UX & UI meet-up">
                 </picture>
             </div>
         </div>
@@ -124,19 +124,19 @@ body_class: 'team-page'
                 <!-- picturefill: full manual control -->
                 <picture>
                     <source srcset="{{ site.url }}/images/team2.jpg, {{ site.url }}/images/team2@2x.jpg 2x">
-                    <img src="{{ site.url }}/images/team2.jpg" alt="Team">
+                    <img class="img-shadow" src="{{ site.url }}/images/team2.jpg" alt="code & co. (www.codeandco.com) has offices in vibrant Berlin, right at Rosenthaler Platz and close to Alexanderplatz">
                 </picture>
                 <!-- picturefill: full manual control -->
                 <picture>
                     <source srcset="{{ site.url }}/images/benTalk.jpg, {{ site.url }}/images/benTalk@2x.jpg 2x">
-                    <img src="{{ site.url }}/images/benTalk.jpg" alt="Ben Talk">
+                    <img class="img-shadow" src="{{ site.url }}/images/benTalk.jpg" alt="code & co. (www.codeandco.com) has offices in vibrant Berlin, right at Rosenthaler Platz and close to Alexanderplatz">
                 </picture>
             </li>
             <li>
                 <!-- picturefill: full manual control -->
                 <picture>
                     <source srcset="{{ site.url }}/images/tvTower.jpg, {{ site.url }}/images/tvTower@2x.jpg 2x">
-                    <img src="{{ site.url }}/images/tvTower.jpg" alt="TV Tower">
+                    <img class="img-shadow" src="{{ site.url }}/images/tvTower.jpg" alt="code & co. (www.codeandco.com) has offices in vibrant Berlin, right at Rosenthaler Platz and close to Alexanderplatz">
                 </picture>
             </li>
         </ul>
@@ -159,6 +159,7 @@ body_class: 'team-page'
             <li class="d-flex col col-12 col-sm-6 col-lg-4">
                 <div class="benefits-card">
                     <div class="image">
+                    <span class="perks-benefits-number">{{ forloop.index }}</span>
                         <!-- retina cover structure -->
                         <div class="bg-stretch">
                             {% for img in card.image %}
@@ -187,7 +188,7 @@ body_class: 'team-page'
 
             <ul class="benefits-card-list list-unstyled mb-0 row">
                 {% for card in site.data.cards.job_positions_card %}
-                <li class="d-flex col col-12 col-sm-6">
+                <li class="d-flex col col-12 col-sm-12">
                     <div class="card w-100">
                         <div class="card-body">
                             <div class="title">

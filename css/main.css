@@ -273,6 +273,12 @@ img {
   max-width: 1170px;
 }
 
+
+picture img.img-shadow {
+  background-color: #FCFCFC;
+  box-shadow: inset 0 4px 2px 0 rgba(255,255,255,0.75), 0 12px 17px 0 rgba(0,32,46,0.04);
+}
+
 .accessibility {
   position: absolute;
   left: -10000px;
@@ -2744,6 +2750,7 @@ img {
   .benefits-card:hover .overlay {
     visibility: visible;
     opacity: 1;
+    cursor: cell;
   }
 
   .benefits-card .overlay {
@@ -2764,6 +2771,20 @@ img {
     -webkit-transition-timing-function: ease-in-out;
     -o-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
+  }
+
+  .perks-benefits-number {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    opacity: .5;
+
   }
 
   .tech-dd-card {
@@ -3525,7 +3546,8 @@ img {
   }
 
   .related-card-list > li:not(:last-child) {
-    padding: 0 0 70px;
+    padding: 0 0 30px;
+    /* was 70 to show decor on mobile*/
   }
 
   .related-card-list > li:nth-of-type(even) .related-card .decor {
@@ -3542,6 +3564,9 @@ img {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+
+    /* hide decor on mobile */
+    display: none;
   }
 
   .services-card-list > li:not(:last-of-type) {
@@ -3643,6 +3668,7 @@ img {
   .team-img-list picture {
     margin: 0 0 1rem;
   }
+
 
   .belive-block .text-block {
     margin: 3rem 0;

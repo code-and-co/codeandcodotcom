@@ -107,13 +107,16 @@ services_card:
 # start order_card #
 order_card:
   - heading: 'Machine Learning & AI'
-    text: 'Whether it is invisible interfaces, powered by voice commands, or self-driving cars, Machine Learning and AI will revolutionize how we use computers to solve problems. There will be Machine Learning in everything.'
+    text: 'Whether it is invisible interfaces powered by voice commands or self-driving cars, Machine Learning and AI revolutionize how we use computers to solve problems. There will be Machine Learning in everything.'
 
   - heading: 'AR & Mixed Reality'
     text: 'What started with textual commands in a terminal and progressed to cursors and touch screens, will be irrevocably changed when the physical and virtual worlds meet for a new paradigm of human-machine interaction.'
 
-  - heading: 'Blockchain & Crypto'
-    text: 'Like HTTP established sensible rules that created the World Wide Web, Blockchain-based technologies describe a protocol for transactions and will likely fetch far beyond digital currencies like Bitcoin.'
+  - heading: 'Platform-agnostic UX'
+    text: 'We live in a multi-device world. Smart phones, homes and cars satisfy user needs.'
+
+#  - heading: 'Blockchain & Crypto'
+#    text: 'Like HTTP established sensible rules that created the World Wide Web, Blockchain-based technologies describe a protocol for transactions and will likely fetch far beyond digital currencies like Bitcoin.'
 # end order_card #
 
 
@@ -122,16 +125,6 @@ order_card:
 #
 # start labs_card_ventures #
 labs_card_centures:
-  - image:
-      - img: 'cards/pamstrong.png'
-        img_2x: 'cards/pamstrong@2x.png'
-    heading: 'PAMSTRONG'
-    text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon. (Launched in 2016.)"
-    btn:
-      - title: 'Visit'
-        url: 'https://www.pamstrong.com/'
-        disable: false
-        btn_type: 'btn-secondary'
 
   - image:
       - img: 'cards/all-access.png'
@@ -143,6 +136,40 @@ labs_card_centures:
         url: 'http://allaccessapp.com/'
         disable: false
         btn_type: 'btn-secondary'
+
+  - image:
+      - img: 'cards/evento.png'
+        img_2x: 'cards/evento@2x.png'
+    heading: 'Evento'
+    text: "Premium mobile white-label apps for concert series and music festivals. Using a phone’s camera and visual image recognition, the app seamlessly connects content from printed brochures to the app’s enriched media content, opening up a new visual world beyond paper."
+    btn:
+      - title: 'Visit'
+        url: 'http://evento.io/'
+        disable: false
+        btn_type: 'btn-secondary'
+
+  - image:
+      - img: 'cards/face-fighter.png'
+        img_2x: 'cards/face-fighter@2x.png'
+    heading: 'AR Face Fighter'
+    text: "A fun Augmented Reality mobile game where users battle for the global high score using their face as the controller. A sophisticated face-tracking algorithm recognizes facial gestures and controls the game. Also, it might generate a fun little Gif of the users' funniest faces. 🌝"
+    btn:
+      - title: 'Visit'
+        url: 'http://facefighter.io/'
+        disable: false
+        btn_type: 'btn-secondary'
+
+  - image:
+      - img: 'cards/pamstrong.png'
+        img_2x: 'cards/pamstrong@2x.png'
+    heading: 'PAMSTRONG'
+    text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon. (Launched in 2016.)"
+    btn:
+      - title: 'Visit'
+        url: 'https://www.pamstrong.com/'
+        disable: false
+        btn_type: 'btn-secondary'
+
 # end labs_card_ventures #
 
 
@@ -181,12 +208,12 @@ labs_card_production:
 # start team-card_labs #
 team-card_labs:
   - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
-    name: 'Felipe Castrillón'
-    position: 'Associate'
-    about-text: ''
+      - img: 'team/Dan-Bender.jpg'
+        img_2x: 'team/Dan-Bender@2x.jpg'
+        image_stub: false
+    name: 'Dan Bender'
+    position: 'Founder'
+    about-text:
     interests:
     social_networks:
 # end team-card_labs #
@@ -236,9 +263,9 @@ team-card_team:
         link: 'https://github.com/Ingelheim'
 
   - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
+      - img: 'team/Jay-Jagirapu.jpg'
+        img_2x: 'team/Jay-Jagirapu@2x.jpg'
+        image_stub: false
     name: 'Jayasagar Jagirapu'
     position: 'Engineering'
     about-text: 'Passionate tech enthusiast, poly-skilled developer, strong believer in open source and fascinated by programming, IoT, Machine Learning and Big Data.'
@@ -253,25 +280,9 @@ team-card_team:
         link: 'https://github.com/jjayasagar'
 
   - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
-    name: 'Nick Morgan-Jones'
-    position: 'UX & UI Design'
-    about-text: 'Experienced digital product designer with a focus on interaction design patterns and data-driven problem solving. Practices iterative design and strives for maximum product development efficiency.'
-    interests:
-      - 'User Experience'
-      - 'Feedback Loops & User Research'
-      - 'Data-driven Problem-Solving'
-    social_networks:
-      - icon: 'linkedin'
-        link: 'https://www.linkedin.com/in/nick-morgan-jones-22985960/'
-
-
-  - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
+      - img: 'team/Ben-Hesseldieck.jpg'
+        img_2x: 'team/Ben-Hesseldieck@2x.jpg'
+        image_stub: false
     name: 'Ben Hesseldieck'
     position: 'Engineering'
     about-text: 'Entrepreneurial, technological, freethinking software engineer and dedicated problem-solver with a love for high-performance and scalable software. Sees technology as a tool to unlock opportunities.'
@@ -286,9 +297,24 @@ team-card_team:
         link: 'https://github.com/BHesseldieck'
 
   - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
+      - img: 'team/Nick-Morgan-Jones.jpg'
+        img_2x: 'team/Nick-Morgan-Jones@2x.jpg'
+        image_stub: false
+    name: 'Nick Morgan-Jones'
+    position: 'UX & UI Design'
+    about-text: 'Experienced digital product designer with a focus on interaction design patterns and data-driven problem solving. Practices iterative design and strives for maximum product development efficiency.'
+    interests:
+      - 'User Experience'
+      - 'Feedback Loops & User Research'
+      - 'Data-driven Problem-Solving'
+    social_networks:
+      - icon: 'linkedin'
+        link: 'https://www.linkedin.com/in/nick-morgan-jones-22985960/'
+
+  - image:
+      - img: 'team/Omer-Maqsood.jpg'
+        img_2x: 'team/Omer-Maqsood@2x.jpg'
+        image_stub: false
     name: 'Omer Maqsood'
     position: 'Machine Learning & Data Science'
     about-text: 'Leading Machine Learning and Data Science Expert. Loves to build Artificial Intelligence based innovative and disruptive solutions.'
@@ -301,24 +327,9 @@ team-card_team:
         link: 'https://www.linkedin.com/in/omaqsood123/'
 
   - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
-    name: 'Felipe Castrillón'
-    position: 'Associate'
-    about-text: 'Committed to identify and create business opportunities. Experienced in venture building and investment management, focusing on technology startups.'
-    interests:
-      - 'Scalable Business Models'
-      - 'Digital Marketing & Analytics'
-      - 'UAV & Artificial Intelligence'
-    social_networks:
-      - icon: 'linkedin'
-        link: 'https://www.linkedin.com/in/felipecastrillon/'
-
-  - image:
-      - img: 'team/'
-        img_2x: 'team/'
-        image_stub: true
+      - img: 'team/Paul-Faecks.jpg'
+        img_2x: 'team/Paul-Faecks@2x.jpg'
+        image_stub: false
     name: 'Paul Faecks'
     position: 'Digital Marketing'
     about-text: 'Enjoys dogs and digital marketing, in that order. Passionate about Blockchain and crypto technologies and economics.'

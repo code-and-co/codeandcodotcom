@@ -17,9 +17,11 @@
 				</div>
 				<div class="btn-wrap">
 					{% for btn in card.btn %}
-					<a class="btn {{ btn.btn_type }} {% if btn.disable == true%}disable{% endif %}" href="{{ btn.url }}" role="button" target="_blank" rel="noopener noreferrer">
-						<span>{{ btn.title }}</span>
-					</a>
+						{% unless btn.disable %}
+							<a class="btn {{ btn.btn_type }}" href="{{ btn.url }}" role="button" target="_blank" rel="noopener noreferrer">
+								<span>{{ btn.title }}</span>
+							</a>
+						{% endunless %}
 					{% endfor %}
 				</div>
 			</div>
