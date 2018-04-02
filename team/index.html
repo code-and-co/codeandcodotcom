@@ -179,32 +179,33 @@ body_class: 'team-page'
         </ul>
     </div>
 </section>
-<div id="join-us" class="team-bottom bg-light pt-5 pb-5">
-    <div class="container wide-md text-center">
 
-        <section class="get-in-touch-section ml-auto mr-auto {{ include.add_class }}">
-            <h2 class="mb-2 mb-md-4">Open Positions</h2>
+
+<section id="join-us" class="benefits-section bg-light">
+    <div class="container wide-md">
+        <header class="section-header ml-auto mr-auto text-center">
+            <h2>Open Positions</h2>
             <p>We're hiring. Come and join code & co.</p>
+        </header>
 
-            <ul class="benefits-card-list list-unstyled mb-0 row">
-                {% for card in site.data.cards.job_positions_card %}
-                <li class="d-flex col col-12 col-sm-12">
-                    <div class="card w-100">
-                        <div class="card-body">
-                            <div class="title">
-                                <h2>{{ card.heading }}</h2>
-                            </div>
-                            <div class="btn-wrap pt-2">
-                                <a class="btn btn-primary" role="button" href="{{ card.link }}" target="_blank"
-                                   rel="noopener noreferrer"><span>Apply</span></a>
-                            </div>
+        <ul class="benefits-card-list list-unstyled mb-0 row">
+            {% for card in site.data.cards.job_positions_card %}
+            <li class="d-flex col col-12 col-sm-6 col-lg-6">
+                <div class="benefits-card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <h2>{{ card.heading }}</h2>
                         </div>
-
+                        <div class="btn-wrap pt-2 pt-md-0">
+                            <a class="btn btn-primary" role="button" href="{{ card.link }}" target="_blank"
+                               rel="noopener noreferrer">
+                                <span>Apply</span>
+                            </a>
+                        </div>
                     </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </section>
-
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
-</div>
+</section>

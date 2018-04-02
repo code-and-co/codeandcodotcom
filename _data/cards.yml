@@ -465,12 +465,20 @@ shape_card:
 #
 # start job_positions_card #
 job_positions_card:
-  - heading: 'UX / UI Designer'
+  - heading: 'Sr. Frontend Developer'
+    link: 'https://www.codeandco.com'
+
+  - heading: 'Sr. Software Engineer'
+    link: 'https://www.codeandco.com'
+
+  - heading: 'Jr. UI Visual Designer'
+    link: 'https://www.codeandco.com'
+
+
+  - heading: 'Product Manager'
+    link: 'https://www.codeandco.com'
+
+  - heading: 'Business Development Intern'
     link: 'https://www.google.com'
 
-  - heading: 'Frontend Developer'
-    link: 'https://www.google.com'
-
-  - heading: 'Associate'
-    link: 'https://www.google.com'
 # end job_positions_card #

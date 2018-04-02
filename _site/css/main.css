@@ -563,7 +563,7 @@ picture img.img-shadow {
     display: inline-block;
     position: relative;
     color: #000;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     mix-blend-mode: multiply;
   }
 
@@ -681,17 +681,17 @@ picture img.img-shadow {
 
 .btn.btn-primary,
 .btn.btn-secondary {
-  -webkit-transition-property: color, border-color, -webkit-box-shadow;
-  transition-property: color, border-color, -webkit-box-shadow;
-  -o-transition-property: color, box-shadow, border-color;
-  transition-property: color, box-shadow, border-color;
-  transition-property: color, box-shadow, border-color, -webkit-box-shadow;
-  -webkit-transition-duration: .27s;
-  -o-transition-duration: .27s;
-  transition-duration: .27s;
-  -webkit-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
+  /*-webkit-transition-property: color, border-color, -webkit-box-shadow;*/
+  /*transition-property: color, border-color, -webkit-box-shadow;*/
+  /*-o-transition-property: color, box-shadow, border-color;*/
+  /*transition-property: color, box-shadow, border-color;*/
+  /*transition-property: color, box-shadow, border-color, -webkit-box-shadow;*/
+  /*-webkit-transition-duration: .27s;*/
+  /*-o-transition-duration: .27s;*/
+  /*transition-duration: .27s;*/
+  /*-webkit-transition-timing-function: ease-in-out;*/
+  /*-o-transition-timing-function: ease-in-out;*/
+  /*transition-timing-function: ease-in-out;*/
 }
 
 .btn.btn-primary:before,
@@ -710,9 +710,9 @@ picture img.img-shadow {
   background-position: 0 0;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition-property: opacity, visibility;
-  -o-transition-property: opacity, visibility;
-  transition-property: opacity, visibility;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
   -webkit-transition-duration: .0s;
   -o-transition-duration: .0s;
   transition-duration: .0s;
@@ -745,18 +745,18 @@ picture img.img-shadow {
 .btn.btn-primary:active:before {
   opacity: 1;
   visibility: visible;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-  -webkit-transition-property: opacity, visibility;
-  -o-transition-property: opacity, visibility;
-  transition-property: opacity, visibility;
-  -webkit-transition-duration: .27s;
-  -o-transition-duration: .27s;
-  transition-duration: .27s;
-  -webkit-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
+  /*-webkit-transition: none;*/
+  /*-o-transition: none;*/
+  /*transition: none;*/
+  /*-webkit-transition-property: opacity, visibility;*/
+  /*-o-transition-property: opacity, visibility;*/
+  /*transition-property: opacity, visibility;*/
+  /*-webkit-transition-duration: .27s;*/
+  /*-o-transition-duration: .27s;*/
+  /*transition-duration: .27s;*/
+  /*-webkit-transition-timing-function: ease-in-out;*/
+  /*-o-transition-timing-function: ease-in-out;*/
+  /*transition-timing-function: ease-in-out;*/
 }
 
 .btn.btn-primary:hover > span,
@@ -800,6 +800,8 @@ picture img.img-shadow {
     background: -webkit-linear-gradient(225deg, #71b6fa 0%, #a688f7 100%);
     background: -o-linear-gradient(225deg, #71b6fa 0%, #a688f7 100%);
     background: linear-gradient(225deg, #71b6fa 0%, #a688f7 100%);
+
+    background: linear-gradient(225deg, #A8D3FF 0%, #C3ADFF 100%);
   }
 
   .btn.btn-primary > span::before {
@@ -2242,6 +2244,20 @@ picture img.img-shadow {
   line-height: 1;
 }
 
+.perks-benefits-number {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  opacity: .5;
+
+}
+
 @supports (mix-blend-mode: lighten) {
   .order-list .count {
     display: inline-block;
@@ -2601,10 +2617,6 @@ picture img.img-shadow {
   max-width: 1351px;
 }
 
-#footer .imprint-block {
-  margin: 0 0 0 30px;
-}
-
 #footer a:hover {
   color: #a688f7;
 }
@@ -2641,7 +2653,7 @@ picture img.img-shadow {
   letter-spacing: 0.055em;
 }
 
-.imprint-block a {
+#footer a {
   color: #000;
 }
 
@@ -2771,20 +2783,6 @@ picture img.img-shadow {
     -webkit-transition-timing-function: ease-in-out;
     -o-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
-  }
-
-  .perks-benefits-number {
-    color: #fff;
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 36px;
-    text-align: left;
-
-    position: absolute;
-    left: 12px;
-    top: 12px;
-    opacity: .5;
-
   }
 
   .tech-dd-card {
@@ -3416,10 +3414,6 @@ picture img.img-shadow {
 
   .impressum-bottom section:not(:last-of-type) {
     margin: 0 0 3.8rem;
-  }
-
-  #footer .imprint-block {
-    margin: 0 0 0 68px;
   }
 }
 

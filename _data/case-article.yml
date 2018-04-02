@@ -42,8 +42,8 @@ case_shapeshift:
         url: 'consulting/technical-due-diligence/case-study/shapeshift'
         btn_type: 'btn-primary'
     thumbnail:
-      - img: 'case-article/001-MacBook-Silver.png'
-        img_2x: 'case-article/001-MacBook-Silver@2x.png'
+      - img: 'case-article/shapeshift-tech-product-ux-due-diligence.png'
+        img_2x: 'case-article/shapeshift-tech-product-ux-due-diligence@2x.png'
         alt: 'MacBook Silver'
 # end case_shapeshift #
 
