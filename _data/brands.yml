@@ -14,73 +14,89 @@
 #
 # start worked_with #
 worked_with:
-  - heading: 'Who We’ve Worked With'
+  - heading: 'We\'ve Worked With'
     text: 
-      - 'We’re proud to work with the brightest minds from a wide array of industries.'
+      - 'We\'re proud to work with the brightest minds from a wide array of industries.'
     brands:
     - img: brands/thoughtWorks.png
       img_2x: brands/thoughtWorks@2x.png
-      alt: Thought Works - at www.codeandco.com
+      alt: ThoughtWorks - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/rocketInternet.png
       img_2x: brands/rocketInternet@2x.png
       alt: Rocket Internet - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/merrylLynch.png
       img_2x: brands/merrylLynch@2x.png
       alt: Merryl Lynch - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
     - img: brands/kkr.png
       img_2x: brands/kkr@2x.png
       alt: KKR - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/Delivery-Hero.png
       img_2x: brands/Delivery-Hero@2x.png
       alt: Delivery Hero - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
     - img: brands/adobe.png
       img_2x: brands/adobe@2x.png
       alt: Adobe - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
-    - img: brands/herringschuppener.png
-      img_2x: brands/herringschuppener@2x.png
+    - img: brands/heringschuppener.png
+      img_2x: brands/heringschuppener@2x.png
       alt: Herring Schuppener - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
     - img: brands/finsbury.png
       img_2x: brands/finsbury@2x.png
       alt: Finsbury - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
     - img: brands/VWAG.png
       img_2x: brands/VWAG@2x.png
       alt: Volkswagen Group - at www.codeandco.com
+      hide_on_mobile:
 
     - img: brands/vwBrand.png
       img_2x: brands/vwBrand@2x.png
       alt: Volkswagen - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
     - img: brands/innogy.png
       img_2x: brands/innogy@2x.png
       alt: Innogy - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
-    - img: brands/metro.png
-      img_2x: brands/metro@2x.png
-      alt: Metro - at www.codeandco.com
+    - img: brands/siemens.png
+      img_2x: brands/siemens@2x.png
+      alt: Siemens - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
-    - img: brands/home24.png
-      img_2x: brands/home24@2x.png
-      alt: Home 24 - at www.codeandco.com
+    - img: brands/bmw.png
+      img_2x: brands/bmw@2x.png
+      alt: BMW - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
-    - img: brands/helloFresh.png
-      img_2x: brands/helloFresh@2x.png
-      alt: Hello Fresh - at www.codeandco.com
+    - img: brands/fraunhofer.png
+      img_2x: brands/fraunhofer@2x.png
+      alt: Fraunhofer - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
+
+    - img: brands/mckinsey.png
+      img_2x: brands/mckinsey@2x.png
+      alt: McKinsey - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 
     - img: brands/spotcap.png
       img_2x: brands/spotcap@2x.png
       alt: Spotcap - at www.codeandco.com
-
-    - img: brands/everjobs.png
-      img_2x: brands/everjobs@2x.png
-      alt: Everjobs - at www.codeandco.com
+      hide_on_mobile: d-none d-sm-block
 # end worked_with #
 
 
@@ -104,8 +120,8 @@ alumni:
       img_2x: brands/merrill-lynch@2x.png
       alt: Merrill Lynch - at www.codeandco.com
 
-    - img: brands/herringschuppener.png
-      img_2x: brands/herringschuppener@2x.png
+    - img: brands/heringschuppener.png
+      img_2x: brands/heringschuppener@2x.png
       alt: Herring Schuppener - at www.codeandco.com
 
     - img: brands/deutsche-bank.png
@@ -197,8 +213,8 @@ our_clients_digital_value:
       img_2x: brands/VWAG@2x.png
       alt: Volkswagen
 
-    - img: brands/herringschuppener.png
-      img_2x: brands/herringschuppener@2x.png
+    - img: brands/heringschuppener.png
+      img_2x: brands/heringschuppener@2x.png
       alt: Herring Schuppener
 
     - img: brands/finstar.png

@@ -3094,7 +3094,7 @@ img {
   }
 
   .shape-card {
-    height: 148px;
+    height: 180px;
     font-size: 14px;
   }
 
@@ -3442,7 +3442,7 @@ img {
   .building-section .stick-right img {
     max-width: none;
     width: 706px;
-    height: 665px;
+    height: auto;
   }
 }
 

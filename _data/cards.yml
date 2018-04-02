@@ -278,7 +278,7 @@ team-card_team:
     interests:
       - 'Robotics & AI'
       - 'Languages & Compilers'
-      - 'Lorem ipsum dolor'
+      - 'Machine Learning'
     social_networks:
       - icon: 'linkedin'
         link: 'https://www.linkedin.com/in/bhesseldieck/'
@@ -291,11 +291,11 @@ team-card_team:
         image_stub: true
     name: 'Omer Maqsood'
     position: 'Machine Learning & Data Science'
-    about-text: ''
+    about-text: 'Leading Machine Learning and Data Science Expert. Loves to build Artificial Intelligence based innovative and disruptive solutions.'
     interests:
-      - 'Data Science'
-      - 'Digital Marketing & Analytics'
-      - 'UAV & Artificial Intelligence'
+      - 'Deep Learning algorithms'
+      - 'Blockchain'
+      - 'IoT'
     social_networks:
       - icon: 'linkedin'
         link: 'https://www.linkedin.com/in/omaqsood123/'

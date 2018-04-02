@@ -134,14 +134,13 @@ key_challenges_list:
 #
 # start feature_scope_list #
 feature_scope_list:
-  - 'Comprehensive event guide for multiple events '
-  - 'Invite-only access for specific events'
-  - 'Event e-ticket'
   - 'Volkswagen Group mobile newsroom'
   - 'Stories, news, social and media updates'
-  - 'Download and sharing functionalities'
+  - 'Download and social sharing'
+  - 'Comprehensive event guide for multiple events with e-ticket'
   - 'Volkswagen Group media address book'
   - 'Admin web content management system'
+  - 'Available on iOS and Android'
 # end feature_scope_list #
 
 
