@@ -124,7 +124,18 @@ order_card:
 #  4. Labs Card(Ventures)| Labs Page
 #
 # start labs_card_ventures #
-labs_card_centures:
+labs_card_ventures:
+
+  - image:
+      - img: 'cards/face-fighter.png'
+        img_2x: 'cards/face-fighter@2x.png'
+    heading: 'AR Face Fighter'
+    text: "A fun Augmented Reality mobile game where users battle for the global high score using their face as the controller. A sophisticated face-tracking algorithm recognizes facial gestures and controls the game. Also, it might generate a fun little Gif of the users' funniest faces. 🌝"
+    btn:
+      - title: 'Visit'
+        url: 'http://facefighter.io/'
+        disable: false
+        btn_type: 'btn-secondary'
 
   - image:
       - img: 'cards/all-access.png'
@@ -138,24 +149,13 @@ labs_card_centures:
         btn_type: 'btn-secondary'
 
   - image:
-      - img: 'cards/evento.png'
-        img_2x: 'cards/evento@2x.png'
-    heading: 'Evento'
+      - img: 'cards/fiesta-one.png'
+        img_2x: 'cards/fiesta-one@2x.png'
+    heading: 'Fiesta One'
     text: "Premium mobile white-label apps for concert series and music festivals. Using a phone’s camera and visual image recognition, the app seamlessly connects content from printed brochures to the app’s enriched media content, opening up a new visual world beyond paper."
     btn:
       - title: 'Visit'
-        url: 'http://evento.io/'
-        disable: false
-        btn_type: 'btn-secondary'
-
-  - image:
-      - img: 'cards/face-fighter.png'
-        img_2x: 'cards/face-fighter@2x.png'
-    heading: 'AR Face Fighter'
-    text: "A fun Augmented Reality mobile game where users battle for the global high score using their face as the controller. A sophisticated face-tracking algorithm recognizes facial gestures and controls the game. Also, it might generate a fun little Gif of the users' funniest faces. 🌝"
-    btn:
-      - title: 'Visit'
-        url: 'http://facefighter.io/'
+        url: 'http://fiestaone.com/'
         disable: false
         btn_type: 'btn-secondary'
 
@@ -343,11 +343,11 @@ team-card_team:
         link: 'https://www.linkedin.com/in/paul-faecks-540895a4/'
 
   - image:
-      - img: 'team/you.png'
-        img_2x: 'team/you.png'
-        image_stub: true
-    name: 'Industry-Leading Experts'
-    position: 'Acclaimed industry experts'
+      - img: 'team/expert-network.png'
+        img_2x: 'team/expert-network.png'
+        image_stub: false
+    name: 'Network of Experts'
+    position: 'Various Industries'
     about-text: "We're fortunate to work with a large network of acclaimed industry experts that focus on areas like Security, Blockchain/Ethereum, and IoT."
     interests:
 
@@ -490,13 +490,16 @@ job_positions_card:
   - heading: 'Product Manager'
     link: 'mailto:join@codeandco.com'
 
-  - heading: 'Business Development Intern @ Labs'
+  - heading: 'Labs | Founder (CEO) of All Access (www.allaccessapp.com)'
     link: 'mailto:join@codeandco.com'
 
-  - heading: 'Entrepreneur in Residence @ Labs'
+  - heading: 'Labs | Entrepreneur in Residence'
     link: 'mailto:join@codeandco.com'
 
-  - heading: "Can't find what you're looking for? Apply anyways."
+  - heading: 'Labs | Business Development Intern'
+    link: 'mailto:join@codeandco.com'
+
+  - heading: "Can't find what you're looking for?"
     link: 'mailto:join@codeandco.com'
 
 # end job_positions_card #
