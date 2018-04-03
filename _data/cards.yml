@@ -253,7 +253,7 @@ team-card_team:
     interests:
       - 'Serverless Infrastructure'
       - 'Machine Learning'
-      - 'Blockchain'
+      - 'Augmented Reality'
     social_networks:
       - icon: 'linkedin'
         link: 'https://www.linkedin.com/in/ingelheim'
@@ -285,7 +285,7 @@ team-card_team:
         image_stub: false
     name: 'Ben Hesseldieck'
     position: 'Engineering'
-    about-text: 'Entrepreneurial, technological, freethinking software engineer and dedicated problem-solver with a love for high-performance and scalable software. Sees technology as a tool to unlock opportunities.'
+    about-text: 'Entrepreneurial, technological, freethinking software engineer and dedicated problem solver with a love for high-performance and scalable software. Sees technology as a tool to unlock opportunities.'
     interests:
       - 'Robotics & AI'
       - 'Languages & Compilers'
@@ -306,7 +306,7 @@ team-card_team:
     interests:
       - 'User Experience'
       - 'Feedback Loops & User Research'
-      - 'Data-driven Problem-Solving'
+      - 'Data-driven Problem Solving'
     social_networks:
       - icon: 'linkedin'
         link: 'https://www.linkedin.com/in/nick-morgan-jones-22985960/'
@@ -319,7 +319,7 @@ team-card_team:
     position: 'Machine Learning & Data Science'
     about-text: 'Leading Machine Learning and Data Science Expert. Loves to build Artificial Intelligence based innovative and disruptive solutions.'
     interests:
-      - 'Deep Learning algorithms'
+      - 'Deep Learning Algorithms'
       - 'Blockchain'
       - 'IoT'
     social_networks:
@@ -341,6 +341,19 @@ team-card_team:
     social_networks:
       - icon: 'linkedin'
         link: 'https://www.linkedin.com/in/paul-faecks-540895a4/'
+
+  - image:
+      - img: 'team/you.png'
+        img_2x: 'team/you.png'
+        image_stub: true
+    name: 'Industry-Leading Experts'
+    position: 'Acclaimed industry experts'
+    about-text: "We're fortunate to work with a large network of acclaimed industry experts that focus on areas like Security, Blockchain/Ethereum, and IoT."
+    interests:
+
+    social_networks:
+      - icon: ''
+        link: ''
 # end team-card_team #
 
 
@@ -466,19 +479,24 @@ shape_card:
 # start job_positions_card #
 job_positions_card:
   - heading: 'Sr. Frontend Developer'
-    link: 'https://www.codeandco.com'
+    link: 'mailto:join@codeandco.com'
 
   - heading: 'Sr. Software Engineer'
-    link: 'https://www.codeandco.com'
+    link: 'mailto:join@codeandco.com'
 
   - heading: 'Jr. UI Visual Designer'
-    link: 'https://www.codeandco.com'
-
+    link: 'mailto:join@codeandco.com'
 
   - heading: 'Product Manager'
-    link: 'https://www.codeandco.com'
+    link: 'mailto:join@codeandco.com'
 
-  - heading: 'Business Development Intern'
-    link: 'https://www.google.com'
+  - heading: 'Business Development Intern @ Labs'
+    link: 'mailto:join@codeandco.com'
+
+  - heading: 'Entrepreneur in Residence @ Labs'
+    link: 'mailto:join@codeandco.com'
+
+  - heading: "Can't find what you're looking for? Apply anyways."
+    link: 'mailto:join@codeandco.com'
 
 # end job_positions_card #
