@@ -155,7 +155,7 @@ labs_card_ventures:
     text: "Premium mobile white-label apps for concert series and music festivals. Using a phone’s camera and visual image recognition, the app seamlessly connects content from printed brochures to the app’s enriched media content, opening up a new visual world beyond paper."
     btn:
       - title: 'Visit'
-        url: 'http://fiestaone.com/'
+        url: 'https://www.rheingau-musik-festival-app.de/index.html'
         disable: false
         btn_type: 'btn-secondary'
 
@@ -368,11 +368,11 @@ benefits_card:
      heading: 'Steep Learning Curve'
      text: "Throw yourself in the deep end, surrounded by support. Learn everything from client-facing consulting to growing a digital venture."
 
-   - image:
-      - img: 'cards/bg-stub.jpg'
-        img_2x: 'cards/bg-stub.jpg'
-     heading: 'Grow Your Network'
-     text: "Together, we’re better than one. We believe that the success of code & co. as a company is only possible when you succeed as an individual."
+#   - image:
+#      - img: 'cards/bg-stub.jpg'
+#        img_2x: 'cards/bg-stub.jpg'
+#     heading: 'Grow Your Network'
+#     text: "Together, we’re better than one. We believe that the success of code & co. as a company is only possible when you succeed as an individual."
 
    - image:
       - img: 'cards/bg-stub.jpg'
@@ -490,7 +490,7 @@ job_positions_card:
   - heading: 'Product Manager'
     link: 'mailto:join@codeandco.com'
 
-  - heading: 'Labs | Founder (CEO) of All Access (www.allaccessapp.com)'
+  - heading: 'Labs | Founder (CEO) of All Access'
     link: 'mailto:join@codeandco.com'
 
   - heading: 'Labs | Entrepreneur in Residence'
@@ -499,7 +499,7 @@ job_positions_card:
   - heading: 'Labs | Business Development Intern'
     link: 'mailto:join@codeandco.com'
 
-  - heading: "Can't find what you're looking for?"
+  - heading: "Your dream job is not listed?"
     link: 'mailto:join@codeandco.com'
 
 # end job_positions_card #

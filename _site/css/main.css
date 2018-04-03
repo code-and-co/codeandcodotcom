@@ -1789,6 +1789,10 @@ picture img.img-shadow {
   color: #ea7678;
 }
 
+.mobile-header a {
+  color: #000;
+}
+
 @supports (mix-blend-mode: lighten) {
   #nav > li.active.secondary a {
     display: inline-block;
