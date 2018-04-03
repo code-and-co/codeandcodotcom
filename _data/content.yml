@@ -30,7 +30,7 @@
 get_in_touch_home:
   - heading: 'Get in Touch'
     text:
-      - 'If you’d like to learn more about what we do or just want to say hello, please don’t hesitate to reach out. We look forward to hearing from you.'
+      - 'If you’d like to learn more about what we do, please don’t hesitate to reach out.'
     link:
       - title: 'Contact'
         url: 'contact'
@@ -45,7 +45,7 @@ get_in_touch_home:
 get_in_touch_consulting:
   - heading: 'How can we help you? Please get in touch.'
     text:
-      - 'If you would like to learn more about what we do or how we could help you reach your potential, please reach out. We look forward to hearing from you.'
+      - 'If you’d like to learn more about what we do, please don’t hesitate to reach out.'
     link:
       - title: 'Contact'
         url: 'contact'
@@ -60,7 +60,7 @@ get_in_touch_consulting:
 get_in_touch_labs:
   - heading: 'Build something with us'
     text:
-      - 'Want to work with an experienced team and turn an idea for a digital venture into a reality? Let’s discuss how we could work together!'
+      - 'Want to turn an idea for a digital venture into a reality? Let’s discuss how we could work together!'
     link:
       - title: 'Contact'
         url: 'contact'

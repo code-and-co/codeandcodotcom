@@ -163,7 +163,7 @@ labs_card_ventures:
       - img: 'cards/pamstrong.png'
         img_2x: 'cards/pamstrong@2x.png'
     heading: 'PAMSTRONG'
-    text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon. (Launched in 2016.)"
+    text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon."
     btn:
       - title: 'Visit'
         url: 'https://www.pamstrong.com/'

@@ -19,7 +19,7 @@
 					{% for paragraph in case.text %}
 						<p>{{ paragraph }}</p>
 					{% endfor %}
-					<div class="btn-wrap">
+					<div class="btn-wrap mb-5">
 						{% for link in case.link %}
 						<a class="btn {{ link.btn_type }}" href="{{ site.url }}/{{ link.url }}" role="button">
 							<span>{{ link.title }}</span>
