@@ -465,7 +465,7 @@ tech_dd_card:
 #
 # start shape_card #
 shape_card:
-  - 'Problem &amp; Opportunity'
+  - 'Problem'
   - 'Inception'
   - 'Immersion'
   - 'Implementation'
