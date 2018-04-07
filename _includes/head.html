@@ -1,12 +1,14 @@
 <head>
-	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Title first, then Description, then Keywords -->
+	
 	<title>{% if page.title %}{{page.title}}{% else %}{{ site.title }}{% endif% %}</title>
+
+	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+	<link href="https://www.codeandco.com" rel="canonical">
+
 	<meta name="google-site-verification" content="4-BOHngPsyW1hwAop_y18BycWGDItkTr7QJSWnq1Oeo" />
 	<meta name="google-site-verification" content="16Wj-Q59Hc60GVvtZO3JB8XQTGlM-DF-pvV3VVRL-GM" />
 
@@ -23,8 +25,6 @@
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="twitter:image" content="{{ site.url }}/images/code-and-co.png">
 	<meta name="twitter:image:alt" content="code & co. logo">
-
-	<link href="https://www.codeandco.com" rel="canonical">
 
 	<!-- include the Bootstrap stylesheet -->
 	<link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css">
