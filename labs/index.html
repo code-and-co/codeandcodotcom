@@ -8,54 +8,51 @@ body_class: ''
 ---
 
 <section class="page-hero d-flex bg-light">
-	<div class="container d-flex flex-column w-100 justify-content-center align-items-center">
-		<div class="inner text-center">
-			<h1>Our Ventures</h1>
-			<p>We build scalable MVPs to address real user problems in unobtrusive and deliberate ways. We write beautifully crafted, well-tested software and iterate on it until we find the right product-market fit.</p>
-			<div class="btn-wrap">
-				<a class="btn btn-link-secondary smooth-anchor" href="#smooth-anchor" role="button">
-					<span>Learn more</span>
-				</a>
-			</div>
-		</div>
-	</div>
+    <div class="container d-flex flex-column w-100 justify-content-center align-items-center">
+        <div class="inner text-center">
+            <h1>Our Ventures</h1>
+            <p>We build scalable MVPs to address real user problems in unobtrusive and deliberate ways. We write
+                beautifully crafted, well-tested software and iterate on it until we find the right product-market
+                fit.</p>
+            <div class="btn-wrap">
+                <a class="btn btn-link-secondary smooth-anchor" href="#smooth-anchor" role="button">
+                    <span>Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="smooth-anchor" class="key-ares-section bg-light">
-	<div class="container wide-sm">
-		<header class="section-header text-center ml-auto mr-auto">
-			<h2>Key Areas of Interest</h2>
-			<p>We embrace digital innovation and technological change. Ever since the arrival of electricity, progress has been a safe constant. The following technology platform shifts will impact the everyday lives of us all. We look for opportunities to explore these.</p>
-		</header>
-		<!-- Order Cards List -->
-		{% include cards/order-card.html block_content = site.data.cards.order_card add_class="" %}
-	</div>
+    <div class="container wide-sm">
+        <header class="section-header text-center ml-auto mr-auto">
+            <h2>Key Areas of Interest</h2>
+            <p>We embrace digital innovation and technological change. Ever since the arrival of electricity, progress
+                has been a safe constant. The following technology platform shifts will impact the everyday lives of us
+                all. We look for opportunities to explore these.</p>
+        </header>
+        <!-- Order Cards List -->
+        {% include cards/order-card.html block_content = site.data.cards.order_card add_class="" %}
+    </div>
 </section>
 <div class="ventures-block bg-light">
-	<div class="container wide-sm">
-		<section class="entry-section">
-			<h2 class="text-center">Ventures & Products</h2>
-			<!-- Labs Card Ventures -->
-			{% include cards/labs-card.html block_content = site.data.cards.labs_card_ventures add_class="" %}
-		</section>
-		<section class="entry-section">
-			<h2 class="text-center">In Production</h2>
-			<!-- Labs Card Production -->
-			{% include cards/labs-card.html block_content = site.data.cards.labs_card_production add_class="" %}
-		</section>
-	</div>
+    <div class="container wide-sm">
+        <section class="entry-section">
+            <h2 class="text-center">Ventures & Products</h2>
+            <!-- Labs Card Ventures -->
+            {% include cards/labs-card.html block_content = site.data.cards.labs_card_ventures add_class="" %}
+        </section>
+        <section class="entry-section">
+            <h2 class="text-center">In Production</h2>
+            <!-- Labs Card Production -->
+            {% include cards/labs-card.html block_content = site.data.cards.labs_card_production add_class="" %}
+        </section>
+    </div>
 </div>
 <div class="labs-bottom bg-light">
-	<div class="container wide-sm">
-		<div class="row align-items-end">
-			<div class="col col-12 col-sm-6 mb-5 mb-sm-0">
-				<!-- Team Card -->
-				{% include cards/team-card.html block_content = site.data.cards.team-card_labs add_class="gray alone" add_id="" %}
-			</div>
-			<div class="col col-12 col-sm-6">
-				<!-- Get In Touch Block -->
-				{% include blocks/get-in-touch.html block_content = site.data.content.get_in_touch_labs add_class="text-left" %}
-			</div>
-		</div>
-	</div>
+    <br>
+    <div class="container wide-sm">
+        {% include blocks/get-in-touch.html block_content = site.data.content.get_in_touch_labs add_class="text-center"
+        %}
+    </div>
 </div>
 

@@ -43,7 +43,7 @@ get_in_touch_home:
 #
 # start get_in_touch_consulting #
 get_in_touch_consulting:
-  - heading: 'How can we help you? Please get in touch.'
+  - heading: 'Get in touch'
     text:
       - 'If you’d like to learn more about what we do, please don’t hesitate to reach out.'
     link:
