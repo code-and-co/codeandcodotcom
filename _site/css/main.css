@@ -2489,6 +2489,14 @@ picture img.img-shadow {
   padding: 3rem 0;
 }
 
+/* safari bug fix so it renders svg box-shadows */
+
+.safari .svg-wrapper, .safari svg {
+  /*box-shadow: 0 12px 17px rgba(0,32,46,0.04);*/
+  -webkit-filter: drop-shadow( 0 5px 10px rgba(0,32,46,0.04) );
+  filter: drop-shadow( 0 5px 10px rgba(0,32,46,0.04) );
+}
+
 /* 6.8 Platform Sprint Page styles */
 
 .platform-section {
@@ -3692,7 +3700,7 @@ picture img.img-shadow {
     font-size: 22px;
   }
 
-  .svg-wrapper, svg {
+  .svg-wrapper, svg, .safari-svg-bugfix {
     /*box-shadow: 0 12px 17px rgba(0,32,46,0.04);*/
     -webkit-filter: drop-shadow( 0 5px 10px rgba(0,32,46,0.04) );
     filter: drop-shadow( 0 5px 10px rgba(0,32,46,0.04) );

@@ -3,7 +3,13 @@ function isMobile() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
-//place script you don't want to run on mobile here
+
+function identifySafari() {
+  if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+    document.body.className += 'safari';
+  };
+}
+
 
 // init fixed header
 function initFixedHeader() {
@@ -1051,4 +1057,5 @@ jQuery(function () {
   initFixedHeader();
   initAnchors();
   hasTouch();
+  identifySafari();
 });
