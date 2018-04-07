@@ -18,7 +18,9 @@ email: "hello@codeandco.com"
 description: "code & co. – Tech, UX and Product Problem Solvers for Mission-Critical Situations"
 keywords: "startup, technical due diligence, digitization, digitalisierung, digital value drivers, engineering, mobile, berlin, san francisco"
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.codeandco.com"  #  https://code-and-co.github.io/codeandcodotcom https://www.codeandco.com the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.codeandco.com"
+
+# https://code-and-co.github.io/codeandcodotcom https://www.codeandco.com the base hostname & protocol for your site, e.g. http://example.com
 
 # Favicon links
 favicon: 
