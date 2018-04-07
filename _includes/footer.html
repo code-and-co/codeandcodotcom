@@ -2,7 +2,7 @@
 <footer id="footer">
     <div class="container">
         <div class="row justify-content-center justify-content-sm-between">
-            <div class="col col-12 col-sm-4 mb-2 mb-sm-0">
+            <div class="col col-12 col-sm-4 mb-2 mb-sm-0 d-none d-sm-block">
                 <!-- copyright block -->
                 <div class="copyright text-left">
                     <span>&copy; code &amp; co. {{ 'now' | date: "%Y" }}</span>
@@ -25,6 +25,12 @@
                     </div>
                 </div>
             </div>
+        <div class="col col-12 col-sm-4 mt-4 mb-2 mb-sm-0 d-block d-sm-none">
+            <!-- copyright block -->
+            <div class="copyright text-center">
+                <span>&copy; code &amp; co. {{ 'now' | date: "%Y" }}</span>
+            </div>
+        </div>
         </div>
     </div>
 </footer>
