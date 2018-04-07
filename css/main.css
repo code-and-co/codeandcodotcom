@@ -1731,7 +1731,7 @@ picture img.img-shadow {
   z-index: 1030;
   -webkit-box-shadow: 0 12px 17px rgba(0, 32, 46, 0);
   box-shadow: 0 12px 17px rgba(0, 32, 46, 0);
-  background-color: transparent;
+  background-color: #fff;
   -webkit-transition-property: background, -webkit-box-shadow;
   transition-property: background, -webkit-box-shadow;
   -o-transition-property: background, box-shadow;
