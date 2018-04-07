@@ -894,6 +894,7 @@ picture img.img-shadow {
   color: #c3adff;
   position: relative;
   overflow: hidden;
+  border-radius: 0px;
 }
 
 .btn.btn-link:hover,
