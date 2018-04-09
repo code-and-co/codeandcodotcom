@@ -133,7 +133,7 @@ labs_card_ventures:
     text: "A fun Augmented Reality mobile game where users battle for the global high score using their face as the controller. A sophisticated face-tracking algorithm recognizes facial gestures and controls the game. Also, it might generate a fun little Gif of the users' funniest faces. 🌝"
     btn:
       - title: 'Visit'
-        url: 'http://facefighter.io/'
+        url: 'http://www.facefighterapp.com/'
         disable: false
         btn_type: 'btn-secondary'
 
