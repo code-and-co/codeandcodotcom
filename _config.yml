@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.codeandco.com"   #  https://code-and-co.github.io/codeandcodotcom https://www.codeandco.com the base hostname & protocol for your site, e.g. http://example.com
 
 # Favicon links
-favicon: 
+favicon:
   - apple_touch_icon: apple-touch-icon.png
     favicon_32x32: favicon-32x32.png
     favicon_16x16: favicon-16x16.png

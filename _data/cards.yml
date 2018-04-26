@@ -478,10 +478,13 @@ shape_card:
 #
 # start job_positions_card #
 job_positions_card:
-  - heading: 'Sr. Frontend Developer'
+  - heading: 'Software Engineer'
     link: 'mailto:join@codeandco.com'
 
-  - heading: 'Sr. Software Engineer'
+  - heading: 'Data Scientist'
+    link: 'mailto:join@codeandco.com'
+
+  - heading: 'Frontend Developer'
     link: 'mailto:join@codeandco.com'
 
   - heading: 'Jr. UI Visual Designer'
