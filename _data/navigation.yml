@@ -13,8 +13,8 @@ main_nav:
   - title: 'Team'
     url: '/team/'
 
-  # - title: 'Careers'
-  #   url: '/careers/'
+  - title: 'Careers'
+    url: '/careers/'
 
   - title: 'Contact'
     url: '/contact/'
