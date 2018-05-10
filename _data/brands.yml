@@ -15,17 +15,17 @@
 # start worked_with #
 worked_with:
   - heading: 'We’ve Worked With'
-    text: 
+    text:
       - 'We’re proud to work with the brightest minds from a wide array of industries.'
     brands:
-    - img: brands/thoughtWorks.png
-      img_2x: brands/thoughtWorks@2x.png
-      alt: ThoughtWorks - at www.codeandco.com
-      hide_on_mobile:
-
     - img: brands/rocketInternet.png
       img_2x: brands/rocketInternet@2x.png
       alt: Rocket Internet - at www.codeandco.com
+      hide_on_mobile:
+
+    - img: brands/thoughtWorks.png
+      img_2x: brands/thoughtWorks@2x.png
+      alt: ThoughtWorks - at www.codeandco.com
       hide_on_mobile:
 
     - img: brands/merrylLynch.png
@@ -105,17 +105,17 @@ worked_with:
 # start alumni #
 alumni:
   - heading: 'Alumni'
-    text: 
+    text:
       - 'We’ve previously been employed by some amazing companies.'
     brands:
-    - img: brands/thoughtWorks.png
-      img_2x: brands/thoughtWorks@2x.png
-      alt: Thought Works - at www.codeandco.com
-      hide_on_mobile:
-
     - img: brands/rocketInternet.png
       img_2x: brands/rocketInternet@2x.png
       alt: Rocket Internet - at www.codeandco.com
+      hide_on_mobile:
+        
+    - img: brands/thoughtWorks.png
+      img_2x: brands/thoughtWorks@2x.png
+      alt: Thought Works - at www.codeandco.com
       hide_on_mobile:
 
     - img: brands/merrill-lynch.png
@@ -157,7 +157,7 @@ alumni:
 # start our_clients #
 our_clients:
   - heading: 'Our Clients'
-    text: 
+    text:
       - "We have performed Tech Due Diligence & Assessments for some industry-leading companies."
     brands:
     - img: brands/adobe.png
@@ -180,7 +180,7 @@ our_clients:
 # start our_clients_platform_sprint #
 our_clients_platform_sprint:
   - heading: 'Our Clients'
-    text: 
+    text:
       - "We have done Platform Sprints with some industry-leading companies."
     brands:
     - img: brands/VWAG.png
@@ -203,7 +203,7 @@ our_clients_platform_sprint:
 # start our_clients_digital_value #
 our_clients_digital_value:
   - heading: 'Our Clients'
-    text: 
+    text:
       - "We have uncovered Digital Value Drivers for some industry-leading companies."
     brands:
     - img: brands/VWAG.png

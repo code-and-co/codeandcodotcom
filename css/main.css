@@ -1926,6 +1926,10 @@ picture img.img-shadow {
    5. Pages site styles
    ---------------------------------------------------------*/
 
+.page-hero .inner p {
+  min-height: 4.5rem;
+}
+
 /* 6.1 Home Page styles */
 
 .jumbo-hero {
@@ -2175,11 +2179,11 @@ picture img.img-shadow {
 
 /* 6.3 Labs Page styles */
 
-.key-ares-section {
+.key-areas-section {
   padding: 3.9rem 0 0;
 }
 
-.key-ares-section .section-header {
+.key-areas-section .section-header {
   margin: 0 0 63px;
 }
 
@@ -3205,7 +3209,7 @@ picture img.img-shadow {
     padding: 27.9rem 0 10rem;
   }
 
-  .key-ares-section .order-card-list {
+  .key-areas-section .order-card-list {
     margin: 0 0 -17% !important;
   }
 
