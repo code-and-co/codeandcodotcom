@@ -140,70 +140,17 @@ body_class: 'team-page'
         </ul>
     </div>
 </div>
-<div class="join-team bg-light pt-5 pb-5">
-    <div class="container wide-md">
-        <!-- Joing Section -->
-        {% include blocks/get-in-touch.html block_content=site.data.content.join_us_team add_class="text-center" %}
-    </div>
+<div class="labs-bottom bg-light">
+  <br>
+  <div class="container wide-sm">
+    <section class="get-in-touch-section ml-auto mr-auto text-center">
+      <h2 class="mb-2 mb-md-4">Careers</h2>
+        <p>We're hiring and we look forward to meeting you.</p>
+      <div class="btn-wrap pt-2">
+        <a href="{{ site.url }}/careers" class="btn btn-primary" role="button">
+          <span>Browse openings</span>
+        </a>
+      </div>
+    </section>
+  </div>
 </div>
-<section class="benefits-section bg-light">
-    <div class="container wide-md">
-        <header class="section-header ml-auto mr-auto text-center">
-            <h2>Perks &amp; Benefits</h2>
-            <p>What you can expect from working at code &amp; co.</p>
-        </header>
-        <ul class="benefits-card-list list-unstyled mb-0 row">
-            {% for card in site.data.cards.benefits_card %}
-            <li class="d-flex col col-12 col-sm-6 col-lg-4">
-                <div class="benefits-card">
-                    <div class="image">
-                    <span class="perks-benefits-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
-                        <!-- retina cover structure -->
-                        <div class="bg-stretch">
-                            {% for img in card.image %}
-                            <span data-srcset="{{ site.url }}/images/{{ img.img }}, {{ site.url }}/images/{{ img.img_2x }} 2x"></span>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <div class="title">
-                        <h3 class="subtitle mb-0">{{ card.heading }}</h3>
-                    </div>
-                    <div class="overlay d-flex align-items-center">
-                        <p>{{ card.text | truncate: 195 }}</p>
-                    </div>
-                </div>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</section>
-
-
-<section id="join-us" class="benefits-section bg-light">
-    <div class="container wide-md">
-        <header class="section-header ml-auto mr-auto text-center">
-            <h2>Open Positions</h2>
-            <p>We're hiring. Come and join code & co.</p>
-        </header>
-
-        <ul class="benefits-card-list list-unstyled mb-0 row">
-            {% for card in site.data.cards.job_positions_card %}
-            <li class="d-flex col col-12 col-sm-6 col-lg-6">
-                <div class="w-100 card">
-                    <div class="card-body">
-                        <div class="mb-3">
-                            <h2>{{ card.heading }}</h2>
-                        </div>
-                        <div class="btn-wrap pt-2 pt-md-0">
-                            <a class="btn btn-primary" role="button" href="{{ card.link }}" target="_blank"
-                               rel="noopener noreferrer">
-                                <span>Apply</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</section>

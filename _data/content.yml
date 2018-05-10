@@ -6,7 +6,7 @@
 #     1.1 Get In Touch Home | Home Page
 #     1.2 Get In Touch Consulting | Consulting Page
 #     1.3 Get In Touch Labs | Labs Page
-#     1.4 Join Us Team | Team Page 
+#     1.4 Join Us Team | Team Page
 #     1.5 Join Us Team Bottom| Team Page
 #     1.6 Get In Touch CSVG | Case Study Volkswagen Group Page
 #
@@ -65,7 +65,7 @@ get_in_touch_labs:
       - title: 'Contact'
         url: 'contact'
         btn_type: 'btn-secondary'
-# end get_in_touch_labs #        
+# end get_in_touch_labs #
 
 
 
@@ -76,11 +76,7 @@ join_us_team:
   - heading: 'Software & Product Apprenticeships'
     text:
       - 'We feel it is important to give back to an industry that has been inclusive, supportive and encouraging for us while starting out. For junior level hires, we predominately look for accelerated learners - people that show potential and the willingness to learn - rather than hard manifested skills.'
-    link:
-      - title: 'Join us'
-        url: '#join-us'
-        btn_type: 'btn-primary'
-# end join_us_team  #        
+# end join_us_team  #
 
 
 

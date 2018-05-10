@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="{{ page.body_class }}">
+	<a class="accessibility" href="#main">Skip to Content</a>
+	<noscript><div>Javascript must be enabled for the correct page display</div></noscript>
+	<!-- main container of all the page elements -->
+	<div id="wrapper" class="d-flex">
+		<div class="w1 d-flex flex-column w-100">
+			{% include header.html %}
+			<!-- contain main informative part of the site -->
+			<section class="page-hero d-flex bg-light">
+				<div class="container d-flex flex-column w-100 justify-content-center align-items-center">
+					<div class="inner text-center">
+						<h1>{{ page.title }}</h1>
+						<p>{{ page.subtitle }}</p>
+						<div class="btn-wrap">
+							<a class="btn btn-link smooth-anchor" href="#smooth-anchor" role="button">
+								<span>LEARN MORE</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="smooth-anchor" class="benefits-section bg-light">
+				<div class="container wide-md">
+					{{ content }}
+				</div>
+			</section>
+
+			<div class="labs-bottom bg-light">
+				<br>
+				<div class="container wide-sm">
+					<section class="get-in-touch-section ml-auto mr-auto text-center">
+						<h2 class="mb-2 mb-md-4">Apply Now</h2>
+						<p>{{ page.apply_callout }}</p>
+						<div class="btn-wrap pt-2">
+							<a href="mailto:join@codeandco.com" class="btn btn-primary" role="button">
+								<span>Apply Now</span>
+							</a>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			{% include footer.html %}
+		</div>
+	</div>
+	<a class="accessibility" href="#wrapper">Back to top</a>
+</body>
+</html>

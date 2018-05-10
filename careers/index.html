@@ -1,0 +1,86 @@
+---
+layout: default
+title: 'Careers – Come & join code & co.'
+body_class: 'team-page'
+---
+
+<section class="page-hero d-flex bg-light">
+    <div class="container d-flex flex-column w-100 justify-content-center align-items-center">
+        <div class="inner text-center">
+            <h1>Careers</h1>
+            <p>We are passionate technologists and learners
+                who believe a strong team shares common goals and values, and we might have been looking just for you.</p>
+            <div class="btn-wrap">
+                <a class="btn btn-link smooth-anchor" href="#smooth-anchor" role="button">
+                    <span>WE'RE HIRING</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="smooth-anchor" class="benefits-section bg-light">
+    <div class="container wide-md">
+        <header class="section-header ml-auto mr-auto text-center">
+            <h2>Perks &amp; Benefits</h2>
+            <p>What you can expect from working at code &amp; co.</p>
+        </header>
+        <ul class="benefits-card-list list-unstyled mb-0 row">
+            {% for card in site.data.cards.benefits_card %}
+            <li class="d-flex col col-12 col-sm-6 col-lg-4">
+                <div class="benefits-card">
+                    <div class="image">
+                    <span class="perks-benefits-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+                        <!-- retina cover structure -->
+                        <div class="bg-stretch">
+                            {% for img in card.image %}
+                            <span data-srcset="{{ site.url }}/images/{{ img.img }}, {{ site.url }}/images/{{ img.img_2x }} 2x"></span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h3 class="subtitle mb-0">{{ card.heading }}</h3>
+                    </div>
+                    <div class="overlay d-flex align-items-center">
+                        <p>{{ card.text | truncate: 195 }}</p>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+<div class="join-team bg-light pt-5 pb-5">
+    <div class="container wide-md">
+        <!-- Joing Section -->
+        {% include blocks/get-in-touch.html block_content=site.data.content.join_us_team add_class="text-center" %}
+    </div>
+</div>
+
+<section id="join-us" class="benefits-section bg-light">
+    <div class="container wide-md">
+        <header class="section-header ml-auto mr-auto text-center">
+            <h2>Open Positions</h2>
+            <p>We're hiring. Come and join code & co.</p>
+        </header>
+
+        <ul class="benefits-card-list list-unstyled mb-0 row">
+            {% for post in site.posts %}
+            <li class="d-flex col col-12 col-sm-6 col-lg-6">
+                <div class="w-100 card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                          <h2 class="job-post-title">{{ post.title }}</h2>
+                        </div>
+                        <div class="btn-wrap pt-2 pt-md-0">
+                            <a class="btn btn-primary" role="button" href="{{ post.url }}">
+                                <span>Apply</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

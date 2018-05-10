@@ -4,8 +4,8 @@
    3. Common site styles
    4. Components styles
       4.1 Buttons
-      4.2 Card 
-      4.3 Case Article 
+      4.2 Card
+      4.3 Case Article
    5. Header site styles
    6. Pages site styles
       6.1 Home Page
@@ -674,7 +674,7 @@ picture img.img-shadow {
   cursor: not-allowed !important;
 }
 
-.btn > span {
+.btn > span, .apply-now-button {
   display: inline-block;
   position: relative;
 }
@@ -766,6 +766,10 @@ picture img.img-shadow {
   mix-blend-mode: normal;
   color: #fff;
   z-index: 1;
+}
+
+.inline-textlink {
+  color: #A399E9;
 }
 
 .btn.btn-primary:hover > span:before,
@@ -2251,6 +2255,10 @@ picture img.img-shadow {
   line-height: 1;
 }
 
+.job-post-title {
+  height:4rem;
+}
+
 .perks-benefits-number {
   color: #fff;
   font-size: 26px;
@@ -2992,7 +3000,7 @@ picture img.img-shadow {
     padding-bottom: 1rem;
   }
 
-  .benefits-section {
+  .benefits-section, .section {
     padding: 7.6rem 0 6rem;
   }
 
