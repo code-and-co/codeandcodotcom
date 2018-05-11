@@ -22,7 +22,7 @@ Role & Responsibilities
 
 - Experiment and play with latest tech stack on day to day basis and grow with the company
 - Technical Due Diligence consultancy opportunities, where you will learn and expose to various domains, enormous technologies and startups across the Europe
-- Think through mission critical situations in a consultancy environment, and work with amazing people
+- Think through mission-critical situations in a consultancy environment, and work with amazing people
 - Opportunity to work on trending future technology such Blockchain, Artificial Intelligence, Augmented reality and virtual reality
 - Work in a collaborative, non-hierarchical environment where your work and talent is valued
 

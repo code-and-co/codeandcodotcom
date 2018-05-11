@@ -101,7 +101,7 @@ join_us_team_bottom:
 get_in_touch_csvg:
   - heading: 'Get in Touch'
     text:
-      - 'If you have a mission critical situation that you need support with, or would like to learn more about our services, please reach out. We look forward to hearing from you.'
+      - 'If you have a mission-critical situation that you need support with, or would like to learn more about our services, please reach out. We look forward to hearing from you.'
     link:
       - title: 'Contact'
         url: 'contact.html'
