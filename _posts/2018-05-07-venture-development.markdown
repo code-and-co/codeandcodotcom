@@ -48,3 +48,4 @@ What you can expect from us
 - A highly dynamic and energetic environment
 - An amazing office in the heart of Berlin, right at Rosenthaler Platz
 - A world-class network of institutional investors and corporate partners
+- High-spec Apple hardware and everything else you need to work your magic!

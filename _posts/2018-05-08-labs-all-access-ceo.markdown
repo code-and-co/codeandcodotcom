@@ -31,14 +31,15 @@ Role & Responsibilities
 {:.subtitle.mt-5.mb-3}
 What would make a perfect fit
 
-- A true entrepreneur who wants to build something big
-- A leader with the ability to grow an exceptional team
-- Relevant track record in a fast-paced environment
-- Practical approach to problem solving
-- Someone to who takes ownership to scale and internationalize an already growing product
-- Sales and/or Performance Marketing experience is a strong plus
-- Very good communication skills and fluent in English, German is a plus
+- You are a true entrepreneur who wants to build something big
+- You are a leader with the ability to grow an exceptional team
+- You have a relevant track record in a fast-paced environment
+- You show a practical approach to problem solving
+- You are someone who takes ownership to scale and internationalize an already growing product
+- You have excellent communication skills and are fluent in English, German is a plus
 - You hold a Bachelor’s or Master’s degree with outstanding academic results from a top university - or you may convince us otherwise
+- Sales and/or Performance Marketing experience is a strong plus
+
 
 
 {:.subtitle.mt-5.mb-3}
@@ -49,3 +50,4 @@ What you can expect from us
 - A highly dynamic and energetic environment
 - An amazing office in the heart of Berlin, right at Rosenthaler Platz
 - A world-class network of institutional investors and corporate partners
+- High-spec Apple hardware and everything else you need to work your magic!
