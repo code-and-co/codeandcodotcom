@@ -107,7 +107,7 @@ services_card:
 # start order_card #
 order_card:
   - heading: 'Machine Learning & AI'
-    text: 'Whether it is invisible interfaces powered by voice commands or self-driving cars, Machine Learning and AI revolutionize how we use computers to solve problems. There will be Machine Learning in everything.'
+    text: 'Whether it is invisible interfaces powered by voice commands or self-driving cars, Machine Learning and AI revolutionize how we use computers to solve problems. Simply put, Machine Learning will be in everything, everyhwhere, at all times.'
 
   - heading: 'AR & Mixed Reality'
     text: 'What started with textual commands in a terminal and progressed to cursors and touch screens, will be irrevocably changed when the physical and virtual worlds meet for a new paradigm of human-machine interaction.'
