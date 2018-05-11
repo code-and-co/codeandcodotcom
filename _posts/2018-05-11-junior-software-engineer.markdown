@@ -2,8 +2,8 @@
 layout: post
 permalink: /careers/:title/
 
-title: 'Senior Software Engineer'
-subtitle: 'We are looking for Senior Software Engineers to join our engineering team. Build intuitive, beautiful experiences and become an expert problem solver with us.'
+title: 'Junior Software Engineer'
+subtitle: 'We are looking for Junior Software Engineers to join our engineering team. Build intuitive, beautiful experiences and become an expert problem solver with us.'
 apply_callout: 'If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and link to your portfolio. We look forward to hearing from you!'
 ---
 
@@ -21,28 +21,30 @@ Design plays a crucial part on every level when we solve mission-critical proble
 Role & Responsibilities
 
 - Strong product sense and experience working closely with product designers
-- Experiment and play with latest tech stack on day to day basis and grow with the company
+- Excellent communication skills and a passion for tough technical challenges
 - Passion and mindset to learn continuously to challenge the team
-- Technical Due Diligence consultancy opportunities, where you will learn and expose to various domains, enormous technologies and startups across the Europe
-Excellent communication skills and a passion for tough technical challenges
-- Think through mission critical situations in a consultancy environment, and work with amazing people
+
+- Collaborate with our award-winning design and product team to rapidly iterate on the product
+- Experiment and play with latest tech stack on day to day basis and grow with the company
 - Opportunity to work on trending future technology such as Artificial Intelligence and Augmented Reality
-- Work in a collaborative, non-hierarchical environment and talent is valued than job title and experience
-- Strong communication and client-facing skills with the ability to work in a consulting environment is essential
-- Solve the problem using the latest tools and techniques
-- Hands-on coding, usually we prefer a pair programming environment
-- Building the quality code
-- Working in lots of different domains and client environments
+- Hands-on coding, and be comfortable with pair programming
 - Experience working with, or an interest in Agile Methodologies, such as Extreme Programming (XP) and Scrum
-- Knowledge of software best practices, like Test-Driven Development (TDD) and Continuous Integration (CI)
+- Interest in software best practices, like Test-Driven Development (TDD) and Continuous Integration (CI)
 
 
+{:.subtitle.mt-5.mb-3}
+Core Tech Stack
+
+We are proud to not have a go-to stack but choose the right tool for the job at hand. We currently enjoy working with JavaScript, Elixir, Ruby, Swift, Kotlin, React, React Native, Flutter, PostgreSQL, Serverless Architecture/ FaaS, AWS, Redis, and more.
 
 {:.subtitle.mt-5.mb-3}
 What would make a perfect fit
 
-You are curious about learning new technologies, want to experiment with various product ideas and want to grow with the amazing people from different backgrounds and expertise.
-
+- You are an accelerated learner with the passion and mindset to continuously learn and improve!
+- You want to be part of bringing a product or feature from inception to launch
+- You are curious about learning new technologies
+- You enjoy experimenting with various product ideas and technologies
+- You enjoy working on multiple platforms, domains, and problems
 
 {:.subtitle.mt-5.mb-3}
 What you can expect from us

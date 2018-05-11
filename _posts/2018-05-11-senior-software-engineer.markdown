@@ -2,8 +2,8 @@
 layout: post
 permalink: /careers/:title/
 
-title: 'Junior Software Engineer'
-subtitle: 'We are looking for Junior Software Engineers to join our engineering team. Build intuitive, beautiful experiences and become an expert problem solver with us.'
+title: 'Senior Software Engineer'
+subtitle: 'We are looking for a Senior Software Engineer to join our engineering team. Build intuitive, beautiful and scalable experiences with us.'
 apply_callout: 'If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and link to your portfolio. We look forward to hearing from you!'
 ---
 
@@ -20,32 +20,37 @@ Design plays a crucial part on every level when we solve mission-critical proble
 {:.subtitle.mt-5.mb-3}
 Role & Responsibilities
 
+- Strong product sense and experience working closely with product designers
+- Excellent communication skills and a passion for tough technical challenges
+- Collaborate with our award-winning design and product team to rapidly iterate on the product
 - Experiment and play with latest tech stack on day to day basis and grow with the company
-- Passion and mindset to learn continuously to challenge the team
-- Technical Due Diligence consultancy opportunities, where you will learn and expose to various domains, enormous technologies and startups across the Europe
-- Think through mission critical situations in a consultancy environment, and work with amazing people
 - Opportunity to work on trending future technology such as Artificial Intelligence and Augmented Reality
-- Work in a collaborative, non-hierarchical environment and talent is valued than job title and experience
-- Strong communication and client-facing skills with the ability to work in a consulting environment is essential
-- Solve the problem using the latest tools and techniques
-- Hands-on coding, usually we prefer a pair programming environment
-- Building the quality code
-- Working in lots of different domains and client environments
+- Hands-on coding, and be comfortable with pair programming
 - Experience working with, or an interest in Agile Methodologies, such as Extreme Programming (XP) and Scrum
 - Knowledge of software best practices, like Test-Driven Development (TDD) and Continuous Integration (CI)
 
+{:.subtitle.mt-5.mb-3}
+Core Tech Stack
 
+We are proud to not have a go-to stack but choose the right tool for the job at hand. We currently enjoy working with JavaScript, Elixir, Ruby, Swift, Kotlin, React, React Native, Flutter, PostgreSQL, Serverless Architecture/ FaaS, AWS, Redis, and more.
 
 {:.subtitle.mt-5.mb-3}
 What would make a perfect fit
 
-You are curious about learning new technologies, want to experiment with various product ideas and want to grow with the amazing people from different backgrounds and expertise.
+- You want to lead a product or feature from inception to launch, and own large parts of the product’s execution
+- You are curious about learning new technologies and you love learning
+- You enjoy experimenting with various product ideas and technologies
+- You enjoy working on multiple platforms, domains, and problems
+- Build, test, and release product-facing features with stringent correctness and scalability requirements
+
 
 
 {:.subtitle.mt-5.mb-3}
 What you can expect from us
 
-- Close guidance from a mentor
+- High standard of engineering quality
+- High impact roles at a small company
+- Have a dedicated mentor in the first months who will review your code and help you get ramped up
 - A highly talented (and fun, of course) team from a range of disciplines and backgrounds
 - An environment to learn and excel in the tech industry
 - A modern office in the buzzing startup center of Rosenthaler Platz, surrounded by restaurants, bars, parks and more
