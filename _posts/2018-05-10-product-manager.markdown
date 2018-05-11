@@ -47,5 +47,5 @@ What you can expect from us
 - A highly talented (and fun, of course) team from a range of disciplines and backgrounds
 - An environment to learn and excel in the tech industry
 - A modern office in the buzzing startup centre of Rosenthaler Platz, surrounded by restaurants, bars, parks and more
-- Free coffee, beer, soft drinks, snacks and whatever you need to feel comfortable
+- Coffee, beer, soft drinks, snacks and whatever you need to feel comfortable
 - A high-spec Macbook Pro and any other hardware you need to work your magic!
