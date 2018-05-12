@@ -23,14 +23,14 @@ related_card:
       - 'We solve Tech, UX and Product problems at times when it matters most, and provide services ranging from pragmatic advice to hands-on product conception.'
       - 'We are united in our belief that digitization creates massive opportunity – we help uncover and leverage this potential.'
     btn_text: 'Our services'
-    btn_link: 'consulting'
+    btn_link: 'consulting/'
 
   - heading: 'Labs'
     text:
       - 'We build and scale ventures that use technology to solve problems. We experiment with new technologies to create beautiful and scalable solutions.'
       - 'We write well crafted code and strive for great UX, usability and visual design.'
     btn_text: 'Our ventures'
-    btn_link: 'labs'
+    btn_link: 'labs/'
 # end related_card #
 
 
