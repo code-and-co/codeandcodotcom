@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "code & co. - Tech, UX and Product Problem Solvers for Mission-Critical Situations"
+title: "code & co. | Tech, UX & Product Problem Solvers for Mission-Critical Situations"
 email: "hello@codeandco.com"
-description: "code & co. – Tech, UX and Product Problem Solvers for Mission-Critical Situations"
+description: "code & co. is a strategic Technology, UX and Product advisory firm for situations where there is little room for error. We work with clients and companies from a wide array of industries to help them make key decisions confidently, at times when it matters most."
 keywords: "startup, technical due diligence, digitization, digitalisierung, digital value drivers, engineering, mobile, berlin, san francisco"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.codeandco.com"   #  https://code-and-co.github.io/codeandcodotcom https://www.codeandco.com the base hostname & protocol for your site, e.g. http://example.com
