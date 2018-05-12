@@ -19,7 +19,7 @@ The Venture: All Access
 
 Influencers are the publishing powerhouses for today’s mobile-first generation. All Access allows influencers and celebrities to hyper-engage with their audience, build a true community and monetize their fanbase.
 
-All Access (MVP) launched on an invite-only basis in December featuring one of the most influential social media personalities in Europe, [Pamela Reif](https://www.instagram.com/pamela_rf/){:.inline-textlink}. More information is also available on [http://www.allaccessapp.com/](www.allaccessapp.com/){:.inline-textlink}.
+All Access (MVP) launched on an invite-only basis in December featuring one of the most influential social media personalities in Europe, [Pamela Reif](https://www.instagram.com/pamela_rf/){:.inline-textlink}. More information is also available on [http://www.allaccessapp.com/]http://www.allaccessapp.com/){:.inline-textlink}.
 
 {:.subtitle.mt-5.mb-3}
 Role & Responsibilities
