@@ -2,6 +2,7 @@
 layout: post
 permalink: /careers/:title/
 title: 'Careers at code & co. Labs | Venture Development Intern'
+description: "Joining code & co. Labs as Venture Development Intern is a unique opportunity for entrepreneurs. You will help us build a new venture from scratch. You will work hand in hand with our software engineering, UX & product teams to help turn an idea into a product, and a product into a successful company."
 
 job_title: 'Venture Development Intern (Labs)'
 subtitle: 'We are looking for a hungry and ambitious entrepreneurial talent who wants to scale ventures with us.'
@@ -16,7 +17,7 @@ We build and scale ventures and experiment with new technologies to create beaut
 {:.subtitle.mt-5.mb-3}
 Role & Responsibilities
 
-Becoming a Venture Development intern at code & co. is a unique opportunity for talented talents with a true entrepreneurial mindset.
+Becoming a Venture Development intern at code & co. is a unique opportunity for entrepreneurs.
 
 You will help us build a new venture from scratch. You will work hand in hand with our software engineering, UX & product teams to help turn an idea into a product, and a product into a successful company.
 

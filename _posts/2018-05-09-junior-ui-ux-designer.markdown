@@ -2,6 +2,7 @@
 layout: post
 permalink: /careers/:title/
 title: 'Careers at code & co. | Junior UI & UX Designer'
+description: "Design plays a crucial part on every level when we solve mission-critical problems. From communicating ideas, to how products look, work and feel. We are looking for a Junior Designer to join our design team and become an expert problem solver with us."
 
 job_title: 'Junior UI & UX Designer'
 subtitle: 'We are looking for a Junior Designer to join our design team. Build intuitive, beautiful experiences and become an expert problem solver with us.'

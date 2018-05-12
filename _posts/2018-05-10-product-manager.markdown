@@ -2,6 +2,7 @@
 layout: post
 permalink: /careers/:title/
 title: 'Careers at code & co. | Product Manager'
+description: "As a small company, always with various projects running in parallel, meticulous planning in product innovation is crucial to our success. We are looking for a Product Manager to join our team and become an expert problem solver with us."
 
 job_title: 'Product Manager'
 subtitle: "We are looking for a strong Product Manager to join our product team. Build intuitive, beautiful experiences and become an expert problem solver with us."

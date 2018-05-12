@@ -2,6 +2,7 @@
 layout: post
 permalink: /careers/:title/
 title: 'Careers at code & co. Labs | All Access CEO & Founder'
+description: "We build and scale ventures and experiment with new technologies to create beautiful and scalable solutions. We write well crafted code and strive for great UX, usability and visual design. We build sticky products while leveraging technologies such as Machine Learning, and Augmented Reality."
 
 job_title: 'All Access CEO & Founder (Labs)'
 subtitle: 'We are looking for an exceptional, ambitious and independent Co-Founder and CEO to lead and grow our venture All Access to a truly global, mobile-only brand.'

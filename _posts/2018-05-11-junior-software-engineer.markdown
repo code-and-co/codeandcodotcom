@@ -2,6 +2,7 @@
 layout: post
 permalink: /careers/:title/
 title: 'Careers at code & co. | Junior Software Engineer'
+description: "We are looking for Junior Software Engineers to join our engineering team. Build intuitive, beautiful experiences and become an expert problem solver with us."
 
 job_title: 'Junior Software Engineer'
 subtitle: 'We are looking for Junior Software Engineers to join our engineering team. Build intuitive, beautiful experiences and become an expert problem solver with us.'
@@ -14,9 +15,6 @@ Description
 At code & co. we work as consultants on a variety of mission-critical projects with some of the world’s most prestigious companies. From Platform Sprints, where we kick-start or accelerate projects building world-class technology solutions, to Tech Due Diligence where we perform risk assessments of products, companies and teams. We are problem solvers always ready for a challenge.
 
 In **code & co. Labs** we build and scale our own ventures that leverage technology to solve real problems. This allows us to play with new technologies while creating beautiful and scalable solutions and use our learnings to consult based on real, hands-on experience.
-
-Design plays a crucial part on every level when we solve mission-critical problems. From communicating ideas, to how products look, work and feel. We are looking for a Junior Designer to join our design team and become an expert problem solver with us.
-
 
 {:.subtitle.mt-5.mb-3}
 Role & Responsibilities
