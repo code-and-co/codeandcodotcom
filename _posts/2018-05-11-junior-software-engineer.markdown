@@ -1,8 +1,9 @@
 ---
 layout: post
 permalink: /careers/:title/
+title: 'Careers at code & co. | Junior Software Engineer'
 
-title: 'Junior Software Engineer'
+job_title: 'Junior Software Engineer'
 subtitle: 'We are looking for Junior Software Engineers to join our engineering team. Build intuitive, beautiful experiences and become an expert problem solver with us.'
 apply_callout: 'If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and link to your portfolio. We look forward to hearing from you!'
 ---

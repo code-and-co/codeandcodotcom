@@ -1,8 +1,9 @@
 ---
 layout: post
 permalink: /careers/:title/
+title: 'Careers at code & co. | Senior Software Engineer'
 
-title: 'Senior Software Engineer'
+job_title: 'Senior Software Engineer'
 subtitle: 'We are looking for a Senior Software Engineer to join our engineering team. Build intuitive, beautiful and scalable experiences with us.'
 apply_callout: 'If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and link to your portfolio. We look forward to hearing from you!'
 ---

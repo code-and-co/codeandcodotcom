@@ -1,8 +1,9 @@
 ---
 layout: post
 permalink: /careers/:title/
+title: 'Careers at code & co. Labs | All Access CEO & Founder'
 
-title: 'Labs | All Access CEO & Founder'
+job_title: 'All Access CEO & Founder (Labs)'
 subtitle: 'We are looking for an exceptional, ambitious and independent Co-Founder and CEO to lead and grow our venture All Access to a truly global, mobile-only brand.'
 apply_callout: "If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and an example of your work that you're proud of. We look forward to hearing from you!"
 ---
