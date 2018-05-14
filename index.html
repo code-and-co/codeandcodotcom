@@ -6,9 +6,10 @@ body_class: ''
 <section class="jumbotron jumbo-hero d-flex bg-light mb-0">
 	<div class="jumbo-inner d-flex flex-column justify-content-center align-items-center text-center">
 		<div class="hero-logo w-100">
-			{% include svg/hero-logo-svg.html width="572" height="128" %}
+			<img src="{{ site.url }}/images/heroLogo@2x.png" width="572" height="128" alt="https://www.codeandco.com | code & co. - Tech, UX and Product Problem Solvers for Mission-Critical Situations">
+			<!-- {% include svg/hero-logo-svg.html width="572" height="128" %} -->
 		</div>
-		<h1 class="hero-title w-100 mb-0">Tech, UX and Product Problem Solvers<br>for Mission-Critical Situations</h1>
+		<h1 class="hero-title w-100 mb-0">Tech, UX and Product Problem Solvers for Mission-Critical Situations</h1>
 	</div>
 </section>
 <div class="related-block bg-light">
@@ -28,4 +29,3 @@ body_class: ''
 		{% include blocks/get-in-touch.html block_content = site.data.content.get_in_touch_home add_class="text-center" %}
 	</div>
 </div>
-
