@@ -22,24 +22,25 @@ Design plays a crucial part on every level when we solve mission-critical proble
 {:.subtitle.mt-5.mb-3}
 Role & Responsibilities
 
-- Experiment and play with latest tech stack on day to day basis and grow with the company
-- Technical Due Diligence consultancy opportunities, where you will learn and expose to various domains, enormous technologies and startups across the Europe
-- Think through mission-critical situations in a consultancy environment, and work with amazing people
-- Opportunity to work on trending future technology such Blockchain, Artificial Intelligence, Augmented reality and virtual reality
-- Work in a collaborative, non-hierarchical environment where your work and talent is valued
+- Work on a range of projects including mobile apps, web apps, websites, AR experiences and more…
+- Create beautiful and consistent visual experiences across a variety of digital platforms
+- Craft visual identities that connect a brand and product to a user
+- Use style guides and prototypes to communicate your interaction ideas
+
 
 
 {:.subtitle.mt-5.mb-3}
 What would make a perfect fit
 
-- Passion and mindset to learn continuously is the key  to challenge the team and bring the best quality code
-- Strong communication and client-facing skills with the ability to work in a consulting environment is essential
-- Good Object Oriented coding practices, including design patterns knowledge, Refactoring, Clean Code, Domain Driven Design
-- Mentor and lead teams and be a example for junior team mates to grow with you
-- Experience working with, or an interest in Agile Methodologies, such as Extreme Programming (XP) and Scrum
-- Knowledge of software best practices, like Test-Driven Development (TDD) and Continuous Integration (CI)
-- Solve the problem using the latest tools and techniques
-- Working in lots of different domains and client environments
+- You have 1 year experience in graphic design/UI
+- You are a strong communicator both visually and verbally
+- You have an exceptional attention to detail
+- You have a passion for beautifully crafted interfaces
+- You, like us, are a lifelong learner with a constant desire to level up!
+- You have experience working with prototyping softwares such as Framer
+- You have a degree in a design-related field
+- You live in/can relocate to Berlin
+
 
 {:.subtitle.mt-5.mb-3}
 What you can expect from us
