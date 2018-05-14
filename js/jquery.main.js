@@ -3,24 +3,6 @@ function isMobile() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
-//
-// function identifySafari() {
-//   // if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-//   //   document.body.addClass('safari');
-//   // };
-//
-//   var ua = navigator.userAgent.toLowerCase();
-//   if (ua.indexOf('safari') != -1) {
-//     if (ua.indexOf('chrome') > -1) {
-//       // Chrome
-//     } else {
-//      // Safari
-//      document.body.addClass('safari');
-//     }
-//   }
-// }
-
-
 // init fixed header
 function initFixedHeader() {
   var header = jQuery('#header');
@@ -1067,5 +1049,4 @@ jQuery(function () {
   initFixedHeader();
   initAnchors();
   hasTouch();
-  // identifySafari();
 });
