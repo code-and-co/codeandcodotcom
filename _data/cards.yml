@@ -155,7 +155,7 @@ labs_card_ventures:
     text: "Premium mobile white-label apps for concert series and music festivals. Using a phone’s camera and visual image recognition, the app seamlessly connects content from printed brochures to the app’s enriched media content, opening up a new visual world beyond paper."
     btn:
       - title: 'Visit'
-        url: 'https://www.rheingau-musik-festival-app.de/index.html'
+        url: 'http://www.fiestaone.com/'
         disable: false
         btn_type: 'btn-secondary'
 
