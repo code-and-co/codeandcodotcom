@@ -1,11 +1,11 @@
 ---
 layout: post
 permalink: /careers/:title/
-title: 'Careers at code & co. | Junior UI Designer'
-description: "Design plays a crucial part on every level when we solve mission-critical problems. From communicating ideas, to how products look, work and feel. We are looking for a Junior Designer to join our design team and become an expert problem solver with us."
+title: 'Careers at code & co. | UI Designer'
+description: "Design plays a crucial part on every level when we solve mission-critical problems. From communicating ideas, to how products look, work and feel. We are looking for a Designer to join our design team and become an expert problem solver with us."
 
-job_title: 'Junior UI Designer'
-subtitle: 'We are looking for a Junior Designer to join our design team. Build intuitive, beautiful experiences and become an expert problem solver with us.'
+job_title: ' UI Designer'
+subtitle: 'We are looking for a Designer to join our design team. Build intuitive, beautiful experiences and become an expert problem solver with us.'
 apply_callout: 'If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and link to your portfolio. We look forward to hearing from you!'
 ---
 
@@ -16,7 +16,7 @@ At code & co. we work as consultants on a variety of mission-critical projects w
 
 In **code & co. Labs** we build and scale our own ventures that leverage technology to solve real problems. This allows us to play with new technologies while creating beautiful and scalable solutions and use our learnings to consult based on real, hands-on experience.
 
-Design plays a crucial part on every level when we solve mission-critical problems. From communicating ideas, to how products look, work and feel. We are looking for a Junior Designer to join our design team and become an expert problem solver with us.
+Design plays a crucial part on every level when we solve mission-critical problems. From communicating ideas, to how products look, work and feel. We are looking for a  Designer to join our design team and become an expert problem solver with us.
 
 
 {:.subtitle.mt-5.mb-3}
