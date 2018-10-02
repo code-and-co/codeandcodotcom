@@ -1,10 +1,10 @@
 ---
 layout: post
 permalink: /careers/:title/
-title: 'Careers at code & co. Labs | Entrepreneur in Residence & Founding CEO | Fiesta One'
-description: "We build and scale ventures and experiment with new technologies to create beautiful and scalable solutions. We write well crafted code and strive for great UX, usability and visual design. We build sticky products while leveraging technologies such as Machine Learning, and Augmented Reality."
+title: 'Entrepreneur in Residence & Founding CEO | Fiesta One | Careers at code & co. Labs'
+description: "We are looking for an exceptional, ambitious and entpreneurial Co-Founder and CEO to lead and grow our venture Fiesta One, a premium white-label festival app platform."
 
-job_title: 'Entrepreneur in Residence & Founding CEO Fiesta One'
+job_title: 'Fiesta One: Entrepreneur in Residence & Founding CEO'
 subtitle: 'We are looking for an exceptional, ambitious and entpreneurial Co-Founder and CEO to lead and grow our venture Fiesta One, a premium white-label festival app platform.'
 apply_callout: "If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and an example of your work that you're proud of. We look forward to hearing from you!"
 ---
