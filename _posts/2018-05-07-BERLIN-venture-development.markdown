@@ -4,7 +4,7 @@ permalink: /careers/:title/
 title: 'Careers at code & co. Labs | Venture Development Intern'
 description: "Joining code & co. Labs as Venture Development Intern is a unique opportunity for entrepreneurs. You will help us build a new venture from scratch. You will work hand in hand with our software engineering, UX & product teams to help turn an idea into a product, and a product into a successful company."
 
-job_title: 'Venture Development Intern (Labs)'
+job_title: 'BERLIN: Venture Development Intern (Labs)'
 subtitle: 'We are looking for a hungry and ambitious entrepreneurial talent who wants to scale ventures with us.'
 apply_callout: "If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and a project or product that you're proud of. We look forward to hearing from you!"
 ---

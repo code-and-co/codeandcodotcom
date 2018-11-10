@@ -4,7 +4,7 @@ permalink: /careers/:title/
 title: 'Entrepreneur in Residence & Founding CEO | Fiesta One | Careers at code & co. Labs'
 description: "We are looking for an exceptional, ambitious and entpreneurial Co-Founder and CEO to lead and grow our venture Fiesta One, a premium white-label festival app platform."
 
-job_title: 'Fiesta One: Entrepreneur in Residence & Founding CEO'
+job_title: 'BERLIN: Fiesta One: Entrepreneur in Residence & Founding CEO'
 subtitle: 'We are looking for an exceptional, ambitious and entpreneurial Co-Founder and CEO to lead and grow our venture Fiesta One, a premium white-label festival app platform.'
 apply_callout: "If you think you are a good fit for code & co., please reach out with your LinkedIn profile, a cover letter, and an example of your work that you're proud of. We look forward to hearing from you!"
 ---
@@ -66,4 +66,3 @@ Das erwartet dich
 - Zugang zu einem Team von erfahrenen Unternehmern, Technologie-, Product und UX-Experten
 
 Bei Interesse bitte aktuellen Lebenslauf mit kurzem Anschreiben via E-Mail an [join@codeandco.com](mailto:join@codeandco.com){:.inline-textlink}​. Wir freuen uns, von dir zu hören.
-
