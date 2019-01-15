@@ -10,4 +10,4 @@ package.json
 scss
 .DS_Store
 .idea
-.DS_Store
+_site

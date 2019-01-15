@@ -10,8 +10,8 @@ main_nav:
     url: '/labs/'
     color: 'secondary'
 
-  - title: 'Team'
-    url: '/team/'
+  # - title: 'Team'
+  #   url: '/team/'
 
   - title: 'Careers'
     url: '/careers/'
