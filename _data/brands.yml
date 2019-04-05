@@ -88,11 +88,6 @@ worked_with:
       alt: Fraunhofer - at www.codeandco.com
       hide_on_mobile: d-none d-sm-block
 
-    - img: brands/mckinsey.png
-      img_2x: brands/mckinsey@2x.png
-      alt: McKinsey - at www.codeandco.com
-      hide_on_mobile: d-none d-sm-block
-
     - img: brands/spotcap.png
       img_2x: brands/spotcap@2x.png
       alt: Spotcap - at www.codeandco.com
@@ -132,11 +127,6 @@ alumni:
       img_2x: brands/heringschuppener@2x.png
       alt: Herring Schuppener - at www.codeandco.com
       hide_on_mobile: d-none d-sm-block
-
-    - img: brands/mckinsey.png
-      img_2x: brands/mckinsey@2x.png
-      alt: McKinsey - at www.codeandco.com
-      hide_on_mobile:
 
     - img: brands/vodafone.png
       img_2x: brands/vodafone@2x.png
