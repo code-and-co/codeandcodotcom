@@ -126,49 +126,49 @@ order_card:
 # start labs_card_ventures #
 labs_card_ventures:
 
-  - image:
-      - img: 'cards/face-fighter.png'
-        img_2x: 'cards/face-fighter@2x.png'
-    heading: 'AR Face Fighter'
-    text: "A fun Augmented Reality mobile game where users battle for the global high score using their face as the controller. A sophisticated face-tracking algorithm recognizes facial gestures and controls the game. Also, it might generate fun little GIFs of the users' funniest faces. 🌝"
-    btn:
-      - title: 'Visit'
-        url: 'http://www.facefighterapp.com/'
-        disable: false
-        btn_type: 'btn-secondary'
+  # - image:
+  #     - img: 'cards/face-fighter.png'
+  #       img_2x: 'cards/face-fighter@2x.png'
+  #   heading: 'AR Face Fighter'
+  #   text: "A fun Augmented Reality mobile game where users battle for the global high score using their face as the controller. A sophisticated face-tracking algorithm recognizes facial gestures and controls the game. Also, it might generate fun little GIFs of the users' funniest faces. 🌝"
+  #   btn:
+  #     - title: 'Visit'
+  #       url: 'http://www.facefighterapp.com/'
+  #       disable: false
+  #       btn_type: 'btn-secondary'
 
-  - image:
-      - img: 'cards/all-access.png'
-        img_2x: 'cards/all-access@2x.png'
-    heading: 'ALL ACCESS'
-    text: "A mobile content marketplace and the fan club for the mobile generation. It enables influential personalities to build an audience and monetize their fan base. All Access leverages the predictive capabilities of Machine Learning to offer relevant content to its users."
-    btn:
-      - title: 'Visit'
-        url: 'http://allaccessapp.com/'
-        disable: false
-        btn_type: 'btn-secondary'
+  # - image:
+  #     - img: 'cards/all-access.png'
+  #       img_2x: 'cards/all-access@2x.png'
+  #   heading: 'ALL ACCESS'
+  #   text: "A mobile content marketplace and the fan club for the mobile generation. It enables influential personalities to build an audience and monetize their fan base. All Access leverages the predictive capabilities of Machine Learning to offer relevant content to its users."
+  #   btn:
+  #     - title: 'Visit'
+  #       url: 'http://allaccessapp.com/'
+  #       disable: false
+  #       btn_type: 'btn-secondary'
 
-  - image:
-      - img: 'cards/fiesta-one.png'
-        img_2x: 'cards/fiesta-one@2x.png'
-    heading: 'Fiesta One'
-    text: "Premium mobile white-label apps for concert series and music festivals. Using a phone’s camera and visual image recognition, the app seamlessly connects content from printed brochures to the app’s enriched media content, opening up a new visual world beyond paper."
-    btn:
-      - title: 'Visit'
-        url: 'http://www.fiestaone.com/'
-        disable: false
-        btn_type: 'btn-secondary'
+  # - image:
+  #     - img: 'cards/fiesta-one.png'
+  #       img_2x: 'cards/fiesta-one@2x.png'
+  #   heading: 'Fiesta One'
+  #   text: "Premium mobile white-label apps for concert series and music festivals. Using a phone’s camera and visual image recognition, the app seamlessly connects content from printed brochures to the app’s enriched media content, opening up a new visual world beyond paper."
+  #   btn:
+  #     - title: 'Visit'
+  #       url: 'http://www.fiestaone.com/'
+  #       disable: false
+  #       btn_type: 'btn-secondary'
 
-  - image:
-      - img: 'cards/pamstrong.png'
-        img_2x: 'cards/pamstrong@2x.png'
-    heading: 'PAMSTRONG'
-    text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon."
-    btn:
-      - title: 'Visit'
-        url: 'https://www.pamstrong.com/'
-        disable: false
-        btn_type: 'btn-secondary'
+  # - image:
+  #     - img: 'cards/pamstrong.png'
+  #       img_2x: 'cards/pamstrong@2x.png'
+  #   heading: 'PAMSTRONG'
+  #   text: "PAMSTRONG is a guided and progressive fitness and nutrition program by one of Europe's largest social media personalities and fitness icons, Pamela Reif. It is available on mobile web with iOS, Apple TV and Android apps coming soon."
+  #   btn:
+  #     - title: 'Visit'
+  #       url: 'https://www.pamstrong.com/'
+  #       disable: false
+  #       btn_type: 'btn-secondary'
 
 # end labs_card_ventures #
 
