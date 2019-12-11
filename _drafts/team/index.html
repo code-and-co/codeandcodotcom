@@ -1,0 +1,156 @@
+---
+layout: default
+title: 'Team | code & co. – Technologists, Product Engineers & UX Architects'
+body_class: 'team-page'
+---
+
+<section class="page-hero d-flex bg-light">
+    <div class="container d-flex flex-column w-100 justify-content-center align-items-center">
+        <div class="inner text-center">
+            <h1>Who We Are</h1>
+            <p>We consider ourselves professional problem solvers first and foremost and are translators between the worlds of Tech, Product, and Business. We are passionate technologists, entrepreneurs and UX architects – and we will never stop learning and challenging our craft.</p>
+            <div class="btn-wrap">
+                <a class="btn btn-link smooth-anchor" href="#smooth-anchor" role="button">
+                    <span>MEET THE TEAM</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section id="smooth-anchor" class="section bg-light"> -->
+  <div class="team-block bg-light">
+    <div class="container wide-md">
+        <div class="team-cards">
+            <!-- Team Card -->
+            {% include cards/team-card.html block_content = site.data.cards.team-card_team add_class=""
+            add_id="smooth-anchor" %}
+            <div class="row d-none d-sm-block">
+                <div class="d-flex col col-12 col-sm-6">
+                    <div class="team-card w-100">
+                        <figure>
+                            <div class="image-wrap">
+                                <!-- retina cover structure -->
+                                <div class="bg-stretch">
+                                    <span data-srcset="{{ site.url }}/images/team/you.png, {{ site.url }}/images/team/you@2x.png 2x"></span>
+                                </div>
+                            </div>
+                            <figcaption>
+                                <h3>You?</h3>
+                                <a class="grdt-link smooth-anchor subtitle" href="{{ site.url }}/careers">JOIN US</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="works-block bg-light">
+    <div class="container wide-md">
+        <!-- Brands Block -->
+        {% include blocks/brands.html block_content = site.data.brands.alumni add_class="" %}
+        <div class="text-block text-center ml-auto mr-auto">
+            <h2 class="mb-4">How We Work</h2>
+            <p>We are a close-knit team of colleagues and friends working on products we love. We believe great teams
+                develop trust and confidence in each other through strong personal relationships. </p>
+        </div>
+        <div class="img-block row">
+            <div class="col col-12 col-md-7 mb-3 mb-md-0">
+                <!-- picturefill: full manual control -->
+                <picture>
+                    <source srcset="{{ site.url }}/images/honda-talk.jpg, {{ site.url }}/images/honda-talk@2x.jpg 2x">
+                    <img class="img-shadow" src="{{ site.url }}/images/team1.jpg" alt="Dan Bender of code & co. (www.codeandco.com) presentating at Honda Innovation Summit">
+                </picture>
+            </div>
+            <div class="col col-12 col-md-5">
+                <!-- picturefill: full manual control -->
+                <picture>
+                    <source srcset="{{ site.url }}/images/nick-talk.jpg, {{ site.url }}/images/nick-talk@2x.jpg 2x">
+                    <img class="img-shadow" src="{{ site.url }}/images/nickTalk.jpg" alt="Nick Morgan Jones of code & co. (www.codeandco.com) presentating at UX & UI meet-up">
+                </picture>
+            </div>
+        </div>
+        <div class="text-block text-center ml-auto mr-auto">
+            <h2 class="mb-3">What We Value</h2>
+            <p>Our team is founded on common goals and values, and we strive to reflect these in our daily work.</p>
+        </div>
+        <ol class="order-list list-unstyled mb-0 row">
+            <li class="col col-12 col-sm-6 col-md-4">
+                <div>
+                    <span class="subtitle"><span class="count"></span>Lifelong learning &amp; Mentoring</span>
+                    <p>Learning from and mentoring each other ensures we continuously grow stronger as individuals as
+                        well as a team.</p>
+                </div>
+            </li>
+            <li class="col col-12 col-sm-6 col-md-4">
+                <div>
+                    <span class="subtitle"><span class="count"></span>Craftsmanship</span>
+                    <p>Having true passion for our craft sets a standard to aim for as a team. We see the beauty in true
+                        craftsmanship.</p>
+                </div>
+            </li>
+            <li class="col col-12 col-sm-6 col-md-4">
+                <div>
+                    <span class="subtitle"><span class="count"></span>Honest Communication</span>
+                    <p>Productive partnerships are built on strong communication, where empathy and honesty is key.</p>
+                </div>
+            </li>
+            <li class="col col-12 col-sm-6 col-md-4">
+                <div>
+                    <span class="subtitle"><span class="count"></span>New technologies</span>
+                    <p>We don't have a go-to stack and are always on the hunt for new technologies to add to our utility
+                        belt.</p>
+                </div>
+            </li>
+            <li class="col col-12 col-sm-6 col-md-4">
+                <div>
+                    <span class="subtitle"><span class="count"></span>Zero HIERARCHY</span>
+                    <p>Confidence without attitude. Everyone in our team is a multidisciplinary problem solver who
+                        deserves to be heard.</p>
+                </div>
+            </li>
+            <li class="col col-12 col-sm-6 col-md-4">
+                <div>
+                    <span class="subtitle"><span class="count"></span>Humility &amp; Curiosity</span>
+                    <p>Every day we seek to challenge ourselves to continually improve as a collective and as
+                        individuals.</p>
+                </div>
+            </li>
+        </ol>
+        <ul class="team-img-list list-unstyled mb-0">
+            <li>
+                <!-- picturefill: full manual control -->
+                <picture>
+                    <source srcset="{{ site.url }}/images/team2.jpg, {{ site.url }}/images/team2@2x.jpg 2x">
+                    <img class="img-shadow" src="{{ site.url }}/images/team2.jpg" alt="code & co. (www.codeandco.com) has offices in vibrant Berlin, right at Rosenthaler Platz and close to Alexanderplatz">
+                </picture>
+                <!-- picturefill: full manual control -->
+                <picture>
+                    <source srcset="{{ site.url }}/images/benTalk.jpg, {{ site.url }}/images/benTalk@2x.jpg 2x">
+                    <img class="img-shadow" src="{{ site.url }}/images/benTalk.jpg" alt="code & co. (www.codeandco.com) has offices in vibrant Berlin, right at Rosenthaler Platz and close to Alexanderplatz">
+                </picture>
+            </li>
+            <li>
+                <!-- picturefill: full manual control -->
+                <picture>
+                    <source srcset="{{ site.url }}/images/tvTower.jpg, {{ site.url }}/images/tvTower@2x.jpg 2x">
+                    <img class="img-shadow" src="{{ site.url }}/images/tvTower.jpg" alt="code & co. (www.codeandco.com) has offices in vibrant Berlin, right at Rosenthaler Platz and close to Alexanderplatz">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="labs-bottom bg-light">
+  <br>
+  <div class="container wide-sm">
+    <section class="get-in-touch-section ml-auto mr-auto text-center">
+      <h2 class="mb-2 mb-md-4">Careers</h2>
+        <p>We're hiring and we look forward to meeting you.</p>
+      <div class="btn-wrap pt-2">
+        <a href="{{ site.url }}/careers" class="btn btn-primary" role="button">
+          <span>Browse openings</span>
+        </a>
+      </div>
+    </section>
+  </div>
+</div>
